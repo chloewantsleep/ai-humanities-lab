@@ -13,6 +13,6 @@ export default {
   turbopack: { root: repoRoot },
   outputFileTracingRoot: repoRoot,
   outputFileTracingIncludes: {
-    "/*": ["./content/**/*", "./public/poetry-gem/doll/mj/manifest.json"],
+    "/*": ["./content/**/*", "./public/poetry-gem/doll/mj/manifest.json", "./app/by-hand/hhh-prompt.txt"],
   },
 };
