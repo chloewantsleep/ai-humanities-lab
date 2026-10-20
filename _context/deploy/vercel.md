@@ -101,3 +101,7 @@ node --test _context/deploy/proxy.test.mjs
 ```
 
 Student guide: `/workshop/run-locally` (`nextjs/content/workshop/run-locally.md`), marked draft pending the student repo choice. The shared dev server remains Marlon's at http://localhost:3000. Do not start another server against its `.next/`.
+
+## Update, 20 Oct 2026 (afternoon)
+
+The class-password gate was removed at Madeleine's request: the deployment is open to anyone with the link. `nextjs/proxy.js` now only refuses cross-origin writes. `CLASS_PASSWORD` is no longer read, and its test (`proxy.test.mjs`) was removed. Keep the OpenRouter key's credit limit low, and rotate the Airtable token after class.
