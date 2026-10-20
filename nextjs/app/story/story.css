@@ -42,7 +42,7 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 .story-step-with-panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: clamp(24px, 4vw, 64px); align-items: start; }
 .story-step-copy { min-width: 0; }
 .story-step-figure { display: block; min-width: 0; }
-.story-step > #build-a-bot { grid-column: 1 / -1; }
+.story-builder { padding: 12px 0 32px; }
 .story-chapter-heading { margin-bottom: 28px; }
 .story-chapter-heading h2 { margin: 14px 0 0; font-size: clamp(28px, 3.5vw, 42px); line-height: 1; letter-spacing: -.05em; text-wrap: balance; }
 .story-prose { max-width: 560px; font-size: 18px; line-height: 1.7; }
@@ -231,4 +231,17 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 @media (max-width: 520px) {
   .hhh-ask { flex-wrap: wrap; }
   .hhh-ask input { flex-basis: 100%; }
+}
+
+/* The glide (StoryShell.jsx): steps with a figure are tall, the figure pins beside the prose when it fits the window,
+   and each step rises into place the first time it is reached. Only with JS (.is-gliding), so nothing is hidden without it. */
+@media (min-width: 900px) {
+  .story-step-with-panel { min-height: 72vh; }
+  .story-step-figure.is-pinned { position: sticky; top: calc(var(--bar) + 24px); }
+}
+.is-gliding .story-step-copy, .is-gliding .story-step-figure { opacity: 0; transform: translateY(28px); transition: opacity .7s ease, transform .7s cubic-bezier(.2, .7, .2, 1); }
+.is-gliding .story-step-figure { transition-delay: .12s; }
+.is-gliding .story-step.is-in .story-step-copy, .is-gliding .story-step.is-in .story-step-figure { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .is-gliding .story-step-copy, .is-gliding .story-step-figure { opacity: 1; transform: none; transition: none; }
 }

@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import Link from "next/link";
 import { SiteFooter, SiteHeader } from "../components/Chrome.jsx";
 import Panel from "./Panel.jsx";
@@ -51,7 +52,8 @@ export default async function StoryPage() {
               const lastInChapter = steps[index + 1]?.chapter !== step.chapter;
               const hasPanel = step.panel.type !== "chapter";
               return (
-                <section key={step.id} id={step.id} data-story-step={index} className={`story-step${opener ? " story-step-opener" : ""}${hasPanel ? " story-step-with-panel" : ""}`}>
+                <Fragment key={step.id}>
+                <section id={step.id} data-story-step={index} className={`story-step${opener ? " story-step-opener" : ""}${hasPanel ? " story-step-with-panel" : ""}`}>
                   <div className="story-step-copy">
                   {opener && (
                     <header className="story-chapter-heading">
@@ -68,8 +70,9 @@ export default async function StoryPage() {
                       ) : <Panel panel={step.panel} milestones={milestones} mode="inline" />}
                     </div>
                   )}
-                  {lastInChapter && chapter.slug === "configuration" && <BuildABot />}
                 </section>
+                {lastInChapter && chapter.slug === "configuration" && <div className="story-builder" data-story-step={index}><BuildABot /></div>}
+                </Fragment>
               );
             })}
             <footer className="story-end">

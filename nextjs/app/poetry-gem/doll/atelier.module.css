@@ -6,19 +6,22 @@
 .figure { width: 100%; }
 .zone {
   position: absolute; left: 0; right: 0; display: flex; justify-content: space-between; align-items: center;
-  border-bottom: 1px dashed rgba(35, 31, 29, .22); /* the folds */
+  border-bottom: 1px dashed color-mix(in srgb, var(--muted) 45%, transparent); /* the folds */
 }
-.zone:last-child { border-bottom: none; }
+.zone:last-of-type { border-bottom: none; }
 .arrow {
   height: 100%; width: 34px; border: none; background: transparent; cursor: pointer; z-index: 1;
   font-size: 28px; color: var(--muted); font-family: var(--font-display), serif;
 }
 .arrow:hover { color: var(--accent); background: rgba(207, 74, 50, .07); }
+/* The band's label, on a chip of the page's own paper so it reads on cream (/poetry-gem) and on the dark timeline. */
 .tag {
   position: absolute; left: 36px; top: 6px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
-  color: var(--muted); pointer-events: none; background: rgba(239, 230, 210, .8); padding: 0 4px;
+  color: var(--ink); pointer-events: none; padding: 2px 7px; border-radius: 3px;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 40%, transparent);
 }
-.tag b { color: var(--ink); font-weight: 600; }
+.tag b { color: var(--accent); font-weight: 700; }
 .caption { text-align: center; margin-top: 10px; }
 .title { display: block; font-family: var(--font-display), serif; font-size: 30px; letter-spacing: .04em; }
 .title::first-letter { color: var(--accent); }
@@ -35,3 +38,5 @@
 }
 .sheet:hover { border-color: var(--accent); }
 .sheet img { width: 100%; height: auto; display: block; background: var(--paper); }
+/* The head's band starts at the top of the canvas, which the "frame" crop cuts off: label it just above the neck fold. */
+.zone:first-of-type .tag { top: auto; bottom: 6px; }

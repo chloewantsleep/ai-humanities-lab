@@ -23,7 +23,24 @@ export default function StoryShell({ steps, chapters, milestones, children }) {
       }
     }, { rootMargin: "-48% 0px -48% 0px", threshold: 0 });
     elements.forEach((element) => observer.observe(element));
-    return () => observer.disconnect();
+
+    // The glide (from the first mk-chatbot-experiments version): each step's prose and figure rise and fade in as
+    // they reach the window, and a figure that fits the window stays pinned beside its prose while the prose scrolls.
+    const root = column.current;
+    root.classList.add("is-gliding");
+    const reveal = new IntersectionObserver((entries) => {
+      for (const entry of entries) if (entry.isIntersecting) { entry.target.classList.add("is-in"); reveal.unobserve(entry.target); }
+    }, { rootMargin: "0px 0px -12% 0px", threshold: 0.08 });
+    elements.forEach((element) => reveal.observe(element));
+    const figures = [...root.querySelectorAll(".story-step-figure")];
+    const fit = () => {
+      const room = window.innerHeight - (parseFloat(getComputedStyle(root).getPropertyValue("--bar")) || 64) - 48;
+      for (const figure of figures) figure.classList.toggle("is-pinned", figure.offsetHeight <= room);
+    };
+    const sizes = new ResizeObserver(fit);
+    figures.forEach((figure) => sizes.observe(figure));
+    window.addEventListener("resize", fit);
+    return () => { observer.disconnect(); reveal.disconnect(); sizes.disconnect(); window.removeEventListener("resize", fit); root.classList.remove("is-gliding"); };
   }, []);
 
   const step = steps[active] || steps[0];
