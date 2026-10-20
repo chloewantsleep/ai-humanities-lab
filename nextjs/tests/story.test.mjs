@@ -2,9 +2,9 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { getStory } from "../app/story/story.mjs";
 
-test("the short timeline has valid chapter and step references after hidden chapters are removed", async () => {
+test("the timeline's chapters and steps reference each other correctly", async () => {
   const { chapters, steps, milestones } = await getStory();
-  assert.equal(chapters.length, 6);
+  assert.equal(chapters.length, 11);
   assert.equal(new Set(steps.map((step) => step.id)).size, steps.length);
   for (const [index, chapter] of chapters.entries()) {
     assert.equal(chapter.index, index);
@@ -18,20 +18,20 @@ test("the short timeline has valid chapter and step references after hidden chap
   for (const milestone of milestones) assert.ok(steps[milestone.step]);
 });
 
-test("ELIZA and GPT-2 remain interactive, followed by the 2023 builder and later systems", async () => {
+test("Plato first, then ELIZA, GPT-2, and GPT-2 with the HHH prompt, building to the Gem and the fork", async () => {
   const { chapters, steps } = await getStory();
-  assert.deepEqual(
-    steps.filter((step) => step.panel.type === "demo").map((step) => step.panel.demo),
-    ["eliza", "spiral"],
-  );
-  const configuration = chapters.find((chapter) => chapter.slug === "configuration");
-  assert.ok(configuration);
-  assert.equal(steps[configuration.firstStep].year.value, 2023);
-  assert.ok(chapters.findIndex((chapter) => chapter.slug === "eliza") < configuration.index);
-  assert.ok(chapters.findIndex((chapter) => chapter.slug === "the-spiral") < configuration.index);
-  for (const step of steps.slice(chapters[configuration.index + 1].firstStep)) {
-    assert.ok(step.year.value > 2023);
-  }
+  assert.equal(chapters[0].slug, "writing-cannot-answer"); // TimelineZoom's "Begin" link points here
+  assert.deepEqual(steps.filter((s) => s.panel.type === "demo").map((s) => s.panel.demo), ["eliza", "spiral", "hhh"]);
+  const at = (slug) => chapters.findIndex((c) => c.slug === slug);
+  assert.ok(at("eliza") < at("the-spiral") && at("the-spiral") < at("written-into-a-document") && at("written-into-a-document") < at("configuration"));
+  assert.equal(chapters.at(-1).slug, "epilogue");
+  // The Gem is dressed one band at a time: the head at 2021, all three at the configuration era.
+  const gems = steps.filter((s) => s.panel.type === "gem");
+  assert.deepEqual(gems.map((s) => chapters[s.chapter].slug), ["written-into-a-document", "configuration"]);
+  assert.ok(steps.some((s) => s.panel.type === "knowledge" && chapters[s.chapter].slug === "configuration"));
+  const hhh = steps.find((s) => s.panel.demo === "hhh");
+  assert.ok(hhh.panel.preambleFile.includes("Below are a series of dialogues"));
+  assert.ok(hhh.panel.recorded.length > 0);
   const words = steps.map((step) => step.prose).join(" ").split(/\s+/).filter(Boolean).length;
-  assert.ok(words < 1200, `Timeline has ${words} words`);
+  assert.ok(words > 3000 && words < 6500, `Timeline has ${words} words`);
 });

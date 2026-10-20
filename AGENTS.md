@@ -1,5 +1,16 @@
 # mk-chatbot-experiments — instructions for agents
 
+## If a student forked this repo to redesign "Build a bot" (ENG 298AI, Oct 2026)
+
+Most sessions in a fork are a student's. Their task: give `/build-a-bot` a new interface and submit their bot from it.
+
+- **Edit only `nextjs/app/build-a-bot/BotPage.jsx`** (and new files beside it, such as a CSS file or components). It is the plain page shown after the Reset button. Don't change `contract.js`, `Watcher.jsx`, `watch.mjs`, `page.jsx`, `ResetShell.jsx`, or anything outside that folder; if the student asks for that, explain why not first.
+- **The contract:** the page must call `submitBot(choices, catalog)` from `contract.js` with the keys `botName, studentName, prompt, pack, material, delivery` (and optional `extras`, long text, for anything else the design collects), and must keep `<Watcher choices={choices} catalog={catalog} />` on the page. A hook (`.claude/settings.json`) runs `watch.mjs` after each edit and reports drift; when it does, fix it and tell the student plainly what the Airtable table needs.
+- **Setup:** Node 22+, pnpm. `cd nextjs && pnpm install && pnpm dev`, then open http://localhost:3000/build-a-bot and press Reset. The student pastes the instructor's three `AIRTABLE_*` lines into `nextjs/.env.local` (copy `.env.example` first). Never print, echo, or commit `.env.local`.
+- For interface ideas, the site's `/history` page ("Interfaces") has screenshots of chat interfaces from 1966 to 2026.
+- Everything below this section is for the course staff's own agents; a student can ignore it.
+
+
 Read `README.md`, then the task board, `_context/orchestration/README.md`, before starting work; the app's own notes are in `nextjs/CLAUDE.md`. Use pnpm only. Keys live in the gitignored `nextjs/.env.local`; never print or commit them.
 
 ## How work is organized: one orchestrator, many task agents

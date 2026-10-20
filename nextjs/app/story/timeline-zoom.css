@@ -1,0 +1,111 @@
+/* TimelineZoom: the timeline's opening zoom from 2023–2026 out to c. 370 BCE – 2026. All classes prefixed tz-. */
+
+.tz { position: relative; --tz-line-y: 100px; }
+.tz-sr { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+.tz-scroll { position: relative; height: 300vh; }
+.tz-stage {
+  position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden;
+  display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 1fr auto; padding: clamp(28px, 9vh, 96px) var(--gutter) clamp(24px, 6vh, 56px);
+}
+.tz-readout {
+  position: absolute; top: clamp(28px, 9vh, 96px); right: var(--gutter); margin: 0;
+  color: var(--muted); font-family: var(--font-deco); font-size: 12px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase;
+  font-variant-numeric: tabular-nums; padding: 7px 12px; border: 1px solid var(--line); border-top-color: var(--brass);
+}
+
+/* Captions stack in one cell and crossfade. */
+.tz-captions { display: grid; max-width: 760px; padding-right: 190px; }
+.tz-caption { grid-area: 1 / 1; transition: opacity .25s linear; }
+.tz-caption h2 { margin: 18px 0 18px; font-size: clamp(44px, 7vw, 96px); font-weight: 400; line-height: 1; letter-spacing: -.01em; font-variant-numeric: lining-nums; white-space: nowrap; }
+.tz-caption-line { max-width: 560px; margin: 0; color: var(--muted); font-size: clamp(17px, 1.6vw, 21px); line-height: 1.5; }
+.tz-begin {
+  display: inline-flex; align-items: center; gap: 12px; margin-top: 28px; padding: 13px 20px;
+  border: 1px solid var(--accent); color: var(--accent);
+  font-family: var(--font-deco); font-size: 14px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase;
+  transition: background .15s, color .15s;
+}
+.tz-begin:hover { background: var(--accent); color: var(--accent-ink); }
+.tz-begin span { font-size: 18px; line-height: 1; }
+
+.tz-scroll-hint { margin: 0; color: var(--muted); font-family: var(--font-deco); font-size: 12px; letter-spacing: .2em; text-transform: uppercase; text-align: center; }
+.tz-skip { position: absolute; left: var(--gutter); bottom: 24px; padding: 10px 14px; background: var(--accent); color: var(--accent-ink); transform: translateY(200%); opacity: 0; }
+.tz-skip:focus { transform: none; opacity: 1; }
+
+/* The axis. */
+.tz-axis-wrap { align-self: center; padding: 0 clamp(8px, 2vw, 32px); }
+.tz-axis { position: relative; height: 172px; }
+.tz-line {
+  position: absolute; left: 0; right: 0; top: var(--tz-line-y); height: 1px; background: var(--brass); opacity: .85;
+}
+.tz-line::before, .tz-line::after { content: ""; position: absolute; top: -4px; width: 1px; height: 9px; background: var(--brass); }
+.tz-line::before { left: 0; }
+.tz-line::after { right: 0; }
+.tz-band {
+  position: absolute; top: calc(var(--tz-line-y) - 74px); height: 96px;
+  background: color-mix(in srgb, var(--garnet) 55%, transparent); border-top: 2px solid var(--brass);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--garnet) 60%, transparent); transition: background .3s;
+}
+.tz-band-sliver { background: color-mix(in srgb, var(--garnet) 100%, var(--accent) 25%); box-shadow: 0 0 18px 2px color-mix(in srgb, var(--accent) 45%, transparent); }
+.tz-band-label {
+  position: absolute; right: 0; bottom: calc(100% + 8px); white-space: nowrap; opacity: 0; transition: opacity .3s;
+  color: var(--brass); font-family: var(--font-deco); font-size: 11px; font-weight: 500; letter-spacing: .14em;
+}
+.tz-band-sliver .tz-band-label { opacity: 1; }
+.tz-minor, .tz-tick, .tz-event { position: absolute; top: var(--tz-line-y); width: 0; }
+.tz-minor::before { content: ""; position: absolute; left: 0; top: 0; width: 1px; height: 4px; background: var(--line); }
+.tz-tick::before { content: ""; position: absolute; left: 0; top: -5px; width: 1px; height: 11px; background: var(--brass); }
+.tz-tick-label {
+  position: absolute; top: 12px; left: 0; transform: translateX(-50%); white-space: nowrap;
+  color: var(--muted); font-family: var(--font-deco); font-size: 11px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+}
+
+.tz-dot {
+  position: absolute; left: -3.5px; top: -3.5px; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--muted); box-shadow: 0 0 0 2px var(--paper); z-index: 2;
+}
+.tz-tier1 .tz-dot { background: var(--accent); }
+.tz-today .tz-dot { left: -5px; top: -5px; width: 10px; height: 10px; background: var(--brass); box-shadow: 0 0 0 2px var(--paper), 0 0 0 3px var(--brass); }
+
+.tz-label { position: absolute; left: 0; white-space: nowrap; z-index: 3; }
+.tz-text { display: block; color: var(--ink); font-size: 13px; line-height: 16px; letter-spacing: -.005em; }
+.tz-event:not(.tz-tier1):not(.tz-today) .tz-text { color: var(--muted); }
+.tz-today .tz-text { color: var(--brass); font-family: var(--font-deco); font-weight: 500; letter-spacing: .14em; text-transform: uppercase; font-size: 12px; }
+.tz-align-center { transform: translateX(-50%); }
+.tz-align-start { transform: translateX(-4px); }
+.tz-align-end { transform: translateX(calc(-100% + 4px)); }
+.tz-stem { position: absolute; width: 1px; background: color-mix(in srgb, var(--brass) 45%, transparent); }
+.tz-align-center .tz-stem { left: 50%; }
+.tz-align-start .tz-stem { left: 4px; }
+.tz-align-end .tz-stem { right: 4px; }
+
+/* Rows: up1 / down1 / up2. Positions are of the label box relative to the line. */
+.tz-row-up1 { bottom: 14px; }
+.tz-row-up1 .tz-stem { top: 18px; height: 10px; }
+.tz-row-up2 { bottom: 44px; }
+.tz-row-up2 .tz-stem { top: 18px; height: 40px; }
+.tz-row-down1 { top: 36px; }
+.tz-row-down1 .tz-stem { bottom: 18px; height: 30px; }
+
+/* Static version for reduced motion. */
+.tz-static { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .tz-scroll { display: none; }
+  .tz-static { display: grid; gap: clamp(48px, 9vh, 96px); padding: clamp(40px, 8vh, 80px) var(--gutter); }
+  .tz-static h2 { margin: 16px 0 14px; font-size: clamp(38px, 5.5vw, 72px); font-weight: 400; line-height: 1; }
+  .tz-static .tz-axis-wrap { margin-top: 12px; }
+}
+
+@media (max-width: 760px) {
+  .tz-captions { padding-right: 0; }
+  .tz-readout { top: auto; bottom: clamp(56px, 9vh, 80px); right: var(--gutter); font-size: 11px; }
+  .tz-stage { grid-template-rows: auto 1fr auto; }
+  .tz-caption h2 { font-size: clamp(34px, 10vw, 60px); margin: 14px 0; white-space: normal; }
+  .tz-caption-line { font-size: 16px; }
+  .tz-text { font-size: 12px; }
+  .tz-today .tz-text { font-size: 11px; }
+  .tz-tick-label { font-size: 10px; letter-spacing: .1em; }
+  .tz-axis-wrap { padding: 0 6px; }
+  .tz-begin { font-size: 13px; padding: 12px 16px; }
+}

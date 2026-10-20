@@ -1,5 +1,20 @@
 # Chatbot timeline handoff
 
+Updated: 20 October 2026 (afternoon, Claude Code). The sections after "Earlier handoff (Codex)" describe the morning's state and are kept for history; where they disagree with this section, this section is current.
+
+## Current state
+
+- **Look.** One theme for the whole site (`nextjs/app/globals.css`): a garnet-charcoal ground, Inter body, Josefin Sans semibold for every h1/h2 (a heavier art-deco face than the Gem's Poiret One), Jost for eyebrows and labels, EB Garamond for quotations, vermilion accent, brass rules.
+- **Timeline (`/`).** Opens with a scroll-driven zoom (`app/story/TimelineZoom.jsx`) from 2023–2026, which the class has just discussed, out to c. 370 BCE – 2026, then starts at the *Phaedrus*. Eleven chapters, about 4,800 words (cut from the 14,000-word first draft, not from Codex's 530): `nextjs/content/story/`, format in its README. Interactives in order: ELIZA; GPT-2; **GPT-2 with and without the real HHH prompt** (`HhhDemo.jsx`; the paper's file, trimmed to GPT-2's window with the cut shown; six recorded runs in `content/story/samples/hhh-gpt2.json` show before the model loads); the Gem's head (`type: gem`); knowledge and delivery on *Frankenstein* (`app/story/knowledge/`); the whole Gem; the builder; an ELIZA / GPT-2 / harness comparison (`type: compare`) and discussion questions; **Fork it** → `/build-a-bot`.
+- **`/build-a-bot`.** The full studio and a RESET button (`ResetShell.jsx`). Reset wipes the page to `BotPage.jsx`: plain browser-default text on the data flow, drop-downs, a Submit button, and fork instructions. **Students fork the repo and redesign only `BotPage.jsx`.** The contract is `contract.js` (`submitBot(choices, catalog)` with botName, studentName, prompt, pack, material, delivery, and optional `extras`). Two watchers: `Watcher.jsx` in the page (live; asks `/api/submit?dry=1`, which validates and writes nothing), and `watch.mjs`, run by the Claude Code hook in `.claude/settings.json` after every edit. Student instructions for agents are at the top of `AGENTS.md`.
+- **Extras / Airtable.** `extras` (long text) is accepted by `lib/custom-chatbot/schema.ts`. Until `AIRTABLE_EXTRAS_FIELD` (the new field's name or ID) is set in `.env.local`, extras are appended to Notes.
+- **`/bot-materials`.** A reference page on the Gem's parts: instructions, packs, delivery modes, costume, Ensemble.
+- **`readings/`** (repo root): the course PDFs and Markdown, and the AI papers, from `eng-298ai-context`.
+- **Tests:** `pnpm test` passes except `every experiment names a route` (`get-ready`), which already failed in the baseline commit.
+- **Limits:** meaning-based search in the knowledge panel works only on the Gem's 15 pre-embedded words (no embedding key on the server); free-text keyword search works. GPT-2 with the HHH prompt is small: it changes form, not competence.
+
+# Earlier handoff (Codex)
+
 Updated: 20 October 2026
 
 ## Current direction

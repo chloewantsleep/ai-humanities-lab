@@ -32,6 +32,10 @@ export function airtableConfig() {
   return { token, url: `https://api.airtable.com/v0/${base}/${table}`, active: process.env.SUBMIT_ACTIVE === "true" };
 }
 
+function extrasField() {
+  return process.env.AIRTABLE_EXTRAS_FIELD?.trim() || "";
+}
+
 const Result = z.object({
   records: z.array(z.object({ id: z.string().regex(/^rec[A-Za-z0-9]+$/) })).length(1),
   createdRecords: z.array(z.string()),
@@ -49,7 +53,10 @@ export async function submitBot(bot: BotDraft) {
     [FIELDS.prompt]: bot.framingPrompt,
     [FIELDS.model]: bot.model,
     [FIELDS.knowledge]: bot.knowledge,
-    [FIELDS.notes]: bot.notes,
+    // Extras go to their own long-text field once the instructor names it (AIRTABLE_EXTRAS_FIELD, a field name or
+    // fld… ID); until then they are appended to Notes so nothing a student sends is lost.
+    [FIELDS.notes]: extrasField() || !bot.extras ? bot.notes : [bot.notes, `Extras:\n${bot.extras}`].filter(Boolean).join("\n\n"),
+    ...(extrasField() ? { [extrasField()]: bot.extras } : {}),
     [FIELDS.active]: config.active,
     [FIELDS.settings]: JSON.stringify({
       source: "poetry-gem", version: 1,

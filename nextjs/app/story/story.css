@@ -62,7 +62,7 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 .panel-chapter { padding: clamp(24px, 4vw, 48px); border: 1px solid var(--line); border-radius: 12px; background: var(--wash); }
 .panel-chapter-title { margin: 18px 0 0; font-size: clamp(34px, 4.4vw, 64px); font-weight: 800; line-height: .98; letter-spacing: -.05em; text-wrap: balance; }
 .panel-chapter-deck { max-width: 560px; margin: 20px 0 0; color: var(--muted); font-size: 17px; line-height: 1.55; }
-.panel-title p:first-child { margin: 0; font-size: clamp(26px, 3.2vw, 44px); font-weight: 750; line-height: 1.12; letter-spacing: -.035em; text-wrap: balance; }
+.panel-title p:first-child { margin: 0; font-size: clamp(26px, 3.2vw, 44px); font-family: var(--font-display); font-weight: 600; line-height: 1.1; letter-spacing: .005em; text-wrap: balance; }
 .panel-title em { color: var(--accent); font-style: normal; }
 .panel-quote blockquote { margin: 0; padding: 0 0 0 28px; border-left: 3px solid var(--accent); font-family: Georgia, "Times New Roman", serif; font-size: clamp(22px, 2.5vw, 32px); line-height: 1.35; letter-spacing: -.01em; text-wrap: pretty; }
 .panel-source { margin: 18px 0 0; padding-left: 31px; color: var(--muted); font-size: 13px; line-height: 1.5; }
@@ -81,7 +81,7 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 .dialogue-chat .dialogue-line { max-width: 84%; padding: 10px 14px; border-radius: 16px; background: var(--wash); font-size: 15px; line-height: 1.45; }
 .dialogue-chat .dialogue-b { align-self: flex-end; border-bottom-right-radius: 4px; background: #2a1d20; }
 .dialogue-chat .dialogue-a { border-bottom-left-radius: 4px; }
-.dialogue-teletype { padding: 22px; border: 1px solid var(--line); border-radius: 8px; background: #0d0f0d; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 14px; line-height: 1.55; }
+.dialogue-teletype { padding: 22px; border: 1px solid var(--line); border-radius: 8px; background: var(--code); font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 14px; line-height: 1.55; }
 .dialogue-teletype ol { gap: 4px; }
 .dialogue-teletype .dialogue-who { display: none; }
 .dialogue-teletype .dialogue-b { color: var(--ok); }
@@ -89,14 +89,14 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 .dialogue-script .dialogue-who { margin: 3px 0 0; text-align: right; }
 
 /* A document continued by a model */
-.panel-continuation pre, .spiral-out { margin: 0; padding: 20px 22px; overflow: auto; max-height: calc(100vh - var(--bar) - 220px); border: 1px solid var(--line); border-radius: 8px; background: #0d0f0d; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 13.5px; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; }
+.panel-continuation pre, .spiral-out { margin: 0; padding: 20px 22px; overflow: auto; max-height: calc(100vh - var(--bar) - 220px); border: 1px solid var(--line); border-radius: 8px; background: var(--code); font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 13.5px; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; }
 .cont-prompt { color: var(--ink); font-weight: 700; }
-.cont-model { background: none; color: #f2a6b0; }
+.cont-model { background: none; color: #ffb3a6; }
 .cont-cut { color: var(--muted); font-style: italic; }
 .cont-key { display: flex; gap: 18px; margin: 10px 0 0; color: var(--muted); font-size: 12px; }
 .cont-key span::before { content: ""; display: inline-block; width: 10px; height: 10px; margin-right: 6px; border-radius: 2px; vertical-align: -1px; }
 .cont-key-prompt::before { background: var(--ink); }
-.cont-key-model::before { background: #f2a6b0; }
+.cont-key-model::before { background: #ffb3a6; }
 
 /* The intervention ladder */
 .panel-stack { display: flex; flex-direction: column; gap: 6px; }
@@ -121,7 +121,7 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 .demo-more a { color: var(--accent); }
 .demo-error { color: var(--error); font-size: 13px; }
 .demo-fallback img { display: block; width: 100%; border: 1px solid var(--line); border-radius: 8px; }
-.eliza-demo-log { max-height: calc(100vh - var(--bar) - 300px); min-height: 160px; margin: 0; padding: 18px 20px; overflow: auto; border: 1px solid var(--line); border-radius: 8px; background: #0d0f0d; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 14px; line-height: 1.5; list-style: none; }
+.eliza-demo-log { max-height: calc(100vh - var(--bar) - 300px); min-height: 160px; margin: 0; padding: 18px 20px; overflow: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--code); font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 14px; line-height: 1.5; list-style: none; }
 .eliza-demo-log li + li { margin-top: 12px; }
 .eliza-demo-log p { margin: 0; }
 .eliza-demo-reply { color: var(--ok); }
@@ -179,3 +179,56 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 .print-story .dialogue-chat .dialogue-b, .print-story .stack-lit { background: #f7e3e6; }
 .print-story .stack-base { background: var(--ink); color: var(--paper); }
 .print-story .story-print-year { color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+
+/* GPT-2, twice: the question alone, then after the HHH prompt (HhhDemo.jsx) */
+.hhh-ask { display: flex; gap: 8px; margin-top: 12px; }
+.hhh-ask input { flex: 1; min-width: 0; padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--wash); color: var(--ink); font: inherit; font-size: 14px; }
+.hhh-ask input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.hhh-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 14px; }
+.panel-demo .hhh-chips button { padding: 5px 11px; border-color: var(--line); color: var(--muted); font-size: 12px; font-weight: 500; }
+.panel-demo .hhh-chips button.is-on { border-color: var(--brass); color: var(--ink); }
+.hhh-columns { display: grid; gap: 12px; }
+.hhh-col h4 { display: flex; align-items: center; gap: 8px; margin: 0 0 6px; color: var(--brass); font-family: var(--font-deco); font-size: 12px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; }
+.hhh-col h4 span { display: inline-grid; place-items: center; width: 20px; height: 20px; border: 1px solid var(--brass); border-radius: 50%; font-size: 11px; letter-spacing: 0; }
+.hhh-col .spiral-out { max-height: 210px; }
+.hhh-elided { color: var(--muted); font-style: italic; }
+.hhh-cursor { display: inline-block; width: 7px; height: 1em; margin-left: 2px; background: var(--accent); vertical-align: -2px; animation: hhh-blink 1s steps(2) infinite; }
+@keyframes hhh-blink { 50% { opacity: 0; } }
+.panel-demo button.hhh-link { padding: 0; border: 0; color: var(--accent); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
+.panel-demo button.hhh-link:hover { background: none; color: var(--ink); }
+.hhh-read { margin-top: 12px; font-size: 13px; }
+.hhh-read summary { cursor: pointer; color: var(--accent); }
+.hhh-read pre { max-height: 260px; margin: 8px 0 0; padding: 14px 16px; overflow: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--code); font-family: ui-monospace, Menlo, monospace; font-size: 12px; line-height: 1.5; white-space: pre-wrap; }
+.hhh-read .hhh-cut { color: var(--muted); text-decoration: line-through; text-decoration-color: #ff726266; }
+
+/* The Poetry Gem's figure, dressed one band at a time (GemPieces.jsx) */
+.gem-pieces { display: grid; grid-template-columns: minmax(140px, 220px) 1fr; align-items: center; gap: 20px 28px; padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: radial-gradient(90% 80% at 30% 40%, var(--garnet-deep), transparent 75%), var(--wash); }
+.gem-figure img { transition: opacity .6s ease, filter .6s ease; }
+.gem-off-head img:nth-of-type(3), .gem-off-torso img:nth-of-type(2), .gem-off-legs img:nth-of-type(1) { opacity: .13; filter: grayscale(1) brightness(1.6) !important; }
+.gem-legend { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
+.gem-legend li { display: grid; gap: 2px; padding-left: 14px; border-left: 1px solid var(--line); color: var(--muted); opacity: .55; }
+.gem-legend li.is-on { border-left-color: var(--brass); color: var(--ink); opacity: 1; }
+.gem-legend span { color: var(--brass); font-family: var(--font-deco); font-size: 11px; letter-spacing: .2em; text-transform: uppercase; }
+.gem-legend strong { font-family: var(--font-display); font-size: 21px; font-weight: 600; }
+.gem-legend em { font-size: 13px; font-style: normal; }
+@media (max-width: 520px) { .gem-pieces { grid-template-columns: 120px 1fr; padding: 12px; } }
+
+/* A comparison table panel (type: compare) */
+.panel-compare table { width: 100%; border-collapse: collapse; font-size: 13.5px; line-height: 1.45; }
+.panel-compare th, .panel-compare td { padding: 10px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.panel-compare thead th { color: var(--brass); font-family: var(--font-deco); font-size: 11.5px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; border-bottom-color: var(--brass); }
+.panel-compare tbody th { color: var(--muted); font-weight: 500; width: 22%; }
+.panel-compare td:last-child { color: var(--ink); background: color-mix(in srgb, var(--garnet) 22%, transparent); }
+@media (max-width: 520px) { .panel-compare table { font-size: 12.5px; } .panel-compare th, .panel-compare td { padding: 8px 6px; } }
+
+/* The end of the timeline: on to /build-a-bot */
+.story-fork { max-width: 760px; margin: 0 0 40px; padding: 44px 40px; border: 1px solid var(--brass); box-shadow: inset 0 0 0 5px var(--paper), inset 0 0 0 6px color-mix(in srgb, var(--brass) 60%, transparent); background: radial-gradient(80% 90% at 0% 0%, var(--garnet-deep), transparent 70%); }
+.story-fork h2 { margin: 12px 0 0; font-size: clamp(40px, 6vw, 72px); }
+.story-fork > p:not(.eyebrow) { margin: 22px 0 0; color: var(--muted); font-size: 17px; line-height: 1.65; }
+.story-end .story-fork-button { display: inline-block; margin-top: 26px; padding: 14px 32px; background: var(--accent); color: var(--accent-ink); font-family: var(--font-deco); font-size: 15px; font-weight: 600; letter-spacing: .24em; text-transform: uppercase; }
+.story-end .story-fork-button:hover { background: var(--brass); }
+@media (max-width: 600px) { .story-fork { padding: 28px 20px; } }
+@media (max-width: 520px) {
+  .hhh-ask { flex-wrap: wrap; }
+  .hhh-ask input { flex-basis: 100%; }
+}

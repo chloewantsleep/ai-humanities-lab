@@ -1,0 +1,60 @@
+/* The Knowledge + Delivery demo on /story (KnowledgeDemo.jsx). */
+
+.kd { display: flex; flex-direction: column; gap: 11px; padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--wash); color: var(--ink); min-width: 0; }
+.kd button { font: inherit; color: inherit; cursor: pointer; }
+.kd-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.kd-head { display: flex; flex-direction: column; gap: 10px; }
+.kd-kicker { margin: 0; font-family: var(--font-deco); font-size: 12px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); }
+.kd-kicker em { font-style: italic; text-transform: none; letter-spacing: .02em; font-family: var(--font-quote); font-size: 15px; }
+
+.kd-modes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.kd-mode { padding: 8px 6px; border: 0; border-left: 1px solid var(--line); background: transparent; font-family: var(--font-deco) !important; font-size: 11px !important; letter-spacing: .1em; text-transform: uppercase; line-height: 1.25; color: var(--muted) !important; }
+.kd-mode:first-child { border-left: 0; }
+.kd-mode:hover { background: var(--hover); color: var(--ink) !important; }
+.kd-mode[aria-checked="true"] { background: var(--accent); color: var(--accent-ink) !important; font-weight: 600; }
+.kd-mode:focus-visible, .kd-chip:focus-visible, .kd-ask button:focus-visible, .kd-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.kd-ask { display: flex; flex-direction: column; gap: 8px; margin: 0; }
+.kd-ask-row { display: flex; gap: 8px; }
+.kd-ask input { flex: 1; min-width: 0; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); font: inherit; font-size: 15px; }
+.kd-ask input:focus { outline: none; border-color: var(--accent); }
+.kd-ask-row button { padding: 0 14px; border: 1px solid var(--line); border-radius: 8px; background: transparent; font-family: var(--font-deco) !important; font-size: 11px !important; letter-spacing: .12em; text-transform: uppercase; }
+.kd-ask-row button:hover { border-color: var(--accent); color: var(--accent) !important; }
+.kd-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.kd-chip { padding: 3px 11px; border: 1px solid var(--line); border-radius: 999px; background: transparent; font-family: var(--font-quote) !important; font-size: 15px !important; font-style: italic; color: var(--muted) !important; }
+.kd-chip:hover { border-color: var(--muted); color: var(--ink) !important; }
+.kd-chip[aria-pressed="true"] { border-color: var(--accent); color: var(--accent) !important; }
+
+.kd-out { display: flex; flex-direction: column; gap: 9px; min-height: 250px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); }
+.kd-out-label { margin: 0; font-family: var(--font-deco); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+
+.kd-cost-label { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: 13px; font-variant-numeric: tabular-nums; }
+.kd-cost-pct { color: var(--muted); }
+.kd-bar { height: 6px; margin-top: 5px; border-radius: 3px; background: var(--hover); overflow: hidden; }
+.kd-bar-fill { height: 100%; border-radius: 3px; background: var(--brass); transition: width .4s ease; }
+
+.kd-opening { margin: 0; padding-left: 12px; border-left: 2px solid var(--brass); font-family: var(--font-quote); font-size: 16px; line-height: 1.45; color: var(--ink); }
+.kd-note { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.kd-link { padding: 0; border: 0; background: none; color: var(--accent) !important; font-family: var(--font-quote) !important; font-size: 14px !important; font-style: italic; text-decoration: underline; text-underline-offset: 2px; }
+
+.kd-hits { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none; counter-reset: kd; }
+.kd-hits li { counter-increment: kd; padding-top: 7px; border-top: 1px solid var(--line); }
+.kd-hits li:first-child { padding-top: 0; border-top: 0; }
+.kd-hit-where { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 0 0 3px; font-family: var(--font-deco); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--brass); }
+.kd-hit-where::before { content: counter(kd) "."; color: var(--muted); }
+.kd-tag { padding: 0 6px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 10px; letter-spacing: .06em; text-transform: none; }
+.kd-hit-text { margin: 0; font-family: var(--font-quote); font-size: 15px; line-height: 1.4; color: var(--ink); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.kd-hit-text mark { padding: 0 2px; border-radius: 2px; background: color-mix(in srgb, var(--accent) 30%, transparent); color: var(--ink); }
+
+.kd-moral { margin: 0; font-size: 14px; line-height: 1.45; color: var(--ink); }
+
+.kd-foot { display: flex; align-items: center; gap: 12px; }
+.kd-builder { margin: 4px 0 0; color: var(--muted); font-size: 12.5px; line-height: 1.4; }
+.kd-doll { flex: none; width: 44px; }
+.kd-doll img:last-of-type { opacity: .22; } /* the head (Instructions) is the next step's business */
+
+@media (max-width: 480px) {
+  .kd { padding: 14px; }
+  .kd-mode { font-size: 10px !important; letter-spacing: .06em; }
+}

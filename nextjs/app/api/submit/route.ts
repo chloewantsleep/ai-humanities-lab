@@ -1,5 +1,5 @@
 import { Submission } from "@/lib/custom-chatbot/schema";
-import { submitBot, SubmissionError } from "@/lib/ensemble/submissions";
+import { slugFor, submitBot, SubmissionError } from "@/lib/ensemble/submissions";
 
 export const runtime = "nodejs";
 
@@ -34,6 +34,11 @@ export async function POST(req: Request) {
   if (!parsed.success) {
     const fields = Object.fromEntries(parsed.error.issues.map(issue => [issue.path.join("."), issue.message]));
     return reply({ ok: false, error: "Check the highlighted fields and try again.", fields }, 400);
+  }
+  // ?dry=1 checks a submission against the schema and writes nothing: the build-a-bot watcher uses it as students
+  // redesign the form (app/build-a-bot/).
+  if (new URL(req.url).searchParams.get("dry") === "1") {
+    return reply({ ok: true, dry: true, slug: slugFor(parsed.data.agentName), received: parsed.data }, 200);
   }
   try {
     return reply(await submitBot(parsed.data), 200);

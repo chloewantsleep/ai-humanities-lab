@@ -1,0 +1,23 @@
+/* /build-a-bot's frame (ResetShell.jsx). The plain view's own look lives in BotPage.jsx, so a fork can restyle it. */
+.reset-main { padding: 0 var(--gutter) 64px; }
+.reset-intro { max-width: 860px; padding: 48px 0 36px; }
+.reset-intro h1 { margin: 16px 0 0; font-size: clamp(44px, 7vw, 84px); }
+.reset-intro p:not(.eyebrow) { margin: 22px 0 0; color: var(--muted); font-size: 18px; line-height: 1.6; }
+.reset-intro strong { color: var(--ink); }
+.reset-button { margin-top: 26px; padding: 14px 34px; border: 1px solid var(--brass); border-radius: 0; background: transparent; color: var(--brass); font-family: var(--font-deco); font-size: 15px; font-weight: 500; letter-spacing: .3em; text-transform: uppercase; cursor: pointer; box-shadow: inset 0 0 0 3px var(--paper), inset 0 0 0 4px var(--brass); transition: background .2s, color .2s; }
+.reset-button:hover, .reset-button:focus-visible { background: var(--brass); color: var(--paper); outline: none; }
+.reset-again { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; margin-top: 40px; padding-top: 28px; border-top: 1px solid var(--line); color: var(--muted); }
+.reset-again .reset-button { margin-top: 0; }
+.reset-wipe { position: fixed; inset: 0; z-index: 100; background: #fff; transform: scaleY(0); transform-origin: top; pointer-events: none; }
+.reset-full.is-wiping .reset-wipe { animation: reset-wipe .9s cubic-bezier(.7, 0, .3, 1) forwards; }
+.reset-full.is-wiping .reset-main { filter: blur(2px) grayscale(1); transition: filter .6s; }
+@keyframes reset-wipe { to { transform: scaleY(1); } }
+/* After the reset the site's dark theme is switched off: plain white, the browser's own defaults. */
+.reset-plain { min-height: 100vh; background: #fff; color: #000; }
+html:has(.reset-plain), body:has(.reset-plain) { background: #fff; background-image: none; color-scheme: light; }
+.reset-undo { position: absolute; top: 6px; right: 8px; padding: 0; border: 0; background: none; color: #551a8b; font: 12px Times, "Times New Roman", serif; text-decoration: underline; cursor: pointer; }
+/* Browser defaults for the plain page, at zero specificity so a fork's own styles always win. */
+.reset-plain :where(a) { color: #0000ee; text-decoration: underline; }
+.reset-plain :where(a:visited) { color: #551a8b; }
+.reset-plain :where(h1, h2, h3) { font-family: Times, "Times New Roman", serif; font-weight: bold; letter-spacing: normal; }
+.reset-plain :where(input, select, textarea, button) { font: revert; color: revert; background: revert; border: revert; }

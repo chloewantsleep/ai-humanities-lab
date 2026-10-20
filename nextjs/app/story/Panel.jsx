@@ -3,6 +3,8 @@
 import ReactMarkdown from "react-markdown";
 import ElizaDemo from "./ElizaDemo.jsx";
 import SpiralDemo from "./SpiralDemo.jsx";
+import HhhDemo from "./HhhDemo.jsx";
+import GemPieces from "./GemPieces.jsx";
 
 // What the sticky panel shows for one step (see content/story/README.md for the fields). The same component draws the
 // sticky panel on wide screens (mode "sticky"), the figure above each step on phones ("inline"), and the figure in the
@@ -128,6 +130,7 @@ function Demo({ panel, mode }) {
   );
   if (mode === "print") return fallback;
   if (panel.demo === "eliza") return <ElizaDemo />;
+  if (panel.demo === "hhh") return <HhhDemo preambleFile={panel.preambleFile} recorded={panel.recorded || []} />;
   if (panel.demo === "spiral") return <SpiralDemo prompt={panel.prompt} recorded={panel.recorded} recordedNote={panel.recorded_note} />;
   return fallback;
 }
@@ -164,6 +167,22 @@ export default function Panel({ panel, milestones = [], mode = "sticky" }) {
     body = <figure className="panel-figure"><Stack panel={panel} />{panel.caption && <figcaption className="panel-note"><Inline>{panel.caption}</Inline></figcaption>}</figure>;
   } else if (type === "demo") {
     body = <figure className="panel-figure panel-demo"><Demo panel={panel} mode={mode} />{panel.caption && <figcaption className="panel-note"><Inline>{panel.caption}</Inline></figcaption>}</figure>;
+  } else if (type === "gem") {
+    body = <figure className="panel-figure"><GemPieces show={asList(panel.show)} />{panel.caption && <figcaption className="panel-note"><Inline>{panel.caption}</Inline></figcaption>}</figure>;
+  } else if (type === "compare") {
+    const columns = Array.isArray(panel.columns) ? panel.columns : [];
+    const rows = Array.isArray(panel.rows) ? panel.rows : [];
+    body = (
+      <figure className="panel-figure panel-compare">
+        {panel.heading && <p className="dialogue-heading">{panel.heading}</p>}
+        <table>
+          <thead><tr><th scope="col"><span className="sr-only">Question</span></th>{columns.map((c) => <th key={c} scope="col">{c}</th>)}</tr></thead>
+          <tbody>{rows.map((row, i) => <tr key={i}><th scope="row">{row[0]}</th>{row.slice(1).map((cell, j) => <td key={j}>{cell}</td>)}</tr>)}</tbody>
+        </table>
+      </figure>
+    );
+  } else if (type === "knowledge") {
+    body = <figure className="panel-figure panel-demo">{panel.children ?? <p className="panel-note">The knowledge demo is loading.</p>}{panel.caption && <figcaption className="panel-note"><Inline>{panel.caption}</Inline></figcaption>}</figure>;
   } else if (type === "timeline") {
     body = <figure className="panel-figure"><Timeline milestones={milestones} />{panel.caption && <figcaption className="panel-note"><Inline>{panel.caption}</Inline></figcaption>}</figure>;
   } else {

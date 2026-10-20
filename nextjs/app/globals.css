@@ -1,30 +1,39 @@
 :root {
-  /* Dark always (forced for this site). Print pages (.print-root) are always light. */
-  --paper: #121412;
-  --ink: #ecece6;
-  --muted: #a0a49a;
-  --line: #2c2f2b;
-  --accent: #ff5468;
-  --accent-ink: #1a0508;
-  --wash: #1a1c19;
-  --hover: #20231f;
-  --code: #1a1c19;
-  --ok: #7fc787;
-  --error: #ff8a80;
+  /* Dark always (forced for this site). Print pages (.print-root) are always light.
+     The meeting of the two source apps: the timeline's dark ground and Inter, warmed to a garnet charcoal; the Poetry
+     Gem's art-deco display (Josefin Sans, heavier than the Gem's Poiret One), its vermilion, and brass rules. The jewel note in the grey is there so the
+     paper dolls' cream, rust, and olive read off the page. */
+  --paper: #2a2225;
+  --ink: #f7f1ed;
+  --muted: #c4b4b2;
+  --line: #4b3c41;
+  --accent: #ff7262;
+  --accent-ink: #2a0d09;
+  --wash: #33292d;
+  --hover: #3c3035;
+  --code: #221b1e;
+  --brass: #d9b874;
+  --garnet: #7d2840;
+  --garnet-deep: #4a1a29;
+  --ok: #8fd19a;
+  --error: #ff9a8a;
   --gutter: clamp(18px, 4vw, 64px);
+  --font-display: var(--font-deco-display), "Josefin Sans", system-ui, sans-serif;
+  --font-deco: var(--font-jost), Jost, "Futura", system-ui, sans-serif;
+  --font-quote: var(--font-garamond), "EB Garamond", Georgia, serif;
   color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Inter Variable", Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; font-feature-settings: "cv11", "ss01"; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Inter Variable", Inter, system-ui, sans-serif; background-image: radial-gradient(120% 60% at 50% -10%, #3a2a30 0%, transparent 60%); background-attachment: fixed; -webkit-font-smoothing: antialiased; font-feature-settings: "cv11", "ss01"; }
 a { color: inherit; text-decoration: none; }
 ::selection { background: var(--accent); color: var(--accent-ink); }
 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .skip-link { position: fixed; z-index: 10; top: 12px; left: 12px; padding: 12px 18px; background: var(--accent); color: var(--accent-ink); transform: translateY(-160%); }
 .skip-link:focus { transform: translateY(0); }
 .ai-badge { display: inline-block; margin: 0 0 14px; padding: 5px 10px; border: 1px solid var(--accent); border-radius: 999px; color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
-.eyebrow { margin: 0; color: var(--muted); font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.eyebrow { margin: 0; color: var(--brass); font-family: var(--font-deco); font-size: 13px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; }
 
 .hero { max-width: 1220px; padding: clamp(72px, 14vh, 150px) var(--gutter) clamp(64px, 11vh, 120px); }
 .hero h1 { max-width: 1050px; margin: 22px 0 0; font-size: clamp(52px, 9vw, 124px); font-weight: 800; letter-spacing: -.065em; line-height: .88; text-wrap: balance; }
@@ -308,3 +317,19 @@ body:has(.print-root) { background: #ffffff; color-scheme: light; }
 .status-idea { opacity: .8; }
 .today-link { display: inline-block; margin-bottom: 14px; color: var(--muted); font-size: 14px; font-weight: 600; }
 .today-link:hover { color: var(--accent); }
+
+/* Deco display: every page title and section title is set in Josefin Sans semibold, with slight positive tracking.
+   (Placed last so it wins over the older tight, heavy Inter headings above and in the route stylesheets.) */
+:is(h1, h2):not(.reset-plain *), .wordmark, .panel-chapter-title {
+  font-family: var(--font-display) !important;
+  font-weight: 600 !important;
+  letter-spacing: .01em !important;
+}
+h1:not(.reset-plain *) { line-height: 1.04 !important; }
+.wordmark { font-size: 22px; }
+.wordmark span { font-family: var(--font-deco); font-size: 13px; letter-spacing: .2em; text-transform: uppercase; }
+.site-header nav { font-family: var(--font-deco); letter-spacing: .06em; }
+.site-header nav a[aria-current="page"] { color: var(--brass); }
+/* A brass rule under each section heading, the deco signature. */
+.deco-rule { display: block; width: 72px; height: 0; margin: 18px 0 0; border-top: 1px solid var(--brass); box-shadow: 0 4px 0 -3px var(--brass); }
+blockquote, .panel-quote blockquote { font-family: var(--font-quote); }

@@ -4,6 +4,8 @@ import Panel from "./Panel.jsx";
 import StoryMarkdown from "./StoryMarkdown.jsx";
 import StoryShell from "./StoryShell.jsx";
 import BuildABot from "../components/BuildABot.jsx";
+import TimelineZoom from "./TimelineZoom.jsx";
+import KnowledgeStep from "./knowledge/KnowledgeStep.jsx";
 import { getGlossaryShorts, getStory } from "./story.mjs";
 import "./story.css";
 
@@ -38,8 +40,9 @@ export default async function StoryPage() {
               ))}
             </ol>
           </nav>
-          <p className="story-how">Try ELIZA and GPT-2, then build a poetry bot at 2023. <Link href="/glossary">Glossary</Link> · <Link href="/print/story">Print</Link></p>
+          <p className="story-how">Talk to ELIZA, run GPT-2 with and without the first assistant script, and build the pieces of a poetry bot on the way to 2023. <Link href="/bot-materials">Bot materials</Link> · <Link href="/glossary">Glossary</Link> · <Link href="/print/story">Print</Link></p>
         </header>
+        <TimelineZoom />
         {steps.length === 0 ? <p className="empty-state">No chapters yet: add Markdown files to <code>nextjs/content/story/</code>.</p> : (
           <StoryShell steps={clientSteps} chapters={chapters} milestones={milestones}>
             {steps.map((step, index) => {
@@ -58,13 +61,26 @@ export default async function StoryPage() {
                   )}
                   {step.prose && <div className="prose story-prose"><StoryMarkdown markdown={step.prose} glossary={glossary} /></div>}
                   </div>
-                  {hasPanel && <div className="story-step-figure"><Panel panel={step.panel} milestones={milestones} mode="inline" /></div>}
+                  {hasPanel && (
+                    <div className="story-step-figure">
+                      {step.panel.type === "knowledge" ? (
+                        <figure className="panel panel-figure panel-demo"><KnowledgeStep />{step.panel.caption && <figcaption className="panel-note">{step.panel.caption}</figcaption>}</figure>
+                      ) : <Panel panel={step.panel} milestones={milestones} mode="inline" />}
+                    </div>
+                  )}
                   {lastInChapter && chapter.slug === "configuration" && <BuildABot />}
                 </section>
               );
             })}
             <footer className="story-end">
-              <p><Link href="/readings">Readings</Link> · <Link href="/print/story">Print</Link></p>
+              <div className="story-fork">
+                <p className="eyebrow">Your turn</p>
+                <h2>Fork it</h2>
+                <span className="deco-rule" />
+                <p>You have built a Gem inside the timeline. Now take its parts and give them an interface of your own. The next page shows the full builder, then a Reset button that strips it down to the data. Redesign that page with Claude Code, and submit your bot from your design.</p>
+                <Link className="story-fork-button" href="/build-a-bot">Fork it →</Link>
+              </div>
+              <p><Link href="/bot-materials">Bot materials</Link> · <Link href="/readings">Readings</Link> · <Link href="/print/story">Print</Link></p>
             </footer>
           </StoryShell>
         )}

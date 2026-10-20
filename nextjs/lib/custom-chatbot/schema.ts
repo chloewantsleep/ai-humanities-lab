@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { PACKS, MATERIALS, DELIVERIES } from "../poetry-gem/options";
 
-export const LIMITS = { name: 80, student: 120, prompt: 20_000, knowledge: 8_000, notes: 8_000, icon: 2_000 };
+export const LIMITS = { name: 80, student: 120, prompt: 20_000, knowledge: 8_000, notes: 8_000, icon: 2_000, extras: 20_000 };
 const optionalText = (max: number) => z.string().trim().max(max).default("");
 export const BotSettings = z.object({
   genre: z.string().trim().min(1).max(80),
@@ -28,6 +28,8 @@ export const Submission = BotVoice.extend({
     } catch { return false; }
   }, "Use an https:// image URL, or leave the icon blank."),
   settings: BotSettings,
+  // Anything else a student's own interface collects (design notes, extra fields), as long text. See app/build-a-bot/.
+  extras: optionalText(LIMITS.extras),
 }).strict();
 
 export type BotDraft = z.infer<typeof Submission>;
