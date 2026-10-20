@@ -45,7 +45,7 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 .story-builder { padding: 12px 0 32px; }
 .story-chapter-heading { margin-bottom: 28px; }
 .story-chapter-heading h2 { margin: 14px 0 0; font-size: clamp(28px, 3.5vw, 42px); line-height: 1; letter-spacing: -.05em; text-wrap: balance; }
-.story-prose { max-width: 560px; font-size: 18px; line-height: 1.7; }
+.story-prose { max-width: 600px; font-size: 19.5px; line-height: 1.65; }
 .story-prose blockquote { font-size: 17px; }
 .story-prose a.gloss { color: inherit; text-decoration: underline dotted var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; }
 .story-prose a.gloss:hover { color: var(--accent); }
@@ -62,7 +62,7 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 .panel-chapter { padding: clamp(24px, 4vw, 48px); border: 1px solid var(--line); border-radius: 12px; background: var(--wash); }
 .panel-chapter-title { margin: 18px 0 0; font-size: clamp(34px, 4.4vw, 64px); font-weight: 800; line-height: .98; letter-spacing: -.05em; text-wrap: balance; }
 .panel-chapter-deck { max-width: 560px; margin: 20px 0 0; color: var(--muted); font-size: 17px; line-height: 1.55; }
-.panel-title p:first-child { margin: 0; font-size: clamp(26px, 3.2vw, 44px); font-family: var(--font-display); font-weight: 600; line-height: 1.1; letter-spacing: .005em; text-wrap: balance; }
+.panel-title p:first-child { margin: 0; font-size: clamp(26px, 3.2vw, 44px); font-weight: 750; line-height: 1.12; letter-spacing: -.035em; text-wrap: balance; }
 .panel-title em { color: var(--accent); font-style: normal; }
 .panel-quote blockquote { margin: 0; padding: 0 0 0 28px; border-left: 3px solid var(--accent); font-family: Georgia, "Times New Roman", serif; font-size: clamp(22px, 2.5vw, 32px); line-height: 1.35; letter-spacing: -.01em; text-wrap: pretty; }
 .panel-source { margin: 18px 0 0; padding-left: 31px; color: var(--muted); font-size: 13px; line-height: 1.5; }
@@ -151,7 +151,7 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
   .story-step, .story-step-opener { padding: 24px 0; }
   .story-step-with-panel { display: grid; grid-template-columns: 1fr; gap: 20px; }
   .story-step-figure { margin-bottom: 0; }
-  .story-prose { font-size: 17px; }
+  .story-prose { font-size: 18px; }
   .panel-image img, .panel-continuation pre, .spiral-out, .eliza-demo-log { max-height: none; }
   .panel-quote blockquote { font-size: 21px; padding-left: 18px; }
   .panel-source { padding-left: 21px; }
@@ -209,7 +209,7 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 .gem-legend li { display: grid; gap: 2px; padding-left: 14px; border-left: 1px solid var(--line); color: var(--muted); opacity: .55; }
 .gem-legend li.is-on { border-left-color: var(--brass); color: var(--ink); opacity: 1; }
 .gem-legend span { color: var(--brass); font-family: var(--font-deco); font-size: 11px; letter-spacing: .2em; text-transform: uppercase; }
-.gem-legend strong { font-family: var(--font-display); font-size: 21px; font-weight: 600; }
+.gem-legend strong { font-size: 20px; font-weight: 750; letter-spacing: -.02em; }
 .gem-legend em { font-size: 13px; font-style: normal; }
 @media (max-width: 520px) { .gem-pieces { grid-template-columns: 120px 1fr; padding: 12px; } }
 
@@ -236,7 +236,7 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 /* The glide (StoryShell.jsx): steps with a figure are tall, the figure pins beside the prose when it fits the window,
    and each step rises into place the first time it is reached. Only with JS (.is-gliding), so nothing is hidden without it. */
 @media (min-width: 900px) {
-  .story-step-with-panel { min-height: 72vh; }
+  .story-step-with-panel { min-height: 58vh; }
   .story-step-figure.is-pinned { position: sticky; top: calc(var(--bar) + 24px); }
 }
 .is-gliding .story-step-copy, .is-gliding .story-step-figure { opacity: 0; transform: translateY(28px); transition: opacity .7s ease, transform .7s cubic-bezier(.2, .7, .2, 1); }

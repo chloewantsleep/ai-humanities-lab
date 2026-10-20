@@ -2,6 +2,10 @@
 
 import { BAND_ORDER, FOLDS, PlateFigure, cast, type Band, type DollSpec } from "./Doll";
 import s from "./atelier.module.css";
+import manifest from "@/public/poetry-gem/doll/mj/manifest.json";
+
+// The plate is drawn with crop="frame", so the controls sit inside the frame's left and right edges, not the canvas's.
+const [FRAME_X0, , FRAME_X1] = manifest.bounds as number[];
 
 type Option = { id: string; label: string };
 export type AtelierOptions = Record<Band, Option[]>;
@@ -43,7 +47,7 @@ export default function Atelier({
           const [top, bottom] = ZONES[band];
           const current = options[band].find((o) => o.id === spec[band]);
           return (
-            <div key={band} className={s.zone} style={{ top: `${top * 100}%`, height: `${(bottom - top) * 100}%` }}>
+            <div key={band} className={s.zone} style={{ top: `${top * 100}%`, height: `${(bottom - top) * 100}%`, left: `${FRAME_X0 * 100}%`, right: `${(1 - FRAME_X1) * 100}%` }}>
               <button className={s.arrow} onClick={() => step(band, -1)} aria-label={`Previous ${BAND_META[band].knob}`}>
                 ‹
               </button>
