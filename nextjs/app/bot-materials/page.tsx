@@ -7,7 +7,7 @@ import { SiteHeader, SiteFooter } from "../components/Chrome.jsx";
 import { loadGenres, packInfo, packMeta, readVoice } from "@/lib/poetry-gem/content";
 import { DELIVERIES, DELIVERY_LABELS, MATERIALS, PACKS, PACK_LABELS, type Delivery, type PackId } from "@/lib/poetry-gem/options";
 import { EMBED_DIMS, EMBED_MODEL } from "@/lib/poetry-gem/embeddings";
-import { BAND_ORDER, CASTING, Doll, FOLDS, PlateFigure, type Band } from "@/app/poetry-gem/doll/Doll";
+import { BAND_ORDER, CASTING, Doll, FOLDS, PLATES, PlateFigure, type Band } from "@/app/poetry-gem/doll/Doll";
 import manifest from "@/public/poetry-gem/doll/mj/manifest.json";
 import s from "./bot-materials.module.css";
 
@@ -20,7 +20,8 @@ const READINGS_URL = "https://github.com/ll-26-27/eng298ai-20261020/tree/main/re
 const fmt = (n: number) => n.toLocaleString("en-US");
 
 // The studio's opening settings (Studio.tsx): the first form, Frankenstein, whole pack.
-const DEFAULT_SPEC = { head: "ghazal", torso: "frankenstein", legs: "full" };
+// The figure shown first and used as the base below: haiku, the Analects, keyword retrieval (plates mj13, mj18, mj14).
+const DEFAULT_SPEC = { head: "haiku", torso: "analects", legs: "lexical" };
 
 const BAND_NAMES: Record<Band, { part: string; role: string }> = {
   head: { part: "Head", role: "Instructions" },
@@ -61,7 +62,7 @@ function firstParagraph(md: string) {
   return md.split(/\n\s*\n/)[0];
 }
 
-/** The hero figure: the studio's opening bot, with its three bands named beside it. */
+/** The hero figure: a haiku bot reading the Analects by keyword, with its three bands named beside it. */
 function LabeledDoll() {
   const [, y0, , y1] = manifest.bounds;
   const at = (f: number) => `${((f - y0) / (y1 - y0)) * 100}%`;
@@ -75,7 +76,7 @@ function LabeledDoll() {
   return (
     <figure className={s.heroFigure}>
       <div className={s.dollStage}>
-        <PlateFigure plates={{ head: CASTING.head.ghazal, torso: CASTING.torso.frankenstein, legs: CASTING.legs.full }} crop="frame" className={s.heroDoll} title="The paper-doll bot: a head, a bodice, and a skirt cut from three costume plates">
+        <PlateFigure plates={{ head: CASTING.head.haiku, torso: CASTING.torso.analects, legs: CASTING.legs.lexical }} crop="frame" className={s.heroDoll} title="The paper-doll bot: a head, a bodice, and a skirt cut from three costume plates">
           <span className={s.fold} style={{ top: `${FOLDS.neck * 100}%` }} />
           <span className={s.fold} style={{ top: `${FOLDS.hip * 100}%` }} />
         </PlateFigure>
@@ -88,7 +89,7 @@ function LabeledDoll() {
           ))}
         </ol>
       </div>
-      <figcaption>The studio’s opening bot: ghazal, Frankenstein, whole pack.</figcaption>
+      <figcaption>A haiku bot that reads the <i>Analects</i> by keyword search.</figcaption>
     </figure>
   );
 }
@@ -106,6 +107,7 @@ export default function BotMaterialsPage() {
     torso: PACKS.map((p) => ({ id: p, label: PACK_LABELS[p] })),
     legs: DELIVERIES.map((d) => ({ id: d, label: DELIVERY_LABELS[d].label })),
   };
+  const labelFor = (band: Band, id: string) => castingOptions[band].find((o) => o.id === id)?.label ?? id;
 
   return (
     <>
@@ -273,9 +275,21 @@ export default function BotMaterialsPage() {
             <span className="deco-rule" />
             <p>
               The builder draws your bot as an exquisite corpse: three strips cut from Midjourney costume plates. Each
-              setting picks a plate for one strip. Below, one strip changes and the other two stay at the opening bot.
+              setting picks a plate for one strip. First, the nine plates whole, as they were drawn; then, one strip at a time.
             </p>
           </header>
+          <ul className={s.plateGallery}>
+            {PLATES.map((plate) => {
+              const roles = BAND_ORDER.flatMap((band) => Object.entries(CASTING[band]).filter(([, id]) => id === plate).map(([setting]) => `${BAND_NAMES[band].part}: ${labelFor(band, setting)}`));
+              return (
+                <li key={plate} className={s.plateItem}>
+                  <PlateFigure plates={{ head: plate, torso: plate, legs: plate }} crop="frame" className={s.plateDoll} title={`Costume plate ${plate}, whole`} />
+                  <span className={s.castPlate}>plate {plate}</span>
+                  <span className={s.plateRoles}>{roles.length ? roles.join(" · ") : "Not cast yet"}</span>
+                </li>
+              );
+            })}
+          </ul>
           {BAND_ORDER.map((band) => (
             <div key={band} className={s.castRow}>
               <h3 className={s.castHead}>

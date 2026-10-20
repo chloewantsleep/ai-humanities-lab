@@ -167,6 +167,16 @@ export default function Panel({ panel, milestones = [], mode = "sticky" }) {
     body = <figure className="panel-figure"><Stack panel={panel} />{panel.caption && <figcaption className="panel-note"><Inline>{panel.caption}</Inline></figcaption>}</figure>;
   } else if (type === "demo") {
     body = <figure className="panel-figure panel-demo"><Demo panel={panel} mode={mode} />{panel.caption && <figcaption className="panel-note"><Inline>{panel.caption}</Inline></figcaption>}</figure>;
+  } else if (type === "link") {
+    body = (
+      <div className="panel-link">
+        {panel.heading && <p className="eyebrow">{panel.heading}</p>}
+        <p className="panel-link-title">{panel.title}</p>
+        {panel.text && <p className="panel-link-text">{panel.text}</p>}
+        <a className="panel-link-button" href={panel.href}>{panel.button || "Open →"}</a>
+        {panel.more_href && <p className="panel-link-more"><a href={panel.more_href}>{panel.more}</a></p>}
+      </div>
+    );
   } else if (type === "gem") {
     body = <figure className="panel-figure"><GemPieces show={asList(panel.show)} />{panel.caption && <figcaption className="panel-note"><Inline>{panel.caption}</Inline></figcaption>}</figure>;
   } else if (type === "compare") {

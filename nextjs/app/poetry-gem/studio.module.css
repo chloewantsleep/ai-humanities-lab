@@ -20,7 +20,12 @@
   color: var(--ink);
 }
 .embedded .builder { padding: 0; border: 0; background: transparent; overflow: visible; }
-.shell .chat { height: min(850px, 85dvh); min-height: 560px; position: sticky; top: 80px; }
+/* On its own pages (/poetry-gem, /build-a-bot) the studio is plain page flow: nothing sticks, nothing scrolls inside a box.
+   The conversation column grows with the doll and the poems; the window's own scroll bar does the rest. */
+.shell .chat { height: auto; min-height: 0; position: static; }
+.shell .thread { flex: none; overflow: visible; }
+.shell .composer { position: static; }
+.shell .builder { overflow: visible; }
 /* Inside the timeline and /build-a-bot: everything in the page's own flow, no inner scroll boxes, a smaller doll. */
 .embedded { grid-template-columns: minmax(280px, 330px) minmax(0, 1fr); }
 .embedded .chat { height: auto; min-height: 0; position: static; }
@@ -42,7 +47,7 @@
   .embedded .thread { padding-left: 0; }
   .embedded .empty > figure { flex-basis: 100%; max-width: 320px; margin-inline: auto; }
   .chat { min-height: 100dvh; }
-  .shell .chat { height: 700px; min-height: 0; position: static; }
+  .shell .chat { height: auto; min-height: 0; position: static; }
 }
 
 /* ---- builder sidebar ---- */

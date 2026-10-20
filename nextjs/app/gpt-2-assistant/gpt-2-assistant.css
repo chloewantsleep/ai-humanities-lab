@@ -1,0 +1,13 @@
+/* Activity pages (/gpt-2-assistant): a title, then steps with the instructions beside the live panel. */
+.activity { max-width: 1320px; padding: 36px var(--gutter) 64px; }
+.activity h1 { margin: 14px 0 0; font-size: clamp(40px, 5.5vw, 68px); font-weight: 800; letter-spacing: -.05em; line-height: 1; }
+.activity-deck { max-width: 820px; margin: 22px 0 0; color: var(--ink); font-size: 21px; line-height: 1.5; }
+.activity-note { max-width: 820px; margin: 12px 0 0; color: var(--muted); font-size: 16px; line-height: 1.55; }
+.activity-step { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.25fr); gap: clamp(24px, 4vw, 56px); align-items: start; margin-top: 44px; padding-top: 32px; border-top: 1px solid var(--line); }
+.activity-copy h2 { margin: 10px 0 14px; font-size: clamp(28px, 3vw, 38px); font-weight: 800; letter-spacing: -.04em; line-height: 1.05; }
+.activity-copy p, .activity-copy li { font-size: 18.5px; line-height: 1.6; }
+.activity-copy ul { padding-left: 20px; }
+.activity-copy li + li { margin-top: 8px; }
+.activity-next { margin-top: 48px; font-size: 17px; }
+.activity-next a { color: var(--accent); }
+@media (max-width: 899px) { .activity-step { grid-template-columns: 1fr; } }

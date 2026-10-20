@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Doll } from "../../poetry-gem/doll/Doll";
 import "./knowledge.css";
 
 // Knowledge + Delivery, before the full builder: a custom GPT's "knowledge" is text put in front of the model, either
@@ -76,7 +75,6 @@ export default function KnowledgeDemo({ data }) {
     if (v) setQuery(v);
   }
 
-  const legs = MODES.find((m) => m.id === mode).legs;
 
   return (
     <section className="kd" aria-label="What a custom GPT's knowledge sends to the model">
@@ -157,7 +155,6 @@ export default function KnowledgeDemo({ data }) {
       </div>
 
       <footer className="kd-foot">
-        <Doll spec={{ head: "sonnet", torso: "frankenstein", legs }} crop="tight" className="kd-doll" title={`Bodice: Frankenstein. Skirt: ${legs}.`} />
         <div>
           <p className="kd-moral">
             {mode === "whole"
@@ -166,7 +163,7 @@ export default function KnowledgeDemo({ data }) {
                 ? "Keyword search matches words: a passage is found only if it uses yours."
                 : "Meaning-based search matches nearby ideas, so it can find a passage that shares no words with the query."}
           </p>
-          <p className="kd-builder">In the builder below, this is the bodice (Knowledge) and skirt (Delivery).</p>
+          <p className="kd-builder">In the <a href="/poetry-gem">Poetry Gem</a> (Activity C), these are the bot&rsquo;s Knowledge and Delivery settings.</p>
         </div>
       </footer>
     </section>

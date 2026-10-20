@@ -10,9 +10,9 @@ export const metadata = {
 export default function PoetryLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <SiteHeader current="poetry-gem" />
+      <SiteHeader current="workshop" />
       <div style={{ padding: "16px var(--gutter)", fontSize: 14 }}>
-        <Link href="/#build-a-bot">← Back to the timeline and builder</Link>
+        <Link href="/workshop">← Today</Link> · Activity C: the Poetry Gem · Next: <Link href="/build-a-bot">Activity D, build your own bot →</Link>
       </div>
       <div id="main">
         <PoetryTheme>{children}</PoetryTheme>

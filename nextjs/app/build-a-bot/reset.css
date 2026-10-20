@@ -1,16 +1,18 @@
 /* /build-a-bot's frame (ResetShell.jsx). The plain view's own look lives in BotPage.jsx, so a fork can restyle it. */
-.reset-main { padding: 0 var(--gutter) 64px; }
-.reset-intro { max-width: 860px; padding: 48px 0 36px; }
-.reset-intro h1 { margin: 16px 0 0; font-size: clamp(44px, 7vw, 84px); }
-.reset-intro p:not(.eyebrow) { margin: 22px 0 0; color: var(--muted); font-size: 18px; line-height: 1.6; }
-.reset-intro strong { color: var(--ink); }
-.reset-button { margin-top: 26px; padding: 14px 34px; border: 1px solid var(--brass); border-radius: 0; background: transparent; color: var(--brass); font-family: var(--font-deco); font-size: 15px; font-weight: 500; letter-spacing: .3em; text-transform: uppercase; cursor: pointer; box-shadow: inset 0 0 0 3px var(--paper), inset 0 0 0 4px var(--brass); transition: background .2s, color .2s; }
-.reset-button:hover, .reset-button:focus-visible { background: var(--brass); color: var(--paper); outline: none; }
-.reset-again { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; margin-top: 40px; padding-top: 28px; border-top: 1px solid var(--line); color: var(--muted); }
-.reset-again .reset-button { margin-top: 0; }
+/* The Reset banner: a full-width garnet band under the site header, with the biggest button on the page. */
+.reset-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px 32px; flex-wrap: wrap; padding: 18px var(--gutter); background: #8e1f33; color: #fff; box-shadow: 0 6px 24px rgba(0, 0, 0, .3); }
+.reset-bar-text { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; max-width: 760px; font-size: 17px; line-height: 1.45; }
+.reset-bar-text a { color: #ffd9cf; font-weight: 700; }
+.reset-bar-text strong { font-size: 20px; }
+.reset-button { flex: none; padding: 26px 72px; border: 4px solid #fff; border-radius: 14px; background: #fff; color: #8e1f33; font: 900 34px/1 "Inter Variable", Inter, system-ui, sans-serif; letter-spacing: .22em; text-transform: uppercase; cursor: pointer; box-shadow: 0 0 0 6px rgba(255, 255, 255, .25); animation: reset-pulse 2.4s ease-in-out infinite; }
+.reset-button:hover, .reset-button:focus-visible { background: #ffd9cf; outline: none; animation: none; transform: scale(1.04); }
+@keyframes reset-pulse { 50% { box-shadow: 0 0 0 14px rgba(255, 255, 255, 0); } }
+@media (prefers-reduced-motion: reduce) { .reset-button { animation: none; } }
+@media (max-width: 700px) { .reset-button { width: 100%; padding: 20px; font-size: 28px; } }
 .reset-wipe { position: fixed; inset: 0; z-index: 100; background: #fff; transform: scaleY(0); transform-origin: top; pointer-events: none; }
 .reset-full.is-wiping .reset-wipe { animation: reset-wipe .9s cubic-bezier(.7, 0, .3, 1) forwards; }
 .reset-full.is-wiping .reset-main { filter: blur(2px) grayscale(1); transition: filter .6s; }
+.reset-full.is-wiping .reset-button { opacity: 0; }
 @keyframes reset-wipe { to { transform: scaleY(1); } }
 /* After the reset the site's dark theme is switched off: plain white, the browser's own defaults. */
 .reset-plain { min-height: 100vh; background: #fff; color: #000; }

@@ -25,9 +25,9 @@ test("Plato first, then ELIZA, GPT-2, and GPT-2 with the HHH prompt, building to
   const at = (slug) => chapters.findIndex((c) => c.slug === slug);
   assert.ok(at("eliza") < at("the-spiral") && at("the-spiral") < at("written-into-a-document") && at("written-into-a-document") < at("configuration"));
   assert.equal(chapters.at(-1).slug, "epilogue");
-  // The Gem is dressed one band at a time: the head at 2021, all three at the configuration era.
-  const gems = steps.filter((s) => s.panel.type === "gem");
-  assert.deepEqual(gems.map((s) => chapters[s.chapter].slug), ["written-into-a-document", "configuration"]);
+  // No paper doll in the timeline: the configuration era links out to the Poetry Gem (Activity C) instead.
+  assert.equal(steps.filter((s) => s.panel.type === "gem").length, 0);
+  assert.ok(steps.some((s) => s.panel.type === "link" && s.panel.href === "/poetry-gem" && chapters[s.chapter].slug === "configuration"));
   assert.ok(steps.some((s) => s.panel.type === "knowledge" && chapters[s.chapter].slug === "configuration"));
   const hhh = steps.find((s) => s.panel.demo === "hhh");
   assert.ok(hhh.panel.preambleFile.includes("Below are a series of dialogues"));

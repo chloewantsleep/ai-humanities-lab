@@ -124,3 +124,9 @@
   .dollStage { grid-template-columns: minmax(0, 1fr) 108px; }
   .bandRole { font-size: 18px; }
 }
+
+/* The nine costume plates, whole */
+.plateGallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; margin: 0 0 40px; padding: 0; list-style: none; }
+.plateItem { display: grid; justify-items: center; gap: 6px; padding: 16px 12px 14px; border: 1px solid var(--line); border-radius: 6px; background: radial-gradient(70% 55% at 50% 45%, rgba(217, 184, 116, .14), transparent 70%), var(--garnet-deep); text-align: center; }
+.plateDoll { width: 100%; max-width: 200px; }
+.plateRoles { color: var(--ink); font-size: 13.5px; line-height: 1.35; }

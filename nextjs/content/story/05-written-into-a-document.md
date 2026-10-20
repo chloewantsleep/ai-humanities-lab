@@ -34,12 +34,6 @@ href: "https://arxiv.org/abs/2112.00861"
 
 Turn-taking, in this setup, is a matter of labels. The model's line is over when it writes "Human:", and the program cuts it off there. That [stop sequence](../glossary/models-and-training/stop-sequence.md) is how a document becomes a conversation. Remove the cut and the model writes both parts: for a base model, "Human" and "Assistant" are equally fictional characters. Sacks, Schegloff, and Jefferson found that in real talk, turn order "is not fixed, but varies" and is managed turn by turn ([Simplest Systematics](../glossary/people-and-texts/simplest-systematics.md)). The chatbot's [turn-taking](../glossary/persona-and-dialogue/turn-taking.md) is imposed from outside, by a label and a cut.
 
-```panel
-type: gem
-show: [head]
-caption: "The first piece of the Gem: the head. Instructions, written in front of the conversation."
-```
-
-This is the first piece of the bot you will build at 2023. A [system prompt](../glossary/persona-and-dialogue/system-prompt.md), the hidden instructions behind every product chatbot, is a descendant of these fourteen conversations. In the Poetry Gem, the head of the figure is its instructions: a ghazal, a haiku sequence, or a sonnet, written out as a script the model reads first.
+A [system prompt](../glossary/persona-and-dialogue/system-prompt.md), the hidden instructions behind every product chatbot, is a descendant of these fourteen conversations. So are the instructions of the bot you build today: in the [Poetry Gem](/poetry-gem), a ghazal, a haiku sequence, or a sonnet, written out as a script the model reads first.
 
 The course has a word for a play written to be read rather than staged: a closet drama. The HHH prompt is stranger: a play written to be *continued*, by a reader whose only skill is guessing the next line. In 2025 the writer nostalgebraist called it "the seed from which ChatGPT, Claude, and all other such entities were grown" ([the void](../glossary/people-and-texts/the-void.md)). A character in a novel is built from many scenes. This one was built from fourteen conversations, some of them about spaghetti.

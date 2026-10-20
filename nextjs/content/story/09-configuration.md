@@ -33,11 +33,16 @@ What does "knowledge" mean here? Not that the model learned anything. When you u
 Try the panel with "reading." Keyword search matches your words: it finds Felix reading aloud. Meaning-based search compares [embeddings](../glossary/models-and-training/embedding.md), lists of numbers that place passages with similar ideas near each other, so it finds the creature learning language, in passages that never use the word. Whichever you choose, you can see exactly which pages the bot will read.
 
 ```panel
-type: gem
-show: [head, torso, legs]
-caption: "The whole Gem: instructions (head), knowledge (bodice), and delivery (skirt)."
+type: link
+heading: "Activity C"
+title: "The Poetry Gem"
+text: "A custom bot of 2023–24, drawn as a paper doll: instructions, knowledge, and delivery. Choose its parts, ask for a poem, and open What the model saw."
+href: /poetry-gem
+button: "Open the Poetry Gem →"
+more_href: /build-a-bot
+more: "Then Activity D: build your own bot →"
 ```
 
-So a custom bot of this era is three things, and the Poetry Gem draws them as a paper doll. The head is its **instructions** (a poetic form). The bodice is its **knowledge** (Plato's *Phaedrus*, Shelley's *Frankenstein*, or the *Analects*). The skirt is its **delivery**: the whole text, keyword search, meaning-based search, or letting the model search for itself.
+So a custom bot of this era is three things, and the [Poetry Gem](/poetry-gem) draws them as a paper doll. The head is its **instructions** (a poetic form). The bodice is its **knowledge** (Plato's *Phaedrus*, Shelley's *Frankenstein*, or the *Analects*). The skirt is its **delivery**: the whole text, keyword search, meaning-based search, or letting the model search for itself.
 
-One thing the interfaces make easy to miss: **context is not weights.** Writing instructions and uploading texts changes what the model reads, not what it is. Underneath any Gem is a model already pretrained, shown demonstrations, ranked, and given principles. You are decorating a character that is already there, and it tends to come back. Build one below, then open "What the model saw" and check where each line of the poem came from.
+One thing the interfaces make easy to miss: **context is not weights.** Writing instructions and uploading texts changes what the model reads, not what it is. Underneath any Gem is a model already pretrained, shown demonstrations, ranked, and given principles. You are decorating a character that is already there, and it tends to come back. Build one in the [Poetry Gem](/poetry-gem), then open "What the model saw" and check where each line of the poem came from.

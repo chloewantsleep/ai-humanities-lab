@@ -58,3 +58,4 @@
   .kd { padding: 14px; }
   .kd-mode { font-size: 10px !important; letter-spacing: .06em; }
 }
+.kd-builder a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }

@@ -1,9 +1,11 @@
 "use client";
 
-// The frame around /build-a-bot: the full studio with a RESET button, and after RESET, only BotPage. Students don't
-// need to edit this file. The reset is remembered in the address (#reset), so a refresh in your fork stays reset.
+// The frame around /build-a-bot. At first: the Poetry Gem exactly as on /poetry-gem, plus a big RESET button. After
+// RESET: only BotPage. Students don't need to edit this file. The reset is remembered in the address (#reset), so a
+// refresh in your fork stays reset.
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import "./reset.css";
 
 export default function ResetShell({ children, plain, header, footer }) {
@@ -33,24 +35,15 @@ export default function ResetShell({ children, plain, header, footer }) {
   return (
     <div className={`reset-full${mode === "wiping" ? " is-wiping" : ""}`}>
       {header}
-      <main id="main" className="reset-main">
-        <header className="reset-intro">
-          <p className="eyebrow">2023 – 2024 · The configuration era</p>
-          <h1>Build a bot</h1>
-          <span className="deco-rule" />
-          <p>
-            This is the Poetry Gem, the full builder: instructions on top, a reading pack in the middle, a way of delivering it
-            below, all drawn as a paper doll. Try it. Then press <strong>Reset</strong>. Everything you see here will be wiped
-            away, down to the few choices the bot is actually made of. Your job is to build a better interface for those choices.
-          </p>
-          <button type="button" className="reset-button" onClick={reset}>Reset</button>
-        </header>
-        {children}
-        <div className="reset-again">
-          <p>Seen enough of the paper dolls?</p>
-          <button type="button" className="reset-button" onClick={reset}>Reset</button>
+      <div className="reset-bar">
+        <div className="reset-bar-text">
+          <Link href="/workshop">← Today</Link>
+          <strong>Activity D: build your own bot.</strong>
+          <span>It starts as the Poetry Gem. Try it, then press Reset to strip it down to the data, and redesign it yourself.</span>
         </div>
-      </main>
+        <button type="button" className="reset-button" onClick={reset}>Reset</button>
+      </div>
+      <div id="main" className="reset-main">{children}</div>
       {footer}
       <div className="reset-wipe" aria-hidden="true" />
     </div>
