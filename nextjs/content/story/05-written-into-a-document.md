@@ -12,27 +12,16 @@ label: "The HHH prompt"
 If a base model continues whatever document it is given, then the way to get an assistant out of it is to write a document in which an assistant appears. That is what a team at Anthropic did in 2021, in [Askell et al., "A General Language Assistant as a Laboratory for Alignment"](../glossary/people-and-texts/askell-2021.md).
 
 ```panel
-type: continuation
-heading: "The opening of the HHH prompt (2021)"
-prompt: "Below are a series of dialogues between various people and an AI assistant.  The AI tries to be helpful, polite, honest, sophisticated, emotionally aware, and humble-but-knowledgeable.  The assistant is happy to help with almost anything, and will do its best to understand exactly what is needed.  It also tries to avoid giving false or misleading information, and it caveats when it isn’t entirely sure about the right answer.  That said, the assistant is practical and really does its best, and doesn’t let caution get too much in the way of being useful.\n\n-----\n\nHuman:  I was wondering, is it actually important when making spaghetti to add salt?\n\nAssistant:  Do you mean, is it important to add salt to the water that you’re boiling the spaghetti in?"
-continuation: ""
-cut: "\n\n[… the rest of the 14 conversations, about 4,600 words in all …]"
-note: "Written by people, not the model: two of the paper's authors. The paper doesn't print the prompt; its footnote 2 links it."
-cite: "Askell et al. 2021, the \"HHH prompt\" (gist linked from the paper)"
-href: "https://gist.github.com/jareddk/2509330f8ef3d787fc5aaac67aab5f11"
+type: demo
+demo: hhh
+caption: "The same GPT-2 as the last chapter, twice: once with your question alone, once with your question placed after the HHH prompt. The prompt is the paper's own file."
 ```
 
 Two of the authors wrote fourteen short, invented conversations between a "Human" and an "Assistant," about spaghetti, a physics paper, ordinary tasks. In every one, the assistant is polite, careful, and useful. On top they put a paragraph describing the character: "helpful, polite, honest, sophisticated, emotionally aware, and humble-but-knowledgeable." A real person's question is then added as the next "Human:" line.
 
 A base model reading this does what GPT-2 did with "Who are you?": it guesses what kind of document it is in and continues it. Here the likeliest continuation of "Assistant:" is a line spoken by the character the script has established. The assistant is not inside the model. It is in the document, and the model plays it. The prompt "was not carefully designed," the paper says; it was "written by two of us in an ad hoc manner."
 
-```panel
-type: demo
-demo: hhh
-caption: "The same GPT-2 as the last chapter, twice: once with your question alone, once with your question placed after the HHH prompt. The prompt is the paper's own file."
-```
-
-Try it. The panel runs GPT-2 twice on your question. Column 1 gets the question alone. Column 2 gets the question as the next turn of the HHH script, and stops when GPT-2 starts to write the human's next line.
+Try it: the panel runs the same GPT-2 twice on your question. Column 1 gets the question alone. Column 2 gets the question as the next turn of the HHH script, and stops when GPT-2 starts to write the human's next line.
 
 Two honest caveats. GPT-2 can read only 1,024 [tokens](../glossary/models-and-training/token.md) at a time and the whole prompt is about 6,800, so column 2 keeps the opening paragraph and as many of the last exchanges as fit, and shows you what was cut. And GPT-2 is small: the paper ran the script on models up to 52 billion parameters and found that, with it, "alignment improves with model size." Even so, look for the change in *form*. Column 1 wanders off into some other document. Column 2 usually answers, in one voice, to you, and then stops. In one of our runs it said "Sure, I'll try," and then wandered off into a pantry. The form had changed; the competence had not.
 

@@ -47,11 +47,11 @@ function Live({ prompt }) {
   );
 }
 
-export default function SpiralDemo({ prompt = "Who are you?\n", recorded, recordedNote }) {
+export default function SpiralDemo({ prompt = "Who are you?\n", recorded, recordedNote, heading = "GPT-2 small (2019)" }) {
   const [live, setLive] = useState(false);
   return (
     <div className="spiral-demo">
-      <p className="dialogue-heading">GPT-2 small (2019){live ? ", running in your browser" : ""}</p>
+      <p className="dialogue-heading">{heading}{live ? ", running in your browser" : ""}</p>
       {recorded && !live && (
         <>
           <pre className="spiral-out"><span className="cont-prompt">{prompt}</span><mark className="cont-model">{recorded}</mark></pre>
@@ -59,7 +59,7 @@ export default function SpiralDemo({ prompt = "Who are you?\n", recorded, record
         </>
       )}
       {live ? <Live prompt={prompt} /> : (
-        <button type="button" className="spiral-start" onClick={() => setLive(true)}>Load GPT-2 in this browser (about 130 MB)</button>
+        <button type="button" className="spiral-start" onClick={() => setLive(true)}>Run it yourself: load GPT-2 in this browser (about 130 MB)</button>
       )}
       <p className="demo-more"><a href="/gpt-2">Open GPT-2 and inspect token probabilities →</a></p>
     </div>

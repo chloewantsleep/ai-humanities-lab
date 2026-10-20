@@ -93,6 +93,11 @@ export default function HhhDemo({ preambleFile, recorded = [] }) {
         {QUESTIONS.map((x) => <button key={x} type="button" className={x === question ? "is-on" : ""} onClick={() => setQuestion(x)} disabled={busy}>{x}</button>)}
       </div>
 
+      <details className="hhh-read hhh-script">
+        <summary>Read the script GPT-2 is given in column 2 (the HHH prompt, written by two of the paper&rsquo;s authors)</summary>
+        <pre>{hhh.intro}{"\n\n-----\n\n"}{hhh.conversations[0]?.exchanges.join("\n\n")}{"\n\n-----\n\n"}<span className="hhh-elided">[… {hhh.conversations.length - 1} more conversations like this one, about 4,600 words in all. GPT-2 can only fit the last few.]</span></pre>
+      </details>
+
       <div className="hhh-columns">
         <section className="hhh-col">
           <h4><span>1</span> The question alone</h4>

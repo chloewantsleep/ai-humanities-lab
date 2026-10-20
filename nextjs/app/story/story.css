@@ -245,3 +245,4 @@ html:has(.story) { scroll-padding-top: calc(var(--bar, 64px) + 24px); }
 @media (prefers-reduced-motion: reduce) {
   .is-gliding .story-step-copy, .is-gliding .story-step-figure { opacity: 1; transform: none; transition: none; }
 }
+.hhh-script { margin: 0 0 14px; }

@@ -106,7 +106,7 @@ function Continuation({ panel }) {
     <div className="panel-continuation">
       {panel.heading && <p className="dialogue-heading">{panel.heading}</p>}
       <pre><span className="cont-prompt">{panel.prompt}</span><mark className="cont-model">{panel.continuation}</mark>{panel.cut ? <span className="cont-cut">{panel.cut}</span> : null}</pre>
-      <p className="cont-key"><span className="cont-key-prompt">Typed</span> <span className="cont-key-model">Generated text</span></p>
+      {panel.continuation && panel.continuation.trim() && <p className="cont-key"><span className="cont-key-prompt">Typed</span> <span className="cont-key-model">Generated text</span></p>}
     </div>
   );
 }
@@ -131,7 +131,7 @@ function Demo({ panel, mode }) {
   if (mode === "print") return fallback;
   if (panel.demo === "eliza") return <ElizaDemo />;
   if (panel.demo === "hhh") return <HhhDemo preambleFile={panel.preambleFile} recorded={panel.recorded || []} />;
-  if (panel.demo === "spiral") return <SpiralDemo prompt={panel.prompt} recorded={panel.recorded} recordedNote={panel.recorded_note} />;
+  if (panel.demo === "spiral") return <SpiralDemo prompt={panel.prompt} recorded={panel.recorded} recordedNote={panel.recorded_note} heading={panel.heading} />;
   return fallback;
 }
 

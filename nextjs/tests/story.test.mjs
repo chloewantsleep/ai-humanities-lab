@@ -21,7 +21,7 @@ test("the timeline's chapters and steps reference each other correctly", async (
 test("Plato first, then ELIZA, GPT-2, and GPT-2 with the HHH prompt, building to the Gem and the fork", async () => {
   const { chapters, steps } = await getStory();
   assert.equal(chapters[0].slug, "writing-cannot-answer"); // TimelineZoom's "Begin" link points here
-  assert.deepEqual(steps.filter((s) => s.panel.type === "demo").map((s) => s.panel.demo), ["eliza", "spiral", "hhh"]);
+  assert.deepEqual(steps.filter((s) => s.panel.type === "demo").map((s) => s.panel.demo), ["eliza", "spiral", "spiral", "hhh"]); // the second spiral is the few-shot prompt
   const at = (slug) => chapters.findIndex((c) => c.slug === slug);
   assert.ok(at("eliza") < at("the-spiral") && at("the-spiral") < at("written-into-a-document") && at("written-into-a-document") < at("configuration"));
   assert.equal(chapters.at(-1).slug, "epilogue");

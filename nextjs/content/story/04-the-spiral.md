@@ -48,17 +48,18 @@ GPT-2 has no fixed "I" and no fixed "you." A question can make it the asker, the
 Murray Shanahan puts it carefully: when a model completes "The first person to walk on the Moon was," we are "not really asking who was the first person to walk on the Moon." We are asking which words are most likely to come next ([Shanahan 2022](../glossary/people-and-texts/talking-about-large-language-models.md)). Where ELIZA was certain and shallow, GPT-2 is fluent and unanchored: probable, not determined.
 
 ```panel
-type: continuation
+type: demo
+demo: spiral
 year: 2020
 label: "GPT-3 and in-context learning"
-heading: "Few-shot prompting, Brown et al. 2020, Figure 2.1"
+heading: "Few-shot prompting (Brown et al. 2020, Figure 2.1), on GPT-2"
 prompt: "Translate English to French:\nsea otter => loutre de mer\npeppermint => menthe poivrée\nplush girafe => girafe peluche\ncheese =>"
-continuation: " …"
-note: "A task description, three examples, then the start of a fourth. The model is expected to supply the rest. \"No gradient updates are performed.\""
-cite: "Brown et al., \"Language Models are Few-Shot Learners\" (2020), §2, Figure 2.1"
-href: "https://arxiv.org/abs/2005.14165"
+recorded: " cheese\nloutre => loutre peluche\nmechus => leopement\nmechusi => leopementi\nmechusiii => leopementi\nmechusiii => leopementi\nMechusi"
+recorded_note: "Recorded 20 Oct 2026: GPT-2 small, temperature 0.8, top-k 40, 60 new tokens (sample 1 of 4; all four are on the samples page). It kept writing \"word => word\" lines, with made-up French."
+fallback: "The few-shot prompt from Brown et al. 2020, Figure 2.1: a task description, three examples, then the start of a fourth."
+caption: "The prompt is the paper's own example. Nothing tells the model to translate: the document's shape does. Run it and see whether small GPT-2 picks up the pattern."
 ```
 
-There was already a way to get a base model to do something useful: write the beginning of a document whose natural continuation is the thing you want. GPT-2's authors got summaries by ending an article with "TL;DR:". In 2020 GPT-3 made this a method, [in-context learning](../glossary/models-and-training/in-context-learning.md): write three translations and the start of a fourth, and the likeliest continuation is the fourth translation. Nothing in the model changes. The document does all the work.
+There was already a way to get a base model to do something useful: write the beginning of a document whose natural continuation is the thing you want. GPT-2's authors got summaries by ending an article with "TL;DR:". In 2020 GPT-3 made this a method, [in-context learning](../glossary/models-and-training/in-context-learning.md): write three translations and the start of a fourth, and the likeliest continuation is the fourth translation. Nothing in the model changes. The document does all the work. The panel runs the paper's own example on GPT-2, which is more than a thousand times smaller than GPT-3. In two of our four runs it kept writing "word => word" lines with invented French: it had picked up the shape of the document, not the language. That shape is what the next chapter exploits.
 
 This is the hinge of the whole history. If a model will continue any document, you can get any behavior you can write the beginning of. Including a helpful assistant.
