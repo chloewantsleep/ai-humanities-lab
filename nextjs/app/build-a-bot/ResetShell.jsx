@@ -37,7 +37,7 @@ export default function ResetShell({ children, plain, header, footer }) {
       {header}
       <div className="reset-bar">
         <div className="reset-bar-text">
-          <Link href="/workshop">← Today</Link>
+          <Link href="/">← Today</Link>
           <strong>Activity D: build your own bot.</strong>
           <span>It starts as the Poetry Gem. Try it, then press Reset to strip it down to the data, and redesign it yourself.</span>
         </div>

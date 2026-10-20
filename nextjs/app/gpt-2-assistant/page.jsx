@@ -10,16 +10,16 @@ import "./gpt-2-assistant.css";
 export const metadata = { title: "GPT-2, then GPT-2 with a script", description: "Activity B: the raw base model, then the same model with the HHH prompt's conversations in front of your question." };
 export const dynamic = "force-dynamic";
 
-// Activity B on /workshop. The same two panels as the timeline's chapters 4 and 5, on one page.
+// Activity B on the Today page (/). The same two panels as the timeline's chapters 4 and 5, on one page.
 export default async function Page() {
   const cwd = process.cwd();
   const preambleFile = await readFile(path.join(cwd, "app", "by-hand", "hhh-prompt.txt"), "utf8");
   const recorded = await readFile(path.join(cwd, "content", "story", "samples", "hhh-gpt2.json"), "utf8").then(JSON.parse).catch(() => []);
   return (
     <>
-      <SiteHeader current="workshop" />
+      <SiteHeader current="gpt-2-assistant" />
       <main id="main" className="activity">
-        <Link className="today-link" href="/workshop">← Today</Link>
+        <Link className="today-link" href="/">← Today</Link>
         <p className="eyebrow">Activity B · 2019 and 2021</p>
         <h1>GPT-2, then GPT-2 with a script</h1>
         <p className="activity-deck">One small base model, two ways. First on its own: it continues whatever you type. Then with a page of invented conversations between a &ldquo;Human&rdquo; and an &ldquo;Assistant&rdquo; in front of your question, the move Anthropic&rsquo;s researchers made in 2021. Same weights, different document.</p>
@@ -62,7 +62,7 @@ export default async function Page() {
           </figure>
         </section>
 
-        <p className="activity-next">Next: <Link href="/poetry-gem">Activity C, the Poetry Gem →</Link> · For the whole story, see the <Link href="/#the-spiral">timeline</Link>.</p>
+        <p className="activity-next">Next: <Link href="/poetry-gem">Activity C, the Poetry Gem →</Link> · For the whole story, see the <Link href="/timeline#the-spiral">timeline</Link>.</p>
       </main>
       <SiteFooter />
     </>

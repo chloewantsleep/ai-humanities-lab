@@ -13,10 +13,10 @@ export default async function ExperimentPage({ name, children }) {
 
   return (
     <>
-      <SiteHeader current="experiments" />
+      <SiteHeader current={name} />
       <main id="main" className="experiment-shell">
         <header className="experiment-heading">
-          <Link className="today-link" href="/workshop">← Today's path</Link>
+          <Link className="today-link" href="/">← Today</Link>
           <p className="eyebrow">Experiment · <span className={`status status-${experiment.status}`}>{experiment.status}</span></p>
           <h1>{experiment.title}</h1>
           {experiment.description && <p className="lede">{experiment.description}</p>}

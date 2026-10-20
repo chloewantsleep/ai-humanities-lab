@@ -40,7 +40,7 @@ export default async function StoryPage() {
               ))}
             </ol>
           </nav>
-          <p className="story-how">Talk to ELIZA, run GPT-2 with and without the first assistant script, and see what a 2023 bot is made of. Today's activities are on <Link href="/workshop">Today</Link>. <Link href="/bot-materials">Bot materials</Link> · <Link href="/glossary">Glossary</Link> · <Link href="/print/story">Print</Link></p>
+          <p className="story-how">Talk to ELIZA, run GPT-2 with and without the first assistant script, and see what a 2023 bot is made of. Today's activities are on <Link href="/">Today</Link>. <Link href="/bot-materials">Bot materials</Link> · <Link href="/glossary">Glossary</Link> · <Link href="/print/story">Print</Link></p>
         </header>
         <TimelineZoom />
         {steps.length === 0 ? <p className="empty-state">No chapters yet: add Markdown files to <code>nextjs/content/story/</code>.</p> : (

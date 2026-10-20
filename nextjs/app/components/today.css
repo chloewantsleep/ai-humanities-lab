@@ -1,0 +1,24 @@
+/* The home page / Today (TodayPage.jsx) */
+.today { max-width: 980px; padding: 48px var(--gutter) 80px; }
+.today h1 { margin: 14px 0 0; font-size: clamp(48px, 7vw, 88px); font-weight: 800; letter-spacing: -.055em; line-height: .95; }
+.today-steps { margin: 44px 0 0; padding: 0; list-style: none; counter-reset: step; }
+.today-steps > li { counter-increment: step; position: relative; padding: 30px 0 30px 64px; border-top: 1px solid var(--line); }
+.today-steps > li::before { content: counter(step); position: absolute; left: 0; top: 30px; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font-size: 19px; font-weight: 800; }
+.today-steps h2 { margin: 2px 0 10px; font-size: clamp(26px, 3vw, 34px); font-weight: 800; letter-spacing: -.04em; line-height: 1.1; }
+.today-steps p { margin: 0; max-width: 760px; font-size: 19px; line-height: 1.6; }
+.today-steps p a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.today-activities { display: grid; gap: 12px; margin: 16px 0 0; padding: 0; list-style: none; }
+.today-card { display: grid; grid-template-columns: 52px minmax(0, 1fr) 28px; align-items: center; gap: 18px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 12px; background: var(--wash); transition: border-color .15s, background .15s; }
+.today-card:hover, .today-card:focus-visible { border-color: var(--accent); background: var(--hover); }
+.today-letter { display: grid; place-items: center; width: 52px; height: 52px; border: 2px solid var(--brass); border-radius: 10px; color: var(--brass); font-size: 26px; font-weight: 800; }
+.today-card-body { display: grid; gap: 4px; }
+.today-card-year { color: var(--muted); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.today-card strong { font-size: 24px; letter-spacing: -.03em; }
+.today-card-body > span:last-child { color: var(--muted); font-size: 17px; line-height: 1.5; }
+.today-arrow { color: var(--accent); font-size: 24px; }
+@media (max-width: 600px) {
+  .today-steps > li { padding-left: 52px; }
+  .today-card { grid-template-columns: 40px minmax(0, 1fr); padding: 16px; }
+  .today-letter { width: 40px; height: 40px; font-size: 20px; }
+  .today-arrow { display: none; }
+}

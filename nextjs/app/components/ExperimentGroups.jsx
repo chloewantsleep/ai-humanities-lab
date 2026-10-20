@@ -3,7 +3,7 @@ import Link from "next/link";
 // The experiments as cards under group headings, on the home page and at /experiments. The "Today" group always
 // starts with today's path (/workshop); the rest come from content/experiments/ (see getExperimentGroups).
 export const todayPath = {
-  href: "/workshop",
+  href: "/",
   title: "Today, October 20: build and test a chatbot",
   description: "The eleven moments of today's session, each with what to do, what to notice, and the page it uses.",
 };

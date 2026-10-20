@@ -328,7 +328,7 @@ export default function BotMaterialsPage() {
               the Ensemble uses its own default model. An instructor activates each bot before it takes part.
             </p>
             <p className={s.links}>
-              <Link href="/#build-a-bot" className={s.cta}>Back to the builder →</Link>
+              <Link href="/build-a-bot" className={s.cta}>Build your own bot →</Link>
               <Link href="/ensemble" className="inline-link">Visit the Ensemble</Link>
             </p>
           </div>

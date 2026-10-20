@@ -1,6 +1,6 @@
-import StoryPage, { generateMetadata } from "./story/page.jsx";
+import TodayPage from "./components/TodayPage.jsx";
 
-export { generateMetadata };
-export const dynamic = "force-dynamic";
+export const metadata = { title: "Today: build a bot" };
 
-export default StoryPage;
+// The home page is today's plan. The timeline is at /timeline.
+export default TodayPage;
