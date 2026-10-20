@@ -1,0 +1,55 @@
+{
+  "model": "Xenova/all-MiniLM-L6-v2",
+  "dims": 384,
+  "target": 700,
+  "texts": [
+    {
+      "id": "phaedrus",
+      "title": "Phaedrus",
+      "author": "Plato",
+      "translator": "Benjamin Jowett",
+      "source": "Project Gutenberg #1636",
+      "passages": 352
+    },
+    {
+      "id": "rur",
+      "title": "R.U.R. (Rossum's Universal Robots)",
+      "author": "Karel Čapek",
+      "translator": "Paul Selver and Nigel Playfair",
+      "source": "Project Gutenberg #59112",
+      "passages": 216
+    },
+    {
+      "id": "frankenstein",
+      "title": "Frankenstein; or, The Modern Prometheus",
+      "author": "Mary Shelley",
+      "translator": null,
+      "source": "Project Gutenberg #41445",
+      "passages": 651
+    },
+    {
+      "id": "laughter",
+      "title": "Laughter: An Essay on the Meaning of the Comic",
+      "author": "Henri Bergson",
+      "translator": "Cloudesley Brereton and Fred Rothwell",
+      "source": "Project Gutenberg #4352",
+      "passages": 362
+    },
+    {
+      "id": "dorian-gray",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "translator": null,
+      "source": "Project Gutenberg #174",
+      "passages": 716
+    },
+    {
+      "id": "intentions",
+      "title": "Intentions",
+      "author": "Oscar Wilde",
+      "translator": null,
+      "source": "Project Gutenberg #887",
+      "passages": 551
+    }
+  ]
+}

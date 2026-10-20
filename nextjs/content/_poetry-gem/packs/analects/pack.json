@@ -1,0 +1,320 @@
+{
+ "id": "analects",
+ "label": "Analects",
+ "voiceOf": "the Analects of Confucius: the Master's sayings and his exchanges with his disciples",
+ "edition": "Confucius, The Analects, translated with commentary by Annping Chin (Penguin Classics, 2014)",
+ "levels": {
+  "assigned": {
+   "label": "Books 1–4, sayings",
+   "blurb": "The first four books, the sayings alone (the Analects was recommended in full)."
+  },
+  "more": {
+   "label": "All 20 books, sayings",
+   "blurb": "Every saying, with no commentary."
+  },
+  "whole": {
+   "label": "Penguin text, with commentary",
+   "blurb": "Chin's preface, introduction, commentary after each saying, notes: the editor's voice outweighs the Master's."
+  }
+ },
+ "sections": [
+  {
+   "file": "01-chin-s-preface-and-introduction.md",
+   "title": "Chin's preface and introduction",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "02-book-one-the-sayings.md",
+   "title": "Book One: the sayings",
+   "levels": [
+    "assigned",
+    "more"
+   ]
+  },
+  {
+   "file": "03-book-one-with-chin-s-commentary.md",
+   "title": "Book One, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "04-book-two-the-sayings.md",
+   "title": "Book Two: the sayings",
+   "levels": [
+    "assigned",
+    "more"
+   ]
+  },
+  {
+   "file": "05-book-two-with-chin-s-commentary.md",
+   "title": "Book Two, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "06-book-three-the-sayings.md",
+   "title": "Book Three: the sayings",
+   "levels": [
+    "assigned",
+    "more"
+   ]
+  },
+  {
+   "file": "07-book-three-with-chin-s-commentary.md",
+   "title": "Book Three, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "08-book-four-the-sayings.md",
+   "title": "Book Four: the sayings",
+   "levels": [
+    "assigned",
+    "more"
+   ]
+  },
+  {
+   "file": "09-book-four-with-chin-s-commentary.md",
+   "title": "Book Four, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "10-book-five-the-sayings.md",
+   "title": "Book Five: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "11-book-five-with-chin-s-commentary.md",
+   "title": "Book Five, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "12-book-six-the-sayings.md",
+   "title": "Book Six: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "13-book-six-with-chin-s-commentary.md",
+   "title": "Book Six, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "14-book-seven-the-sayings.md",
+   "title": "Book Seven: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "15-book-seven-with-chin-s-commentary.md",
+   "title": "Book Seven, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "16-book-eight-the-sayings.md",
+   "title": "Book Eight: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "17-book-eight-with-chin-s-commentary.md",
+   "title": "Book Eight, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "18-book-nine-the-sayings.md",
+   "title": "Book Nine: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "19-book-nine-with-chin-s-commentary.md",
+   "title": "Book Nine, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "20-book-ten-the-sayings.md",
+   "title": "Book Ten: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "21-book-ten-with-chin-s-commentary.md",
+   "title": "Book Ten, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "22-book-eleven-the-sayings.md",
+   "title": "Book Eleven: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "23-book-eleven-with-chin-s-commentary.md",
+   "title": "Book Eleven, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "24-book-twelve-the-sayings.md",
+   "title": "Book Twelve: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "25-book-twelve-with-chin-s-commentary.md",
+   "title": "Book Twelve, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "26-book-thirteen-the-sayings.md",
+   "title": "Book Thirteen: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "27-book-thirteen-with-chin-s-commentary.md",
+   "title": "Book Thirteen, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "28-book-fourteen-the-sayings.md",
+   "title": "Book Fourteen: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "29-book-fourteen-with-chin-s-commentary.md",
+   "title": "Book Fourteen, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "30-book-fifteen-the-sayings.md",
+   "title": "Book Fifteen: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "31-book-fifteen-with-chin-s-commentary.md",
+   "title": "Book Fifteen, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "32-book-sixteen-the-sayings.md",
+   "title": "Book Sixteen: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "33-book-sixteen-with-chin-s-commentary.md",
+   "title": "Book Sixteen, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "34-book-seventeen-the-sayings.md",
+   "title": "Book Seventeen: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "35-book-seventeen-with-chin-s-commentary.md",
+   "title": "Book Seventeen, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "36-book-eighteen-the-sayings.md",
+   "title": "Book Eighteen: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "37-book-eighteen-with-chin-s-commentary.md",
+   "title": "Book Eighteen, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "38-book-nineteen-the-sayings.md",
+   "title": "Book Nineteen: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "39-book-nineteen-with-chin-s-commentary.md",
+   "title": "Book Nineteen, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "40-book-twenty-the-sayings.md",
+   "title": "Book Twenty: the sayings",
+   "levels": [
+    "more"
+   ]
+  },
+  {
+   "file": "41-book-twenty-with-chin-s-commentary.md",
+   "title": "Book Twenty, with Chin's commentary",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "42-appendix-notes-and-bibliography.md",
+   "title": "Appendix, notes and bibliography",
+   "levels": [
+    "whole"
+   ]
+  }
+ ]
+}

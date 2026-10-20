@@ -1,0 +1,50 @@
+.mk-lab { font-size: 14px; line-height: 1.6; }
+.mk-lab h4 { margin: 0 0 10px; font-size: 15px; }
+.mk-lab h4 .mk-muted { font-weight: 400; font-size: 12px; margin-left: 6px; }
+.mk-muted { color: var(--muted); font-size: 13px; }
+.mk-error { color: var(--error); }
+.mk-panel { padding: clamp(16px, 2.5vw, 24px); border: 1px solid var(--line); border-radius: 12px; background: var(--wash); min-width: 0; margin-bottom: 20px; }
+.mk-controls { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 24px; }
+.mk-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.mk-grid .mk-panel { margin-bottom: 0; }
+@media (max-width: 800px) { .mk-controls, .mk-grid { grid-template-columns: 1fr; } }
+.mk-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.mk-chips label { display: inline-flex; gap: 6px; align-items: center; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; font-size: 13px; }
+.mk-chips label.on { border-color: var(--accent); }
+.mk-lab input[type="checkbox"], .mk-lab input[type="radio"], .mk-lab input[type="range"] { accent-color: var(--accent); }
+.mk-own { margin: 12px 0 4px; }
+.mk-own summary { cursor: pointer; font-size: 13px; font-weight: 600; }
+.mk-own textarea { width: 100%; margin-top: 8px; padding: 10px 12px; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 6px; font: inherit; }
+.mk-row { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 8px 0; }
+.mk-row label { display: inline-flex; gap: 6px; align-items: center; }
+.mk-slider { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin: 10px 0; }
+.mk-speed { font-size: 13px; color: var(--muted); }
+.mk-lab button { padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; color: var(--ink); background: var(--paper); font: inherit; font-size: 13px; cursor: pointer; }
+.mk-lab button:hover:enabled { border-color: var(--accent); }
+.mk-lab button:disabled { opacity: .5; cursor: default; }
+.mk-lab button.mk-primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+.mk-lab button.mk-link { padding: 0 6px; border: 0; background: none; color: var(--accent); font-size: 12px; font-weight: 400; }
+.mk-lab :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.mk-output { font-size: 17px; line-height: 1.8; max-height: 360px; overflow-y: auto; margin: 0; }
+.mk-char { white-space: pre-wrap; font-family: var(--code-font, ui-monospace, monospace); font-size: 15px; }
+.mk-tok { cursor: pointer; border-radius: 3px; }
+.mk-tok:hover { outline: 1px solid var(--accent); }
+.mk-tok.seed { color: var(--muted); font-style: italic; }
+.mk-tok.copied { background: color-mix(in srgb, var(--accent) 22%, transparent); }
+.mk-tok.copied.long { background: color-mix(in srgb, var(--accent) 45%, transparent); }
+.mk-tok.sel { outline: 2px solid var(--accent); }
+.mk-tok.restart::before { content: "‖ "; color: var(--accent); }
+.mk-legend { margin: 12px 0 0; }
+.mk-legend .mk-tok { padding: 0 4px; cursor: default; }
+.mk-state { padding: 2px 6px; border-radius: 4px; background: var(--paper); color: var(--ink); }
+.mk-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.mk-table td { padding: 3px 6px; border-bottom: 1px solid var(--line); }
+.mk-table tr.picked td { color: var(--accent); font-weight: 700; }
+.mk-next { white-space: pre; max-width: 14em; overflow: hidden; text-overflow: ellipsis; }
+.mk-count { text-align: right; font-variant-numeric: tabular-nums; width: 3.5em; }
+.mk-bar { width: 45%; }
+.mk-bar span { display: block; height: 8px; border-radius: 4px; background: var(--muted); opacity: .5; }
+.mk-table tr.picked .mk-bar span { background: var(--accent); opacity: 1; }
+.mk-note { color: var(--accent); font-size: 13px; }
+.mk-source { margin: 0; padding: 12px 14px; border-left: 3px solid var(--accent); background: var(--paper); font-size: 14px; max-height: 280px; overflow-y: auto; }
+.mk-source mark { background: color-mix(in srgb, var(--accent) 40%, transparent); color: var(--ink); }

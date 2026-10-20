@@ -1,0 +1,33 @@
+/* The atelier's paper stays local; the timeline keeps its original palette. */
+.theme {
+  color-scheme: light;
+  --bg: #f3ecdd;
+  --paper: #efe6d2;
+  --panel: #fbf7ee;
+  --ink: #231f1d;
+  --muted: #6e6458;
+  --line: #ddd1bb;
+  --accent: #b63842;
+  --accent-ink: #fff;
+  --accent-soft: #f6dcd2;
+  --estimate: #efb9a8;
+  --code-bg: #efe7d6;
+  --cobalt: #3a59a8;
+  --font-sans: "Inter Variable", Inter, system-ui, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-display: "Inter Variable", Inter, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 15.5px;
+  line-height: 1.5;
+  min-width: 0;
+}
+.theme h1, .theme h2, .theme h3 { letter-spacing: -.035em; line-height: 1.15; }
+:where(.theme) :where(button, input, textarea, select) { font: inherit; color: inherit; }
+.theme button:focus-visible, .theme input:focus-visible,
+.theme textarea:focus-visible, .theme select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.theme ::selection { background: var(--accent); color: white; }

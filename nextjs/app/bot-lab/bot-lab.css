@@ -1,0 +1,38 @@
+.bot-lab { display: grid; gap: 16px; }
+.bot-lab-bar { display: flex; flex-wrap: wrap; gap: 16px; align-items: end; }
+.bot-lab-pick { flex: 1 1 260px; }
+.bot-lab-model { flex: 2 1 360px; }
+.bot-lab-other { flex: 1 1 260px; }
+.bot-lab-modelnote { margin: -4px 0 0; font-size: 14px; line-height: 1.5; }
+.bot-lab .muted { color: var(--muted); }
+.bot-lab-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 960px) { .bot-lab-columns { grid-template-columns: minmax(0, 1fr); } }
+.bot-lab-editor { display: grid; gap: 12px; }
+.bot-lab-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.bot-lab-wide { grid-column: 1 / -1; }
+.bot-lab-field { display: grid; gap: 6px; font-size: 14px; }
+.bot-lab-field > span { color: var(--muted); font-weight: 600; }
+.bot-lab-field small { font-weight: 400; }
+.bot-lab-field input, .bot-lab-field select, .bot-lab-field textarea { width: 100%; min-width: 0; padding: 10px 12px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; color: var(--ink); font: inherit; font-size: 15px; }
+.bot-lab-field textarea { resize: vertical; line-height: 1.55; min-height: 220px; }
+.bot-lab-field select { cursor: pointer; }
+.bot-lab :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.bot-lab-counts { margin: 0; font-size: 13px; }
+.bot-lab-problems { margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.5; }
+.bot-lab-error { color: var(--error); }
+.bot-lab-note { margin: 0; font-size: 14px; line-height: 1.5; }
+.bot-lab-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.bot-lab button { background: var(--accent); color: var(--accent-ink); padding: 10px 16px; border: 0; border-radius: 6px; font: inherit; font-size: 14px; cursor: pointer; }
+.bot-lab button.secondary { background: var(--wash); color: var(--ink); border: 1px solid var(--line); }
+.bot-lab button.small { padding: 6px 10px; font-size: 13px; }
+.bot-lab button:disabled { opacity: .5; cursor: default; }
+.bot-lab-chat { display: grid; gap: 8px; position: sticky; top: 16px; }
+.bot-lab-chathead { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.bot-lab-speaker { margin: 0; font-weight: 700; font-size: 14px; color: var(--accent); overflow-wrap: anywhere; }
+.bot-lab-chat .chat-viewport { height: 460px; }
+.bot-lab-chat .chat-inspector { margin-bottom: 0; }
+.bot-lab-reveal { display: grid; gap: 10px; padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--wash); }
+.bot-lab-reveal h2 { margin: 0; font-size: 18px; }
+.bot-lab-reveal p { margin: 0; font-size: 14px; line-height: 1.5; }
+.bot-lab-label { font-weight: 600; }
+.bot-lab-pre { margin: 0; max-height: 420px; overflow: auto; padding: 16px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; font-size: 13px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }

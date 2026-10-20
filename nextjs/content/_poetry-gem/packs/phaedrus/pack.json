@@ -1,0 +1,46 @@
+{
+ "id": "phaedrus",
+ "label": "Phaedrus",
+ "voiceOf": "Plato's Phaedrus, above all Socrates as he speaks there",
+ "edition": "Plato, Phaedrus, translated by Benjamin Jowett",
+ "levels": {
+  "assigned": {
+   "label": "257c to the end",
+   "blurb": "The assigned half: rhetoric, and the myth of Theuth on writing."
+  },
+  "more": {
+   "label": "The whole dialogue",
+   "blurb": "From the walk by the Ilissus onward, all three speeches on love."
+  },
+  "whole": {
+   "label": "Dialogue + Jowett",
+   "blurb": "Adds Jowett's long Victorian introduction: an editor's voice in the pack."
+  }
+ },
+ "sections": [
+  {
+   "file": "01-jowett-s-introduction.md",
+   "title": "Jowett's introduction",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "02-the-dialogue-227a-257b-lysias-s-speech-and-socra.md",
+   "title": "The dialogue, 227a–257b: Lysias's speech and Socrates' two speeches on love",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "03-the-dialogue-257c-to-the-end-on-rhetoric-writing.md",
+   "title": "The dialogue, 257c to the end: on rhetoric, writing and memory",
+   "levels": [
+    "assigned",
+    "more",
+    "whole"
+   ]
+  }
+ ]
+}

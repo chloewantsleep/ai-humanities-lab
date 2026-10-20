@@ -1,0 +1,43 @@
+## Book Sixteen: the sayings
+
+**16.1** The Jisun family was about to send an army to attack Zhuanyu. Ran Qiu and Zilu came to see Master Kong [Confucius], and they told him, “The Jisun family is going to take action against Zhuanyu.”
+
+Confucius said, “Qiu, [should this happen,] is it not your fault? A former king in the past gave the rulers of Zhuanyu the responsibility of sacrificing to Mount Dongmeng. Moreover, Zhuanyu lies within the boundaries of the territory that was enfeoffed to Lu, and her ruler is a subject of our altars of soil and grain. So what reason could there be to attack Zhuanyu?”
+
+Ran Qiu replied, “This is what our lord wished, not what the two of us wanted.”
+
+Confucius said, “Qiu, [the historian] Zhou Ren said: ‘Assess your ability and see if you are able to take on the responsibilities of your position. If you are not able, then you should resign. What use would an assistant be [to a blind person] if he did not give him support when the man tottered and did not hold him up when he fell?’ Besides, what you’ve said is wrong. Whose fault is it when the tiger or the rhinoceros escapes from his cage, when the tortoise shell or the jade is smashed in its coffer?”
+
+Ran Qiu said, “But Zhuanyu is well fortified, and it is situated near the Jisun family’s stronghold, Bi. If the Jisuns do not take Zhuanyu now, then it will be a source of worries for their descendants later on.”
+
+Confucius said, “The gentleman despises those who do not come out and say what they want but instead find some other way to make the same pitch. I have heard that the head of a state and the head of a hereditary family should not worry about poverty but should worry about inequity in the distribution of wealth. They should not worry about a lack of population but should worry about discontentment and unrest. When there is equity in the distribution of wealth, there will not be poverty. When there is concordance [in a society], there will not be a lack of population. When people are content, there will not be any threat of [the state or the family] being toppled. This being the case, when people from a distance are unwilling to yield to your influence and rule, improve your ways and cultivate your virtue in order to attract them. Once they are attracted to you, see to it that they are content. Now the two of you are meant to be assistants to your lord. Yet when people from a distance are unwilling to yield to his influence and rule, you are unable to help him attract them, and when the state is falling apart and is on the verge of collapse, you are unable to help him ensure its survival. Instead, you work with him on getting his men armed [and ready to attack those who live] within the state. I fear that the worries of the Jisun family do not lie in Zhuanyu but lie within the walls of their own home.”
+
+**16.2** Confucius said, “When the moral way prevails in the world, it is the Son of Heaven who orchestrates rites and music, and punitive expeditions. When the moral way does not prevail in the world, it is the regional rulers who orchestrate rites and music, and punitive expeditions. When the regional rulers are in charge, it is unlikely for them to hold on to their authority for more than ten generations. When the hereditary counselors are in charge, it is unlikely for them to hold on to their authority for more than five generations. When the family retainers are in charge, it is unlikely for them to hold on to their authority for more than three generations. When the moral way prevails in the world, affairs of government do not rest with the hereditary counselors. When the moral way prevails in the world, the common people do not find themselves joining in the discussion and the planning [of their government’s policies].”
+
+**16.3** Confucius said, “It has been five generations since the ducal house lost the authority to determine ranks and salaries at court. It has been four generations since the [Lu] government has been under the control of the hereditary counselors. This is the reason why the descendents of the Three Families are on the decline.”
+
+**16.4** Confucius said, “There are three types of friendship that can benefit you and three types of friendship that can harm you. It would be to your benefit to be friends with those who are upright, those whom you can trust, and those of broad learning. It would do you harm to be friends with those with practiced manners, an affected sweetness, a glib tongue.”
+
+**16.5** Confucius said, “There are three kinds of pleasure that can benefit you and three kinds of pleasure that can harm you. The pleasure of hitting the right measure in your practice of rites and music, of celebrating the goodness of others, of having many worthy friends—all this will benefit you. The pleasure of being self-important, of being a slacker and a loafer, of drinking and feasting to excess—all this will do you harm.”
+
+**16.6** Confucius said, “There are three kinds of mistake a person is likely to commit when attending a gentleman. To speak when it is not one’s turn to speak is being impetuous. Not to speak when it is one’s turn to speak is being evasive. To speak without taking notice of the other person’s expression is being blind.”
+
+**16.7** Confucius said, “The gentleman guards himself against three things. When he is young and his blood-and-vital force is still unsettled, he guards himself against sensuous temptations. When he is in his prime and his blood-and-vital force is vigorous and unyielding, he guards himself against being combative. After his blood-and-vital force has declined, he guards himself from being grasping.”
+
+**16.8** Confucius said, “The gentleman stands in awe of three things. He is in awe of Heaven’s mandate, of great men, and of the words of sages. The petty man is unaware of the presence of Heaven’s mandate; he belittles great men; and he regards the words of sages with mockery.”
+
+**16.9** Confucius said, “Those who are born with knowledge are at the top. Next are those who acquire knowledge through learning. Behind them are those who have difficulties [absorbing knowledge] but are still determined to learn. And at the bottom are people who have difficulties [absorbing knowledge] and do not even attempt to learn.”
+
+**16.10** Confucius said, “There are nine things the gentleman gives thought to: he aims to be clear in vision, keen in hearing, amicable in his expression, courteous in his manners, conscientious in carrying out his words, and respectful in attending to his responsibilities; and when he is in doubt, he asks questions; when he is angry, he reflects on the unwanted consequences this could cause; when he sees a chance for gain, he asks whether it is right.”
+
+**16.11** Confucius said, “‘Seeing goodness, he acts as if [it is running ahead of him and] he is not able to catch up. Seeing what is not good, he acts as if he is recoiling from the touch of hot water.’ I have known people like this, and I have heard such an expression. ‘He lives in reclusion in order to pursue his purpose. He practices what is right in order to attain the moral way.’ I have heard such an expression but have not yet known someone like this.”
+
+**16.12** Duke Jing of Qi had four thousand horses. On the day he died, people could not find anything praiseworthy to say about him. Bo Yi and Shu Qi died of hunger at the foot of Mount Shouyang. Up to this day people still sing praise of them. This is what it means.
+
+**16.13** Chen Kang [Ziqin] asked [Confucius’ son,] Boyu, “Have you been taught anything special?”
+
+Boyu responded, “I have not. One day my father was standing there by himself, and as I crossed the courtyard with quickened steps, he said, ‘Have you learned the *Odes*?’ I answered, ‘Not yet.’ He said, ‘Unless you learn the *Odes*, you won’t be able to speak.’ I then went back and learned the *Odes*. Another day, he was again standing there by himself, and as I crossed the courtyard with quickened steps, he said, ‘Have you learned the rites?’ I answered, ‘Not yet.’ He said, ‘Unless you learn the rites, you won’t be able to find your balance.’ I then went back and learned the rites. I have been taught these two things.”
+
+Delighted by what he heard, Chen Kang said, “I asked one question and learned three things. I learned about the *Odes*; I learned about the rites; and I learned that the gentleman maintains some distance from his son.”
+
+**16.14** The ruler of a state refers to his wife as “lady,” and she refers to herself as “little child.” The people of the state refer to her as “the lady of the lord,” but when they are abroad, they refer to her as “our humble little lord,” while the people of other states also refer to her as “the lady of the lord.”

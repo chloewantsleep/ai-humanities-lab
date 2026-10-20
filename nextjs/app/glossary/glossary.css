@@ -1,0 +1,8 @@
+/* /glossary: the docs-site styles are in globals.css; these are the glossary's own additions. */
+.glossary-sidebar-entry { display: flex; justify-content: space-between; gap: 12px; }
+.glossary-aliases { max-width: 760px; margin: 32px 0 0; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+.glossary-aliases .eyebrow { margin-right: 8px; }
+.glossary-search { max-width: 760px; margin: 32px 0 0; }
+.glossary-search input { width: 100%; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--wash); color: var(--ink); font: inherit; font-size: 15px; }
+.glossary-search input:focus { outline: none; border-color: var(--accent); }
+.glossary-results { margin-top: 12px; }

@@ -1,0 +1,243 @@
+{
+ "id": "frankenstein",
+ "label": "Frankenstein",
+ "voiceOf": "Mary Shelley's Frankenstein (1818), above all the Creature's own narrative",
+ "edition": "Mary Shelley, Frankenstein; or, The Modern Prometheus (1818 text)",
+ "levels": {
+  "assigned": {
+   "label": "Ch. 10–15",
+   "blurb": "The assigned chapters: the Creature tells his own story."
+  },
+  "more": {
+   "label": "Letters + ch. 1–15",
+   "blurb": "The syllabus's \"recommended\": up to chapter 15."
+  },
+  "whole": {
+   "label": "The whole novel",
+   "blurb": "All 23 chapters, with Percy Shelley's preface."
+  }
+ },
+ "sections": [
+  {
+   "file": "01-preface-by-percy-bysshe-shelley.md",
+   "title": "Preface (by Percy Bysshe Shelley)",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "02-letter-i.md",
+   "title": "Letter I",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "03-letter-ii.md",
+   "title": "Letter II",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "04-letter-iii.md",
+   "title": "Letter III",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "05-letter-iv.md",
+   "title": "Letter IV",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "06-chapter-1-vol-i-ch-i.md",
+   "title": "Chapter 1 (Vol. I, ch. I)",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "07-chapter-2-vol-i-ch-ii.md",
+   "title": "Chapter 2 (Vol. I, ch. II)",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "08-chapter-3-vol-i-ch-iii.md",
+   "title": "Chapter 3 (Vol. I, ch. III)",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "09-chapter-4-vol-i-ch-iv.md",
+   "title": "Chapter 4 (Vol. I, ch. IV)",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "10-chapter-5-vol-i-ch-v.md",
+   "title": "Chapter 5 (Vol. I, ch. V)",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "11-chapter-6-vol-i-ch-vi.md",
+   "title": "Chapter 6 (Vol. I, ch. VI)",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "12-chapter-7-vol-i-ch-vii.md",
+   "title": "Chapter 7 (Vol. I, ch. VII)",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "13-chapter-8-vol-ii-ch-i.md",
+   "title": "Chapter 8 (Vol. II, ch. I)",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "14-chapter-9-vol-ii-ch-ii.md",
+   "title": "Chapter 9 (Vol. II, ch. II)",
+   "levels": [
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "15-chapter-10-vol-ii-ch-iii.md",
+   "title": "Chapter 10 (Vol. II, ch. III)",
+   "levels": [
+    "assigned",
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "16-chapter-11-vol-ii-ch-iv.md",
+   "title": "Chapter 11 (Vol. II, ch. IV)",
+   "levels": [
+    "assigned",
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "17-chapter-12-vol-ii-ch-v.md",
+   "title": "Chapter 12 (Vol. II, ch. V)",
+   "levels": [
+    "assigned",
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "18-chapter-13-vol-ii-ch-vi.md",
+   "title": "Chapter 13 (Vol. II, ch. VI)",
+   "levels": [
+    "assigned",
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "19-chapter-14-vol-ii-ch-vii.md",
+   "title": "Chapter 14 (Vol. II, ch. VII)",
+   "levels": [
+    "assigned",
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "20-chapter-15-vol-ii-ch-viii.md",
+   "title": "Chapter 15 (Vol. II, ch. VIII)",
+   "levels": [
+    "assigned",
+    "more",
+    "whole"
+   ]
+  },
+  {
+   "file": "21-chapter-16-vol-ii-ch-ix.md",
+   "title": "Chapter 16 (Vol. II, ch. IX)",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "22-chapter-17-vol-iii-ch-i.md",
+   "title": "Chapter 17 (Vol. III, ch. I)",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "23-chapter-18-vol-iii-ch-ii.md",
+   "title": "Chapter 18 (Vol. III, ch. II)",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "24-chapter-19-vol-iii-ch-iii.md",
+   "title": "Chapter 19 (Vol. III, ch. III)",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "25-chapter-20-vol-iii-ch-iv.md",
+   "title": "Chapter 20 (Vol. III, ch. IV)",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "26-chapter-21-vol-iii-ch-v.md",
+   "title": "Chapter 21 (Vol. III, ch. V)",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "27-chapter-22-vol-iii-ch-vi.md",
+   "title": "Chapter 22 (Vol. III, ch. VI)",
+   "levels": [
+    "whole"
+   ]
+  },
+  {
+   "file": "28-chapter-23-vol-iii-ch-vii.md",
+   "title": "Chapter 23 (Vol. III, ch. VII)",
+   "levels": [
+    "whole"
+   ]
+  }
+ ]
+}

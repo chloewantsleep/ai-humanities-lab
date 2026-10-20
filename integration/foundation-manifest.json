@@ -1,0 +1,3452 @@
+{
+  "source": "/Users/madeleinewoods/Development/mk-chatbot-experiments",
+  "commit": "55c9ae2fa911bf94770d0d7d5d37312819bbeed1",
+  "scope": "All tracked working-tree files; excludes Git metadata, secrets, dependencies, caches, and ignored local artifacts. Source working tree was clean.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "2b31e4c49c591e32d13f2f2a8f3208e8febfe8cc1dd1c769cebaf20ae5ce42d7",
+      "bytes": 753
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "da6296d54f350cabd3ae2714faa2a303ee672a3c551bd306748735488869155e",
+      "bytes": 1763
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "bytes": 11
+    },
+    {
+      "path": "README.md",
+      "sha256": "02c38ff7950de2991570b4964ffc043fafb7adb41d1e99f9daaf2945a15c5af0",
+      "bytes": 2172
+    },
+    {
+      "path": "_context/chat-interfaces/assistant-ui.md",
+      "sha256": "bfdebd7c895f2800b3789b91be97ffd334de50577ee0dffba28fb0d6af26d4b9",
+      "bytes": 4162
+    },
+    {
+      "path": "_context/chat-interfaces/vercel-ai-chatbot.md",
+      "sha256": "dcd2365f58f656397d0a9137de58496aaff5dc459c085aa3d0afb9343cdd496d",
+      "bytes": 9044
+    },
+    {
+      "path": "_context/course-readings-summary.md",
+      "sha256": "0fbbc72d1f119f821b85f7a5f85a271f24bf38be16e5e6c13561b385a78146cc",
+      "bytes": 16252
+    },
+    {
+      "path": "_context/deploy/proxy.test.mjs",
+      "sha256": "03e1308083a43f4feb54002462ae71103e22275f8fca5e09084f2cc3ae0f5153",
+      "bytes": 3554
+    },
+    {
+      "path": "_context/deploy/vercel.md",
+      "sha256": "997e4230fdbb209bd2a9b72faa1f584422a5e9085cec2dd385eda78f7dd5cbf9",
+      "bytes": 16550
+    },
+    {
+      "path": "_context/orchestration/ORCHESTRATOR.md",
+      "sha256": "215d2b77e54e470ee381a6f2ebe0d71fc38692560e70e66de5a8124ca5c20d78",
+      "bytes": 7843
+    },
+    {
+      "path": "_context/orchestration/README.md",
+      "sha256": "70c8e0985439b77eaa6f0c75e4f5a34da7131f70c86dd15093a183be6095c637",
+      "bytes": 19570
+    },
+    {
+      "path": "_context/orchestration/prompts/20261020-0830-batch.md",
+      "sha256": "eff26d112630827ec5ad47d54b08ae313e403c5e3292eba732264898612d03d0",
+      "bytes": 7124
+    },
+    {
+      "path": "_context/orchestration/reports/A-engine.md",
+      "sha256": "71bcc49dc3d52ea21d8aa9198dc30818c4dd7303293283673fcac51202cc99b1",
+      "bytes": 8560
+    },
+    {
+      "path": "_context/orchestration/reports/AA-bot-lab.md",
+      "sha256": "9d6d1e86c45161b34bf4654f78f9ed7169fb07429538f8c1db7f73966bf9420c",
+      "bytes": 8356
+    },
+    {
+      "path": "_context/orchestration/reports/AB-keys.md",
+      "sha256": "16d13e7e03716c9cfb2779298721e3f36f7b76bc0cd57525b52d408deb4c86d5",
+      "bytes": 4375
+    },
+    {
+      "path": "_context/orchestration/reports/AC-chat-interfaces.md",
+      "sha256": "3dcf797f5e3c8dc3064c6ab3ffb9d2ae72d141a47eef290d143fcb993cc4e9cf",
+      "bytes": 14244
+    },
+    {
+      "path": "_context/orchestration/reports/AD-site-sections.md",
+      "sha256": "6bc6d66e207cc02b77cfdacb29eeb0d5c60661bd94fcdbdfc5a07365da9dcdcc",
+      "bytes": 6951
+    },
+    {
+      "path": "_context/orchestration/reports/AE-gpt-2-rename-and-get-ready.md",
+      "sha256": "c8c45fa9a8e74cdac093aa0210b1e89cedec9ef8a68e1f59192b1c19816422d7",
+      "bytes": 12608
+    },
+    {
+      "path": "_context/orchestration/reports/AF-shared-fixes.md",
+      "sha256": "a1859d88093e1ca4bc8195017ddb99a6eed122dc3b5f65ad90b2ffc400df8b6e",
+      "bytes": 6467
+    },
+    {
+      "path": "_context/orchestration/reports/AG-vercel-and-local.md",
+      "sha256": "335a4e36e542f093a23b0fe2a19f5dfc840c66f907710f08350c71adb2f1d60e",
+      "bytes": 10556
+    },
+    {
+      "path": "_context/orchestration/reports/AH-rag.md",
+      "sha256": "629cad7aa296db3a37288479e8fbdcee77e6b68ad5f0b8d60f3e1c4eab34e956",
+      "bytes": 9485
+    },
+    {
+      "path": "_context/orchestration/reports/AI-bot-room.md",
+      "sha256": "7b4be292098e5d35f8971333294c456be0caa012c341f5aa095ec685f09395d8",
+      "bytes": 15822
+    },
+    {
+      "path": "_context/orchestration/reports/B-chat.md",
+      "sha256": "267d13c4bd151421697d37392aa96766e8ff3c1bb4a6d5c225dc97fec8a6f2e1",
+      "bytes": 10267
+    },
+    {
+      "path": "_context/orchestration/reports/C-spiral.md",
+      "sha256": "6dc69951623a07ca4d004220c2c846f4da3930828a8011efdfec87dd9fbed758",
+      "bytes": 11501
+    },
+    {
+      "path": "_context/orchestration/reports/D-by-hand.md",
+      "sha256": "2e081b1392f4469636cf7769b424a19bde4b395e57adfc33555fc57893db8791",
+      "bytes": 25872
+    },
+    {
+      "path": "_context/orchestration/reports/F-eliza.md",
+      "sha256": "0da590e6353e835d9931db5fabd1c9b9d909dd63261626cd22d3dd7289bd65e2",
+      "bytes": 11075
+    },
+    {
+      "path": "_context/orchestration/reports/G-layers.md",
+      "sha256": "e26fcaf0ad80bd8bed0893026afc62456b6de3c2152a5def8a3cffc1ef73f79c",
+      "bytes": 9211
+    },
+    {
+      "path": "_context/orchestration/reports/H-mini-claw.md",
+      "sha256": "eed4f2d2f4ea3f035b947da48babff1d0dcca8a68b3bc4d792ee869d93c7f36a",
+      "bytes": 17343
+    },
+    {
+      "path": "_context/orchestration/reports/I-fine-tune.md",
+      "sha256": "54b290d6a568103f93112c2ea12d593ef02601e8bd3f804459af3e99098df322",
+      "bytes": 10738
+    },
+    {
+      "path": "_context/orchestration/reports/J-fact-check.md",
+      "sha256": "38fca28ae695272b0bef12917b8b3d11a97421084be01354dd23924f22f601a3",
+      "bytes": 12153
+    },
+    {
+      "path": "_context/orchestration/reports/L0-L1-glossary-route-and-chatbots.md",
+      "sha256": "f46a90229003d5ce4de04e3a601a2c002f60d902b0a2befc8b271970e55337d3",
+      "bytes": 13976
+    },
+    {
+      "path": "_context/orchestration/reports/L2-models-and-training.md",
+      "sha256": "eac1c003399ecff850cd4a4eb1fba3051ad9a767da7fb6d3bd7fef9ad527a421",
+      "bytes": 11650
+    },
+    {
+      "path": "_context/orchestration/reports/L3-persona-and-dialogue.md",
+      "sha256": "2f3d98256294a3aedc64a1cccd75cb64d9074feab00d11ec3daf5488d39bbfd4",
+      "bytes": 7273
+    },
+    {
+      "path": "_context/orchestration/reports/L4-interfaces-and-agents.md",
+      "sha256": "d56302e92c3047726cc09e971a7ef7d37a7161610e50cb2c008ca79bf663d18f",
+      "bytes": 7907
+    },
+    {
+      "path": "_context/orchestration/reports/L5-people-and-texts.md",
+      "sha256": "922f3bc049af47f68bfb0f9fd298905b84b0935023893d6f0d30a6ea5cd69ccf",
+      "bytes": 10578
+    },
+    {
+      "path": "_context/orchestration/reports/M-story.md",
+      "sha256": "e4d0336e35e8e70d8dff79a2ab78da64b4ab9871a0e07c4a887f2729c7f6b220",
+      "bytes": 15693
+    },
+    {
+      "path": "_context/orchestration/reports/O-slack-ensemble.md",
+      "sha256": "8e4195a294d76af2034cdf8c122ba613943a8a6f8370f4fff2c67aac6368f7f2",
+      "bytes": 10239
+    },
+    {
+      "path": "_context/orchestration/reports/R-cleanup.md",
+      "sha256": "b18b44186c61987e5018d9c140212d861f1fc4172200b908a413c99111778d27",
+      "bytes": 4573
+    },
+    {
+      "path": "_context/orchestration/reports/README.md",
+      "sha256": "40524a74f0009110b134fb2b2e3c193badd6f386d33d00c4c2ec3efd27411241",
+      "bytes": 3196
+    },
+    {
+      "path": "_context/orchestration/reports/S-markov.md",
+      "sha256": "512e58280f5a5d4fb1584a0ce99b3b5db1e3b139d31e5460be8b5935c08271ce",
+      "bytes": 3168
+    },
+    {
+      "path": "_context/orchestration/reports/T-retrieval.md",
+      "sha256": "9251277c018940382389cab7bf1f643a093e60f80d78eee7f69675e6a90e47ed",
+      "bytes": 16138
+    },
+    {
+      "path": "_context/orchestration/reports/U-desktop-handout.md",
+      "sha256": "a516a2f0fb94393d1943c16967fdf1ebccd7752723e6e06b44e2f42cec316114",
+      "bytes": 12141
+    },
+    {
+      "path": "_context/orchestration/reports/V-session-path-and-qa.md",
+      "sha256": "fd9209818baeab94f5580734ab56cc84a2bd9cf562316ecd6bbb5ea50a9846be",
+      "bytes": 23308
+    },
+    {
+      "path": "_context/orchestration/reports/W-rosie-roomba.md",
+      "sha256": "d34523abe6a8c33837012df2447e2204e593c619c9be235fbf6ed2f768f98933",
+      "bytes": 6041
+    },
+    {
+      "path": "_context/orchestration/reports/X-reading-rooms.md",
+      "sha256": "907b3484dced430d1a436703cfc519905265b08fbd257c7abb36fe8a519bb62c",
+      "bytes": 13121
+    },
+    {
+      "path": "_context/orchestration/reports/Y-knowledge-voice.md",
+      "sha256": "cfa6f505a1a468b7d30434d157f662926a6e67ec07244c429d05123ad4f18671",
+      "bytes": 9689
+    },
+    {
+      "path": "_context/orchestration/reports/Z-tics.md",
+      "sha256": "33c1a373bd4839d2133d988133bca8171cacc72f5603596aa4495ef126afd225",
+      "bytes": 5771
+    },
+    {
+      "path": "_context/orchestration/reports/screenshots-history.md",
+      "sha256": "abe0dfb880bc3a50f1c585c82129325c1c45542c1d81a6f267e60b319a1025e1",
+      "bytes": 18669
+    },
+    {
+      "path": "_context/orchestration/reviews/20261020-layout-arc.md",
+      "sha256": "10c74c843162c1ddf12d12c3c43b644bd393b72ae60f23dec72323158872d70a",
+      "bytes": 12230
+    },
+    {
+      "path": "_context/orchestration/reviews/20261020-layout-repo-map.md",
+      "sha256": "e9c4074627efbe591313cb5e724c48dddc755faeb28363494f90b77188add020",
+      "bytes": 14815
+    },
+    {
+      "path": "_context/orchestration/reviews/20261020-layout-visual.md",
+      "sha256": "f02d81392c6933a45bbce5be8f450090fc3d263f3963fc90dd6dc97cde7f1675",
+      "bytes": 10925
+    },
+    {
+      "path": "_context/orchestration/tasks/A-engine.md",
+      "sha256": "959598464dd74daba0efca426c7541f0b62fdfa83ccab57d335f119176cbb8c8",
+      "bytes": 1553
+    },
+    {
+      "path": "_context/orchestration/tasks/AA-bot-lab.md",
+      "sha256": "7e6e20cde56ff668283227e84b0af070bba6ea296b46b4cb3ed775c5bb220f4f",
+      "bytes": 6607
+    },
+    {
+      "path": "_context/orchestration/tasks/AB-keys.md",
+      "sha256": "706e9002f6ee40b40f2d47ee21ff1a1cb7473b497472084d8ce84e8975c6ddde",
+      "bytes": 4201
+    },
+    {
+      "path": "_context/orchestration/tasks/AC-chat-interfaces.md",
+      "sha256": "ac04ea31dcf847a70d35d0cc55bec9eaf85e413b4987211280ee4009c68f3991",
+      "bytes": 3341
+    },
+    {
+      "path": "_context/orchestration/tasks/AD-site-sections.md",
+      "sha256": "2106ac6ab4356e6c76f05efae99cf1fb71aa73363e42883789495c23913212ff",
+      "bytes": 5988
+    },
+    {
+      "path": "_context/orchestration/tasks/AE-gpt-2-rename-and-get-ready.md",
+      "sha256": "48db5bab6632ce10dec94e0918a74d609608c3da38363c2b557bcea713789513",
+      "bytes": 3122
+    },
+    {
+      "path": "_context/orchestration/tasks/AF-shared-fixes.md",
+      "sha256": "459dee9b98607f30283e6b6f9f77884775773441ac492232c1ffd826d45d1908",
+      "bytes": 2977
+    },
+    {
+      "path": "_context/orchestration/tasks/AG-vercel-and-local.md",
+      "sha256": "9d4f987ceaad27f93ca8811701c8aa170e4e39f1844bda7f019c115eab450693",
+      "bytes": 3406
+    },
+    {
+      "path": "_context/orchestration/tasks/AH-rag.md",
+      "sha256": "c888fc2ec1faaa6c1707718c8340d1c8da0cafa1e4174a34f51fe9499ed93c9b",
+      "bytes": 2868
+    },
+    {
+      "path": "_context/orchestration/tasks/AI-bot-room.md",
+      "sha256": "0209803dc5f628c15aa8c7f3f9ddbdd5d4f6fedc7689a0c8639218be2c843bfc",
+      "bytes": 2611
+    },
+    {
+      "path": "_context/orchestration/tasks/B-chat.md",
+      "sha256": "dd23683b927c177976fcf7ce54a0d8f66bd2bccb116c4c1176ad2fcfb1ab5f5b",
+      "bytes": 1551
+    },
+    {
+      "path": "_context/orchestration/tasks/C-spiral.md",
+      "sha256": "60a092196643905a538382ec502951fb9442416867649285ad191a349b6f74a4",
+      "bytes": 2337
+    },
+    {
+      "path": "_context/orchestration/tasks/D-by-hand.md",
+      "sha256": "7024e4d61bd71f3489a1b0710c4ebbb5a87a1c74c78b975830c6a11fd24087e9",
+      "bytes": 4092
+    },
+    {
+      "path": "_context/orchestration/tasks/E-persona-dial.md",
+      "sha256": "b6bc8d9a0ea00bfbe9f704363e7322f262b063aab750f136e893d8cf712a1a8d",
+      "bytes": 861
+    },
+    {
+      "path": "_context/orchestration/tasks/F-eliza.md",
+      "sha256": "64deacc70cdcecf2b8916fff38100aed579f6887539ae9fc18b08a413e24e004",
+      "bytes": 1036
+    },
+    {
+      "path": "_context/orchestration/tasks/G-layers.md",
+      "sha256": "65f3bfa61f79183483a269ac04f32e91e301f7a3b65ff844507e1af2c8ecfca1",
+      "bytes": 890
+    },
+    {
+      "path": "_context/orchestration/tasks/H-mini-claw.md",
+      "sha256": "e6bc8ccff9440b9b2ff23385983e1d1c3b61311c146134ea3ca320a591f939ad",
+      "bytes": 1095
+    },
+    {
+      "path": "_context/orchestration/tasks/I-fine-tune.md",
+      "sha256": "c94078929ac21aa5d28102fe38778bb7ece819a7418ca312d1ed800ef90c3a95",
+      "bytes": 864
+    },
+    {
+      "path": "_context/orchestration/tasks/J-fact-check.md",
+      "sha256": "8dc72022c38cb97a76b5f7a0d001ce53b72f0a17731c39c455cdfa8e627d76a5",
+      "bytes": 932
+    },
+    {
+      "path": "_context/orchestration/tasks/K-screenshots.md",
+      "sha256": "9a96d929675cb10adb6d84cb845da39d06e6bd917e875f0c4948ffcd947a9310",
+      "bytes": 1466
+    },
+    {
+      "path": "_context/orchestration/tasks/L-glossary.md",
+      "sha256": "cfeb2d6e542d3fa2572b6dae05e3ba356530256683eeb32daaf5eff5dac33a2d",
+      "bytes": 3445
+    },
+    {
+      "path": "_context/orchestration/tasks/L0-glossary-route.md",
+      "sha256": "33545da3ae998b3f215d349743bc1b16ceed09ff95ce62b30e62e570b13bb194",
+      "bytes": 1245
+    },
+    {
+      "path": "_context/orchestration/tasks/L1-chatbots.md",
+      "sha256": "0b799c93adc04db197e7e2ef3e1144d29d9e3f69f496851239008f872eb93f41",
+      "bytes": 1976
+    },
+    {
+      "path": "_context/orchestration/tasks/L2-models-and-training.md",
+      "sha256": "4654e2b9e22428786c8264de4cc1cf6368f56e30305a109b805c134e035e8bec",
+      "bytes": 1636
+    },
+    {
+      "path": "_context/orchestration/tasks/L3-persona-and-dialogue.md",
+      "sha256": "630b4b578d7ba43beb471ad90370844bdaf875135b297c047d8b01f7d67f06f2",
+      "bytes": 1237
+    },
+    {
+      "path": "_context/orchestration/tasks/L4-interfaces-and-agents.md",
+      "sha256": "50155ce7c9a04c2d476e5fe2b649d9e38eac042bd0082755119bb2b61898acaf",
+      "bytes": 1091
+    },
+    {
+      "path": "_context/orchestration/tasks/L5-people-and-texts.md",
+      "sha256": "a5520910f4700fbf1fa3525c98f7f1c44c3cc5359881a9bf9865c5a7e02cf995",
+      "bytes": 1336
+    },
+    {
+      "path": "_context/orchestration/tasks/M-story.md",
+      "sha256": "cc650ed7f99014780709f93d67c87880047eadd929b8e1b6e82c582f5b02e4ff",
+      "bytes": 2696
+    },
+    {
+      "path": "_context/orchestration/tasks/M2a-story-v2-design.md",
+      "sha256": "52a827cc92d048dbf86bdf803f5b10191e5cae55827cbd4923fe20ad89f1d29d",
+      "bytes": 4401
+    },
+    {
+      "path": "_context/orchestration/tasks/M2b-story-v2-build.md",
+      "sha256": "b827f0c896a2a7907bd4fabb3a1666f017c67049465c568b14c21b24e965a95e",
+      "bytes": 832
+    },
+    {
+      "path": "_context/orchestration/tasks/N-claw-workbench.md",
+      "sha256": "a8d5b9912550be91d63e9c39a183179e6cc7d25514394b46ea1695c30f74c495",
+      "bytes": 2803
+    },
+    {
+      "path": "_context/orchestration/tasks/N1-claw-research.md",
+      "sha256": "6386b400d813bb2a7547e4adb3da6146ccb4390413d3f3ac6ef309f6a27160fb",
+      "bytes": 1928
+    },
+    {
+      "path": "_context/orchestration/tasks/N2-agents-explainer.md",
+      "sha256": "a0c3092213656ec568819d1ac3ec19ced75ff288b8f49182648f40169fe21f9c",
+      "bytes": 1487
+    },
+    {
+      "path": "_context/orchestration/tasks/N3-workspace-builder.md",
+      "sha256": "888a40fe3d413c07675e8f593b4aebac1d35dde4d7ca6003c13c46427d7fab68",
+      "bytes": 1452
+    },
+    {
+      "path": "_context/orchestration/tasks/N4-claw-runner.md",
+      "sha256": "75cb0b32218d27fff487c5ac08b0d1199e754f65efbaebf38d5c6d5a7923a2bc",
+      "bytes": 1298
+    },
+    {
+      "path": "_context/orchestration/tasks/N5-heartbeat-and-channels.md",
+      "sha256": "39851ae251883a912d25c4b0632f461956695236c6f6770458c961bc7bf8f70b",
+      "bytes": 1109
+    },
+    {
+      "path": "_context/orchestration/tasks/N6-ensemble.md",
+      "sha256": "7e0daa737f5d4407cc6d392e875ecd9c53b8ff6219630217a5cff621a251320b",
+      "bytes": 976
+    },
+    {
+      "path": "_context/orchestration/tasks/N7-claw-glossary.md",
+      "sha256": "c46422ec32663b1dbedf65102b38a6712c8555eceb6767048dd2a14f213fdcd3",
+      "bytes": 1134
+    },
+    {
+      "path": "_context/orchestration/tasks/N8-soul-file-essay.md",
+      "sha256": "bbded9e1438772cd7940c45cadb510002bdf12556cd70066f12cdfc9a8ffaf47",
+      "bytes": 1211
+    },
+    {
+      "path": "_context/orchestration/tasks/O-slack-ensemble.md",
+      "sha256": "c83369a131f1a7189aa13eeb02a3103247e1672cd3461504855a42a6a569d92b",
+      "bytes": 5603
+    },
+    {
+      "path": "_context/orchestration/tasks/P-readings-gaps.md",
+      "sha256": "32b2333a5723dc4314faafa1fe0a6ce44d4986f47d4ecb41b428e070bcae01a4",
+      "bytes": 3435
+    },
+    {
+      "path": "_context/orchestration/tasks/Q-ads.md",
+      "sha256": "c83e804249348edf86294ca170a80512522016eef6de54baeca49d7261bf23fe",
+      "bytes": 5330
+    },
+    {
+      "path": "_context/orchestration/tasks/R-cleanup.md",
+      "sha256": "151e1951b18197184cd3a9498187069448bd827c3a132e7f3dd63735e52cc4cc",
+      "bytes": 1950
+    },
+    {
+      "path": "_context/orchestration/tasks/S-markov.md",
+      "sha256": "e2131c4bd1b7480d78aa4e9c0c449e32bba0d9a958667eb3d2f63e1ee5d706ca",
+      "bytes": 2777
+    },
+    {
+      "path": "_context/orchestration/tasks/T-retrieval.md",
+      "sha256": "7b44b62cc42d5de793c3c41c403f5d2eae14ad4442555de9fb70709e896449b0",
+      "bytes": 1260
+    },
+    {
+      "path": "_context/orchestration/tasks/U-desktop-handout.md",
+      "sha256": "ebe65b22ea055c7a18d93875da5f3fe8082107fc680418e191676713257972ca",
+      "bytes": 4199
+    },
+    {
+      "path": "_context/orchestration/tasks/V-session-path-and-qa.md",
+      "sha256": "d699f18468129754440f52f5f0fccfbc089b658a2deca4d289f0745d6117513f",
+      "bytes": 3528
+    },
+    {
+      "path": "_context/orchestration/tasks/W-rosie-roomba.md",
+      "sha256": "368aed38a585a480af5f3c2e52ead1a71d41172deed00f375b54da4dfe7787ec",
+      "bytes": 3542
+    },
+    {
+      "path": "_context/orchestration/tasks/X-reading-rooms.md",
+      "sha256": "fccb2381a3ce820139f96e66c7be90ec75147b3508e15864b8fef232175098e6",
+      "bytes": 3665
+    },
+    {
+      "path": "_context/orchestration/tasks/Y-knowledge-voice.md",
+      "sha256": "aaac7e6f0256a784ba0c720ba101e28e3cb3514e4c601f65d5156d56e0cd6a4f",
+      "bytes": 3228
+    },
+    {
+      "path": "_context/orchestration/tasks/Z-tics.md",
+      "sha256": "86b7750e83b77d1ddbaef05459a9bf2545868460b77d461034fe011485740091",
+      "bytes": 3201
+    },
+    {
+      "path": "_context/orchestration/tools/condense-transcript.py",
+      "sha256": "355d2f54265f9a224f6875116945f3efa44f3ae22e507fffebc4a96408badfd7",
+      "bytes": 2425
+    },
+    {
+      "path": "_context/orchestration/tools/list-sessions.py",
+      "sha256": "cf8d30bf6ce647004cead30c92bcf0931c47acd8458685dbb64d26ef7092533f",
+      "bytes": 2563
+    },
+    {
+      "path": "_context/reading-rooms/design.md",
+      "sha256": "734151fbd8b4541b2b1d8a66fe3616867139db0e4aae09d16b6bc6aa36c71dc4",
+      "bytes": 15943
+    },
+    {
+      "path": "_context/research/20261019-chatgpt-deep-research-history-of-the-chatbot.md",
+      "sha256": "29b6f481c727bc145f405849b92e58a203ac159a57337b897e1a6f8d6eeac068",
+      "bytes": 67369
+    },
+    {
+      "path": "fine-tune/.gitignore",
+      "sha256": "63f1707444c40ebee470a0ee947666b3c06e3368e63d3fff4c695ce0d82c484c",
+      "bytes": 96
+    },
+    {
+      "path": "fine-tune/README.md",
+      "sha256": "2da73d7419b341eb2ceeba3610e7ed1808bbab8a4a87f859a8c99b03478b7d65",
+      "bytes": 13448
+    },
+    {
+      "path": "fine-tune/check-transformers-js.mjs",
+      "sha256": "84ea529f38dea78b1e6bfd5c890e96e38cc5bca62d5374a9525e2d5608994d75",
+      "bytes": 2058
+    },
+    {
+      "path": "fine-tune/dialogues/sample.json",
+      "sha256": "63128ce80fc6856bfebb9d2a6c35e0c510446bc41e5a43fed7ee4af50f865849",
+      "bytes": 8434
+    },
+    {
+      "path": "fine-tune/dialogues/template.json",
+      "sha256": "52095cf11c9e93475424493df0f34ff909b1eec80d1303701f53fb0788e4baa0",
+      "bytes": 102
+    },
+    {
+      "path": "fine-tune/export-onnx.py",
+      "sha256": "853c7b18b1f8c9219214f0a53dc03da87ce0b7530f522bc3cd2ec5d619b2daa7",
+      "bytes": 2110
+    },
+    {
+      "path": "fine-tune/fine-tune.ipynb",
+      "sha256": "8f64893f67408ebc10642ae6582b60ec07361e57f4412acedaf34d9b31ba11c7",
+      "bytes": 20382
+    },
+    {
+      "path": "fine-tune/requirements.txt",
+      "sha256": "e2c71e5d0e02da139d1234b1e65ccb3274e41355660379e39385bd63376d01e4",
+      "bytes": 356
+    },
+    {
+      "path": "fine-tune/run-notebook.py",
+      "sha256": "5147290fc56fb4232fc5661f9cbcbbbb5c775e9e9b86edfa7695dbaf61445c6f",
+      "bytes": 1296
+    },
+    {
+      "path": "fine-tune/serve-model.py",
+      "sha256": "c6490b9401c9aa36cd997eb20402ed2bf067fd334e991afc976cb0f87b7a6f08",
+      "bytes": 1126
+    },
+    {
+      "path": "fine-tune/validation.md",
+      "sha256": "474d4e74169f10940b66fa41ff5ee8df86d5a475e7652ec92c9efef2d5ccfff0",
+      "bytes": 7299
+    },
+    {
+      "path": "mini-claw/.gitignore",
+      "sha256": "3504c64d8c004761f42bf7e35a1ffcf961688ee5fb24b7575f2b268b6cac254d",
+      "bytes": 102
+    },
+    {
+      "path": "mini-claw/README.md",
+      "sha256": "71f99b118621d62ff2cc11aede86d8cfc86108727493c525a7b80cd8d2bc3e2a",
+      "bytes": 961
+    },
+    {
+      "path": "mini-claw/memory.md",
+      "sha256": "a35bb0c9500bc440f154e96815b4f13a97834ffbf0d82aa18cdfc1e8a3efc1be",
+      "bytes": 301
+    },
+    {
+      "path": "mini-claw/notes/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "mini-claw/skills/commonplace-book.md",
+      "sha256": "4891aa1fc3d61b82554d0422eba196308ffb7a454bf306df34ffce8f40e27d5d",
+      "bytes": 859
+    },
+    {
+      "path": "mini-claw/skills/remember.md",
+      "sha256": "81dbdcb863cc81476c0c8be8177a8623fc63a5c530448f1c76056a622b3a5129",
+      "bytes": 747
+    },
+    {
+      "path": "mini-claw/skills/take-a-note.md",
+      "sha256": "8bf456cc45fd995c33474072134ca8358d8903ea8f5dd810b7a9fda623e69c83",
+      "bytes": 593
+    },
+    {
+      "path": "nextjs/.env.example",
+      "sha256": "c43b5bf08809a29ce33a32351ae9fce0bf99786ae42d930cff2e240dc235f9a4",
+      "bytes": 785
+    },
+    {
+      "path": "nextjs/.node-version",
+      "sha256": "88029f8a967e9b0a57e49328ab94fa6d74e07946e2b5d33626c82d0dc6e93d81",
+      "bytes": 8
+    },
+    {
+      "path": "nextjs/AGENTS.md",
+      "sha256": "63f2c50380ed6303237cce215ce27af1d620d094c215e28d1b1538a3c070e3bb",
+      "bytes": 678
+    },
+    {
+      "path": "nextjs/CLAUDE.md",
+      "sha256": "8ea1043b2a550275e137eb0caf90fe4496868abc8f1c0432d90f2e5aa328d921",
+      "bytes": 1061
+    },
+    {
+      "path": "nextjs/app/[...slug]/page.jsx",
+      "sha256": "5a6fca5a3ccbc22cedd6de1fa1fe686931b002a09faf8902359209906b2fd0a3",
+      "bytes": 6525
+    },
+    {
+      "path": "nextjs/app/api/bot-lab/bots/route.js",
+      "sha256": "2f50160865177fdad1902ab0148c57aa739848163fd8884bd7d1546999165bb3",
+      "bytes": 1749
+    },
+    {
+      "path": "nextjs/app/api/bot-lab/knowledge/route.js",
+      "sha256": "5f7a2e673fe5d4826b818f45b766c00ca6d00df7da98091fb29b3425af1f4fc8",
+      "bytes": 1306
+    },
+    {
+      "path": "nextjs/app/api/bot-room/route.js",
+      "sha256": "6f1ea32943a80ad110e4029a99adfefe5e371692ff7767ce7afad867a31e9fc6",
+      "bytes": 4322
+    },
+    {
+      "path": "nextjs/app/api/chat/route.js",
+      "sha256": "b5587d3639bd4dbac22353eb90a4825b7526b60dbc8efa1ebd7fe5403990b433",
+      "bytes": 2694
+    },
+    {
+      "path": "nextjs/app/api/chat/route.test.mjs",
+      "sha256": "2ffba473255f64c1ddf3ae4186bbf65e6e04c2cd8628288b08040adc0b18f743",
+      "bytes": 1078
+    },
+    {
+      "path": "nextjs/app/api/ensemble/bots/route.js",
+      "sha256": "83eb18912bce9876b9ba8fbecba6190c458f8c0cfbb1f217f2f3246402e20845",
+      "bytes": 1828
+    },
+    {
+      "path": "nextjs/app/api/ensemble/route.js",
+      "sha256": "12b8455f0aa77833a2b0dbfae7822bff013fe68605e7f7d4b2a93b59a39e514c",
+      "bytes": 1923
+    },
+    {
+      "path": "nextjs/app/api/keys/claim/route.js",
+      "sha256": "f6803878051d8fdb24135263c7a53c56d6ce114d59bb1a14578fc73d3d6f38d7",
+      "bytes": 1543
+    },
+    {
+      "path": "nextjs/app/api/keys/status/route.js",
+      "sha256": "dff0a12f5e123c58c3387a5857a7afc956753bec0b5ec9e13bde9e1d030f960b",
+      "bytes": 638
+    },
+    {
+      "path": "nextjs/app/api/mini-claw/agent.mjs",
+      "sha256": "e66d3c376eda2492ae97cd675ed7512ff1c8b478ecbf825d1cd2708db2e85c64",
+      "bytes": 3812
+    },
+    {
+      "path": "nextjs/app/api/mini-claw/mini-claw.test.mjs",
+      "sha256": "405f137532bc693e46299747c3a1200a41680cbe300850a88c54ac9bed6fc2a8",
+      "bytes": 6893
+    },
+    {
+      "path": "nextjs/app/api/mini-claw/route.js",
+      "sha256": "8d7289835daf1e0b0dd843b1ef854566a1c252908fe79aba7a849e5594e12422",
+      "bytes": 3008
+    },
+    {
+      "path": "nextjs/app/api/mini-claw/scripted-model.mjs",
+      "sha256": "bb205c4f23420e749077eedca5bfe0204e731d7a664814db52f58422211da2a0",
+      "bytes": 2570
+    },
+    {
+      "path": "nextjs/app/api/mini-claw/workspace.mjs",
+      "sha256": "a4a5a8863691b99c72a5cd6c78a2d89a05d5a70683833d7ad7a60b7582370362",
+      "bytes": 8644
+    },
+    {
+      "path": "nextjs/app/bot-lab/BotLab.jsx",
+      "sha256": "259d5e6e075b781db1801e71226bbcc14babcdd5c05ec4d4fd5965b3f07c1ac6",
+      "bytes": 15434
+    },
+    {
+      "path": "nextjs/app/bot-lab/bot-lab.css",
+      "sha256": "ca438387d5530f45be18022ea6228f7b0bf757458c77fe98630d74e89379f0a5",
+      "bytes": 2962
+    },
+    {
+      "path": "nextjs/app/bot-lab/emoji.mjs",
+      "sha256": "fd354fda0435abd302ced7888567f9c9ab467631c7b60954cf6d52d4d7edafce",
+      "bytes": 2062
+    },
+    {
+      "path": "nextjs/app/bot-lab/models.mjs",
+      "sha256": "fcefe2051485a36d33a15b9ca4e94d9fd352580b96aac78f8d42f245b81218f8",
+      "bytes": 2198
+    },
+    {
+      "path": "nextjs/app/bot-lab/page.jsx",
+      "sha256": "e13d1762dc2b829e33bff2d36ace1c2cf3ceb7ef514b45e23613504be961c899",
+      "bytes": 340
+    },
+    {
+      "path": "nextjs/app/bot-room/BotRoom.jsx",
+      "sha256": "4c3f4784fc631e4202ab8eec63e8de02b2841894be1ee5e708dac01f8bc6e4c1",
+      "bytes": 17552
+    },
+    {
+      "path": "nextjs/app/bot-room/bot-room.css",
+      "sha256": "8603b11b22094b97bee4e52b06bdd7a9f032cba9b58df7382c0c33f07362082d",
+      "bytes": 4947
+    },
+    {
+      "path": "nextjs/app/bot-room/examples/a-skeptical-reader.md",
+      "sha256": "ce11b6f8a2c50659200493d113585c74c37837f417cb767b320678f4411addfd",
+      "bytes": 607
+    },
+    {
+      "path": "nextjs/app/bot-room/examples/the-creature.md",
+      "sha256": "f58ffb6d47dea6fdd820535c35fbf9494eb72ca7e9aceb72affccddd29f585e8",
+      "bytes": 692
+    },
+    {
+      "path": "nextjs/app/bot-room/examples/the-editor.md",
+      "sha256": "adc1f4998827f0c608fa1f1735ac17faa0698ebade514223be61312835a7195f",
+      "bytes": 608
+    },
+    {
+      "path": "nextjs/app/bot-room/examples/victor-frankenstein.md",
+      "sha256": "727dedee72bad2447798929c10c80cd7333ec639d84bba96a8eefcb75e381bad",
+      "bytes": 694
+    },
+    {
+      "path": "nextjs/app/bot-room/page.jsx",
+      "sha256": "79e0d3078515f2b792f83e9b4877470022938b1a549901e17254314ffe208ecf",
+      "bytes": 2044
+    },
+    {
+      "path": "nextjs/app/bot-room/room.mjs",
+      "sha256": "f02176091ecafed3bd15c175cfb7844a4189957b8b1a24a7261382eb8cee6074",
+      "bytes": 6691
+    },
+    {
+      "path": "nextjs/app/by-hand/ByHandLab.jsx",
+      "sha256": "d9d589ff9114c75803178f0450c3844841e0d8cb211760640bb0dc6cdeb93c58",
+      "bytes": 22609
+    },
+    {
+      "path": "nextjs/app/by-hand/by-hand.css",
+      "sha256": "5a05d033c94d8b1aa6807365d58d19da25da1388221a6cede8375abab23c23c6",
+      "bytes": 6199
+    },
+    {
+      "path": "nextjs/app/by-hand/hhh-prompt.txt",
+      "sha256": "f39910c620600feddac2c69db2e8576d58efa10d1f5a8ada877dc3164be28b8e",
+      "bytes": 28942
+    },
+    {
+      "path": "nextjs/app/by-hand/page.jsx",
+      "sha256": "478c6d26bb8a603c2f3563800319773d04463e6fa84bc3dd38d7b098fa7295b1",
+      "bytes": 660
+    },
+    {
+      "path": "nextjs/app/by-hand/preamble.mjs",
+      "sha256": "5a9d2ce9cd380da7a1a4bfa7b56665a3fb28d88df58a8d0ea8fbe879b5d95aa0",
+      "bytes": 12131
+    },
+    {
+      "path": "nextjs/app/chat-demo/page.jsx",
+      "sha256": "6f77d78abd43e23917d22157af70f2f6eec23dcc200ecc8289074ae16edd5d47",
+      "bytes": 1174
+    },
+    {
+      "path": "nextjs/app/chat-ui/ASSISTANT-UI-LICENSE.txt",
+      "sha256": "eafb05991a572efa34097474b31fef45b14a8879ed1d1a8fd77de62e6fa7d275",
+      "bytes": 1073
+    },
+    {
+      "path": "nextjs/app/chat-ui/ChatInterface.jsx",
+      "sha256": "34056a03273d01780511d9461f634e554e8ee6e21b0af1d87993ceaf75f007a4",
+      "bytes": 3779
+    },
+    {
+      "path": "nextjs/app/chat-ui/StockThread.jsx",
+      "sha256": "5b5d99da0ee4ee3ba6eb071e59e5a471a7c0ffff592617d81a5193b56c550545",
+      "bytes": 7536
+    },
+    {
+      "path": "nextjs/app/chat-ui/chat-ui.css",
+      "sha256": "044e4d5037a9f3ef885bd05e216e0359036070bf6d46313670c5b1a13b991da7",
+      "bytes": 7948
+    },
+    {
+      "path": "nextjs/app/chat-ui/page.jsx",
+      "sha256": "43809c2a4f53533669a5b2474cba9fdc230f5aa76ba98df19c9b4136a24997cf",
+      "bytes": 355
+    },
+    {
+      "path": "nextjs/app/components/Chrome.jsx",
+      "sha256": "46245cef492e7181040185a6aa8ff9bd501560b26a73e8af981ff649dd876534",
+      "bytes": 1267
+    },
+    {
+      "path": "nextjs/app/components/DocsSidebar.jsx",
+      "sha256": "163f7746071385a206f81980e47bbb2ab2af82412c21a1051344e3d307d1816c",
+      "bytes": 2396
+    },
+    {
+      "path": "nextjs/app/components/ExperimentGroups.jsx",
+      "sha256": "d6c96f338669085074fedfbd507a3ccffcac63975f1d38de58e43c93f63f7f09",
+      "bytes": 2953
+    },
+    {
+      "path": "nextjs/app/components/ExperimentPage.jsx",
+      "sha256": "8669927fc78b94fc1a1a1d3275cb6de495c355c4f8038cc5d6dbf2c920a49a13",
+      "bytes": 1992
+    },
+    {
+      "path": "nextjs/app/components/Markdown.jsx",
+      "sha256": "ae5121de40f0919ef8c04625f77f427b142b1c619ee22f0fc7cc3f5eab30899d",
+      "bytes": 4493
+    },
+    {
+      "path": "nextjs/app/components/RosieRoomba.css",
+      "sha256": "aef49eae3db5b25446d2ce24bd9dbadb77916ca3335d7927e47ca16e8e3bd56e",
+      "bytes": 8132
+    },
+    {
+      "path": "nextjs/app/components/RosieRoomba.jsx",
+      "sha256": "0a5c63d649d322ad8c4fe68b4ff266c4c7a8529f5befd3e3bbcd25b344cb69a2",
+      "bytes": 27181
+    },
+    {
+      "path": "nextjs/app/components/chat/ChatShell.jsx",
+      "sha256": "3a3e37f58a4e5d836e5c3d0a550e60b6ce49a400e53a54b0ef0cb5cc4d1f1a81",
+      "bytes": 5441
+    },
+    {
+      "path": "nextjs/app/components/chat/README.md",
+      "sha256": "0fcca1e2ff9e8162f40543fa789a4e709575ef1ad7e60d23f3ba9f3abf558cfb",
+      "bytes": 4230
+    },
+    {
+      "path": "nextjs/app/components/chat/chat.css",
+      "sha256": "95a09156ee5d88ee45c130a8a8c508baecc8f8fe5b70dd8ee17ae4357dee07e8",
+      "bytes": 2145
+    },
+    {
+      "path": "nextjs/app/context-media/[...path]/route.js",
+      "sha256": "e08c9d6fce2e3cb5a11c2944f81b223724aad14a1b49758d416b640ee9636caa",
+      "bytes": 1074
+    },
+    {
+      "path": "nextjs/app/eliza/ElizaChat.jsx",
+      "sha256": "ea2a260a452d8309645e4a339163b55aa53a496e831e85f28eb12a322e8e88b4",
+      "bytes": 7035
+    },
+    {
+      "path": "nextjs/app/eliza/eliza.css",
+      "sha256": "19748acb084ea275017952c52ddbb8aef0d1f47fe8f175d939d660ff0d8707bc",
+      "bytes": 4777
+    },
+    {
+      "path": "nextjs/app/eliza/page.jsx",
+      "sha256": "f1c4252df5638134fb6efea02044c5bf94fecebc722931f7dc29b774242d3a51",
+      "bytes": 339
+    },
+    {
+      "path": "nextjs/app/engine/engine.css",
+      "sha256": "09a1b132ddcdcb96b139e277ed3ef20968fe4845b7362776227d627e9c5fb5b4",
+      "bytes": 1197
+    },
+    {
+      "path": "nextjs/app/engine/page.jsx",
+      "sha256": "16ed3c1f8341084f42bc2f99c4208fa82f33f0df863fa4975b3959b3de86161c",
+      "bytes": 5924
+    },
+    {
+      "path": "nextjs/app/ensemble/EnsembleLab.jsx",
+      "sha256": "e5fef647be1d48ae8643e148ac7037dd54df558e50812c6db30a68f62fc59084",
+      "bytes": 15524
+    },
+    {
+      "path": "nextjs/app/ensemble/ensemble.css",
+      "sha256": "551fda93566d2bec3fff090b83bcb1c860d7795ed88dad057aa8f9b295b4604f",
+      "bytes": 6882
+    },
+    {
+      "path": "nextjs/app/ensemble/page.jsx",
+      "sha256": "b67717ac6aa8fe6dfcda54a113a27feb9adadcd1e74fe151372fdd42f462a4b7",
+      "bytes": 358
+    },
+    {
+      "path": "nextjs/app/experiments/spiral/page.jsx",
+      "sha256": "1393f50d1c4d9a8d05de4e266b1542f532e57f2b82b429fbab663819129a76c7",
+      "bytes": 120
+    },
+    {
+      "path": "nextjs/app/fine-tune/files/[asset]/route.js",
+      "sha256": "7cdd6429dd51f089d15982e796415f48da287fc406e71b24a9fd4cbb7d997548",
+      "bytes": 1157
+    },
+    {
+      "path": "nextjs/app/fine-tune/fine-tune.css",
+      "sha256": "0048f2e849cee7946ce95346e3f850aa65ff64eb769d295bf7acb4949ea0c1c5",
+      "bytes": 1559
+    },
+    {
+      "path": "nextjs/app/fine-tune/page.jsx",
+      "sha256": "c5d50378f8c87cd74a4f1e027ecd6a7e2b16dcb527e0bba3f92b5342df6e556b",
+      "bytes": 3301
+    },
+    {
+      "path": "nextjs/app/get-ready/GetReady.jsx",
+      "sha256": "c8f2666e11f09863c5e86780f590a34731b1997b467beec4be00ab6ed33370e9",
+      "bytes": 9039
+    },
+    {
+      "path": "nextjs/app/get-ready/get-ready.css",
+      "sha256": "c60b0a4c9f3af8a0013a7d44fe66096dcfd153e7fcb2b2d25d8ace67eb152acf",
+      "bytes": 1723
+    },
+    {
+      "path": "nextjs/app/get-ready/loaders.js",
+      "sha256": "f26a8399c738f3703214fbf2620042bf5636645b19a1b8a5772a7c75429d5a71",
+      "bytes": 2971
+    },
+    {
+      "path": "nextjs/app/get-ready/page.jsx",
+      "sha256": "85edd938f4b78c83b430a8c112fff50ffacbc280e350cebae601149f9bccfd09",
+      "bytes": 343
+    },
+    {
+      "path": "nextjs/app/get-ready/preparation.mjs",
+      "sha256": "d67537643d9c92739cf05452d268a3201f937b7f3d08ab1f68a8cd8c65dadb70",
+      "bytes": 2416
+    },
+    {
+      "path": "nextjs/app/get-ready/preparation.test.mjs",
+      "sha256": "bf6523e95b9c7cb050b7a8a1328d8b41699f66970ce7a7e31faa45523901e565",
+      "bytes": 3901
+    },
+    {
+      "path": "nextjs/app/get-ready/tools/browser-check.mjs",
+      "sha256": "d269ee7cc8e98dc0d046358b47c88b43104974220a3f6344ee83ce896b6b1fdd",
+      "bytes": 3186
+    },
+    {
+      "path": "nextjs/app/globals.css",
+      "sha256": "163d520d55cf62ac8237291b51f7120a83f4ea86889a374ca056d8d9d18b76c3",
+      "bytes": 24241
+    },
+    {
+      "path": "nextjs/app/glossary/GlossarySearch.jsx",
+      "sha256": "eb26251dc4ebce7728b55f15b0331884eca4896ad25e129b1edf56413330f36f",
+      "bytes": 1158
+    },
+    {
+      "path": "nextjs/app/glossary/[[...slug]]/page.jsx",
+      "sha256": "4ec2ed34be619721049e09f4deb868c4f97375aec651bce1fe650c355834edc4",
+      "bytes": 6880
+    },
+    {
+      "path": "nextjs/app/glossary/glossary.css",
+      "sha256": "824319189db6a855dcf0566a49296800884b91ede34ab98bf190d9ee7ae8fd07",
+      "bytes": 745
+    },
+    {
+      "path": "nextjs/app/gpt-2/SpiralRoom.jsx",
+      "sha256": "904ccf08e96c97b84ff34eac371f8dd4f02348081535e906f7a4f97d268f63f0",
+      "bytes": 22215
+    },
+    {
+      "path": "nextjs/app/gpt-2/page.jsx",
+      "sha256": "c1aef0bfaf242c2e1953d1315866b9649bdde24c9fbdf0d07067a724b7ec5d52",
+      "bytes": 365
+    },
+    {
+      "path": "nextjs/app/gpt-2/pieces.mjs",
+      "sha256": "7b6b423a6d490c7f4b69c140d337c46a9b3b6b3dca6687c89265fe8eafe59b2a",
+      "bytes": 1087
+    },
+    {
+      "path": "nextjs/app/gpt-2/pieces.test.mjs",
+      "sha256": "612f17f89595450dcd679f0c2bd7c665f4c0414116de884faf2f52fffc351172",
+      "bytes": 808
+    },
+    {
+      "path": "nextjs/app/gpt-2/recorded.json",
+      "sha256": "54d9b787ed78ed3d433c16f2ea5552b5ee3e038aa170e72d3f44235668eb060a",
+      "bytes": 186229
+    },
+    {
+      "path": "nextjs/app/gpt-2/spiral.css",
+      "sha256": "dac118ba460ebe481a8a317e670a51d3c6fba02fab1a2e05f579204e66eff87b",
+      "bytes": 7349
+    },
+    {
+      "path": "nextjs/app/gpt-2/starters.mjs",
+      "sha256": "1d40d675445a830264a19251d5f2a7a8f7dd765da229c5142a5d803ceac479cb",
+      "bytes": 689
+    },
+    {
+      "path": "nextjs/app/gpt-2/tools/browser-test.mjs",
+      "sha256": "a6d9fcf31f43eef144262bcf87ac9c29ed1b2ee6231ac667dfce156d4993ac8f",
+      "bytes": 9320
+    },
+    {
+      "path": "nextjs/app/gpt-2/tools/record.mjs",
+      "sha256": "af0a4cf6d6d82637011cdb74a8cc6018b970145e4b6e625460713c00449ef8ad",
+      "bytes": 3990
+    },
+    {
+      "path": "nextjs/app/icon.svg",
+      "sha256": "6ce024dc03a9216bc46c320fa1e57850e9f4cefae7110e9158fc78147cb65ae3",
+      "bytes": 211
+    },
+    {
+      "path": "nextjs/app/keys/KeyClaim.jsx",
+      "sha256": "d54673c8d640167e67e99783f6e1d9727f9d740fc2a75d3fab4462681528b649",
+      "bytes": 3721
+    },
+    {
+      "path": "nextjs/app/keys/keys.css",
+      "sha256": "5c57ec8f14c643aa6a870135468189bef5ebbd3afbdb4b461ef01c89a377039e",
+      "bytes": 1451
+    },
+    {
+      "path": "nextjs/app/keys/page.jsx",
+      "sha256": "67ce205710eb0420bbf3d97c9dd6b9597d56524d72822cc8d972eb6306460d91",
+      "bytes": 342
+    },
+    {
+      "path": "nextjs/app/knowledge-voice/KnowledgeVoice.jsx",
+      "sha256": "0a99bd24ac944ff485559ccd3a49e6d7677df882c857b1abe13b4dfbb9019dba",
+      "bytes": 9820
+    },
+    {
+      "path": "nextjs/app/knowledge-voice/comparison.mjs",
+      "sha256": "c7124f1604eb2c0fc86c2945668e3b3c281e22660466ac105751cf7ddda85661",
+      "bytes": 3474
+    },
+    {
+      "path": "nextjs/app/knowledge-voice/comparison.test.mjs",
+      "sha256": "0c6df3c23f3d60a9a8df09215db0ff7ab04bb985a9564faadc31a96b83dde6ae",
+      "bytes": 2716
+    },
+    {
+      "path": "nextjs/app/knowledge-voice/knowledge-voice.css",
+      "sha256": "a9d8ffe434dbb8d857b77a1bb69d19a4f2425e5b3c4247170a8ce4766d111d91",
+      "bytes": 2618
+    },
+    {
+      "path": "nextjs/app/knowledge-voice/page.jsx",
+      "sha256": "d363cea9c9a80279eb3f4a313307ed7ffd0720a648acef10c9865ab672ab5127",
+      "bytes": 431
+    },
+    {
+      "path": "nextjs/app/layers/LayersLab.jsx",
+      "sha256": "526f681302ea569d6773ee11bf0eecfc75712267ef426ff802288114b128032f",
+      "bytes": 17590
+    },
+    {
+      "path": "nextjs/app/layers/engine.mjs",
+      "sha256": "c9aaefef1c4046d035c73718f7ca9b3e0cf3aa4522d6631def8cdf527bed98d9",
+      "bytes": 3586
+    },
+    {
+      "path": "nextjs/app/layers/engine.test.mjs",
+      "sha256": "41e77d50c3f0fe8a05863646c789ffbf0b6a385a011875d50cc45cc7361d1b56",
+      "bytes": 2576
+    },
+    {
+      "path": "nextjs/app/layers/layers.css",
+      "sha256": "90af31f6c77dca5dac8ccb2c643eda428b287da74370bc87bbb09f2ce3149b66",
+      "bytes": 4787
+    },
+    {
+      "path": "nextjs/app/layers/page.jsx",
+      "sha256": "400c25237853151368aa885d8e0a5a23e0da8c19cde4a12ebe9078612c107209",
+      "bytes": 363
+    },
+    {
+      "path": "nextjs/app/layout.jsx",
+      "sha256": "639f79567364354fb97db53da3b5601d952a38b6cd9a80d07066cad4a2e6a1a8",
+      "bytes": 604
+    },
+    {
+      "path": "nextjs/app/markov/MarkovLab.jsx",
+      "sha256": "d749cdae95d539f4929e14160a47786d501573d10fe136f1d2ee4832da33cce4",
+      "bytes": 11370
+    },
+    {
+      "path": "nextjs/app/markov/markov.css",
+      "sha256": "aefdbbb631fe200fe6cbcc6d2bf0836731f82d03ed1e4878c6b81d12ff00ede8",
+      "bytes": 4167
+    },
+    {
+      "path": "nextjs/app/markov/markov.mjs",
+      "sha256": "ebdcab147cb46b58e4a6e7c21f95766a4966a1fabbd107878687fb82794ad4d4",
+      "bytes": 2808
+    },
+    {
+      "path": "nextjs/app/markov/page.jsx",
+      "sha256": "0e3f13bc1c06daa5e60ff237ca90eda634c5e2559ab4ab483ac4c5f1ebaa7934",
+      "bytes": 349
+    },
+    {
+      "path": "nextjs/app/mini-claw/MiniClaw.jsx",
+      "sha256": "6c2ca0a9c1a16c3a0e74dcceff5364bd5086a47136239f85ed8b5742b7696d0d",
+      "bytes": 11428
+    },
+    {
+      "path": "nextjs/app/mini-claw/mini-claw.css",
+      "sha256": "2d384fcda777c8886c7e8df6ee5be66b4e65934e8008f6bb31c9a0dfb2ee3437",
+      "bytes": 4870
+    },
+    {
+      "path": "nextjs/app/mini-claw/page.jsx",
+      "sha256": "38eba99805bf276e81e6b9ad7df2e820eb4f797b1fc2e4512e2f9f567b5e90e2",
+      "bytes": 348
+    },
+    {
+      "path": "nextjs/app/not-found.jsx",
+      "sha256": "9fbed5612ee53cb4f446738c257cb743559d3eb0394d5373830aed3dd896380f",
+      "bytes": 311
+    },
+    {
+      "path": "nextjs/app/page.jsx",
+      "sha256": "ea4cdc4fb662c6f41187456fd432d9433b3aed7041968dfdc1548a4344069e4d",
+      "bytes": 1619
+    },
+    {
+      "path": "nextjs/app/persona-dial/page.jsx",
+      "sha256": "997d29c8eec47d9bc5ee20b3742981dd0d6db58c80c962c18d63f699a9709215",
+      "bytes": 327
+    },
+    {
+      "path": "nextjs/app/print/[[...slug]]/page.jsx",
+      "sha256": "3a3a403902b55f98b0f423ddb6a188b7c8b8876f2fe02fa9d6f6f0f301c1831e",
+      "bytes": 5097
+    },
+    {
+      "path": "nextjs/app/print/layout.jsx",
+      "sha256": "d079c5df5dd8a3e47b21058588387778ba5ef0502510ded9365fce84b59d626d",
+      "bytes": 309
+    },
+    {
+      "path": "nextjs/app/print/story/page.jsx",
+      "sha256": "89166b003e7125c2aad1ba31d43dabd3e97cedbf69540c41d4bff0aaf17c887b",
+      "bytes": 2185
+    },
+    {
+      "path": "nextjs/app/rag/RagPipeline.jsx",
+      "sha256": "8f001fe0490b3c72a5bb528c0c31fa5e9ad550cc362393c8f1b568bc56d41e19",
+      "bytes": 35625
+    },
+    {
+      "path": "nextjs/app/rag/page.jsx",
+      "sha256": "bb09e37380863a8eaead4e041cc504a377f6a0e88e7e964119788eea2433dd88",
+      "bytes": 353
+    },
+    {
+      "path": "nextjs/app/rag/questions.json",
+      "sha256": "c5e7caca6d92ac603695752b9e44fa0232367afc122e26d1af64d793d7358265",
+      "bytes": 36252
+    },
+    {
+      "path": "nextjs/app/rag/questions.mjs",
+      "sha256": "68669cdfa55f489366afe4e221ddc1ea2b7c505c40ff00393522da60cf4c2737",
+      "bytes": 686
+    },
+    {
+      "path": "nextjs/app/rag/rag.css",
+      "sha256": "55ae999f3f96421858a733c840e8f9a603cc1c199cf5546b9c895fa10593b17e",
+      "bytes": 9614
+    },
+    {
+      "path": "nextjs/app/rag/tools/browser-test.mjs",
+      "sha256": "1c09f1f64384ddc8e8e5f612b7dcd6a5fc6d26522b5fb43bd9a7d0f5533eca6c",
+      "bytes": 11216
+    },
+    {
+      "path": "nextjs/app/rag/tools/embed-questions.mjs",
+      "sha256": "8322a8e8ec579ca5edf69ad5fc36997faa02620a5058340c7c6ec98c11ad51bb",
+      "bytes": 1053
+    },
+    {
+      "path": "nextjs/app/reading-rooms/layout.jsx",
+      "sha256": "44091c10a9106a504a64e795f21117079653113c562a6f0ee30910133c34b0e7",
+      "bytes": 267
+    },
+    {
+      "path": "nextjs/app/reading-rooms/page.jsx",
+      "sha256": "9008187afcd9805f5d332e34c52b6ecfe03018cc7598e2d71ca78657885180c3",
+      "bytes": 1903
+    },
+    {
+      "path": "nextjs/app/reading-rooms/phaedrus/PhaedrusRoom.jsx",
+      "sha256": "62c919c25019b76497994fbf6cd537ec569611ca641fbcbc3349ffc3ae5e3a38",
+      "bytes": 3765
+    },
+    {
+      "path": "nextjs/app/reading-rooms/phaedrus/page.jsx",
+      "sha256": "31a3f7af48392782499d8d44cbb729cfc49cc2e9e7352d5cf21d776f2883118e",
+      "bytes": 1396
+    },
+    {
+      "path": "nextjs/app/reading-rooms/reading-rooms.css",
+      "sha256": "e42ae2d4d4f855bf36de64a0ceabaa03aad875aaabddce7e32b53bdc4958361b",
+      "bytes": 9312
+    },
+    {
+      "path": "nextjs/app/reading-rooms/shanahan/BranchRole.jsx",
+      "sha256": "bbc73641ec373f1ad16cbfc2dbac17726788ce0e79e540a54136b23bd89c7f18",
+      "bytes": 6816
+    },
+    {
+      "path": "nextjs/app/reading-rooms/shanahan/DescribeTwice.jsx",
+      "sha256": "c15b531c3cef5a17d9ef183b0039d8a4e0128fc07690fd38d2f6cadd65e8649a",
+      "bytes": 5020
+    },
+    {
+      "path": "nextjs/app/reading-rooms/shanahan/page.jsx",
+      "sha256": "c31a4096f14d541d02ca5907f1b060a78bd10cd9b5cdecf9c3951a91d5a86ef8",
+      "bytes": 1704
+    },
+    {
+      "path": "nextjs/app/reading-rooms/turn-taking/TurnTakingRoom.jsx",
+      "sha256": "4eea27347209e4237c4704f113f5ce9249f2e746c2f03769d2a0db6f2f2514af",
+      "bytes": 8575
+    },
+    {
+      "path": "nextjs/app/reading-rooms/turn-taking/page.jsx",
+      "sha256": "2f644ee512dba105eb41ea1d0f36aa62144148670c6f848177eddd056ca474cb",
+      "bytes": 1487
+    },
+    {
+      "path": "nextjs/app/retrieval/RetrievalLab.jsx",
+      "sha256": "b7115aa756d5a7f1c0617254f089d636572e0bf49e81cf46d1260e23db3c7b6b",
+      "bytes": 15729
+    },
+    {
+      "path": "nextjs/app/retrieval/page.jsx",
+      "sha256": "9e7a38bd2dd37ea2e20a338d67d1d6e6af278236b09ec5ac17ee115c88789ac0",
+      "bytes": 366
+    },
+    {
+      "path": "nextjs/app/retrieval/retrieval.css",
+      "sha256": "971a9850d57859f75ed32152d9ffbfd5fdf7b20dadf11bdbfdb1608fec3196d0",
+      "bytes": 4155
+    },
+    {
+      "path": "nextjs/app/rosie-roomba/page.jsx",
+      "sha256": "fd2ca957b005a3d0b9e9740d2ccff185488670f75a28953371a1a82c9de1db4c",
+      "bytes": 2372
+    },
+    {
+      "path": "nextjs/app/rosie-roomba/rosie-roomba.css",
+      "sha256": "1878236e2a54d7613325b68d718ea088268521d9a6b48bab74294feaf5087f44",
+      "bytes": 1253
+    },
+    {
+      "path": "nextjs/app/spiral/page.jsx",
+      "sha256": "1393f50d1c4d9a8d05de4e266b1542f532e57f2b82b429fbab663819129a76c7",
+      "bytes": 120
+    },
+    {
+      "path": "nextjs/app/story/ElizaDemo.jsx",
+      "sha256": "61a48a470f513e751b7efeba27c74d6e8f5c780655ce14c4c882fd965522ad99",
+      "bytes": 2496
+    },
+    {
+      "path": "nextjs/app/story/Panel.jsx",
+      "sha256": "93680682cf448f9e5c54da07af1207bc757259dd484041a9241e8a4ab22ec5c5",
+      "bytes": 8273
+    },
+    {
+      "path": "nextjs/app/story/SpiralDemo.jsx",
+      "sha256": "f7b6de7eae56d5cbc187e33838c6d74aa24df7e14c43b52e48291e7b3800fda8",
+      "bytes": 3309
+    },
+    {
+      "path": "nextjs/app/story/StoryMarkdown.jsx",
+      "sha256": "1f1e5963b6007fdfc12d647740d262063ef430128e14679268025aef71d16b55",
+      "bytes": 1246
+    },
+    {
+      "path": "nextjs/app/story/StoryShell.jsx",
+      "sha256": "0d9da136eb93ac99db67af064faef8ec4337bbd053359d5a2858618b3f026327",
+      "bytes": 4114
+    },
+    {
+      "path": "nextjs/app/story/[chapter]/page.jsx",
+      "sha256": "25f0abb7a8bd9d1a2939987aa2a1e0a53b4196f82f6a216a0014084a5ae30e6b",
+      "bytes": 1743
+    },
+    {
+      "path": "nextjs/app/story/page.jsx",
+      "sha256": "f9a6f020f1717f37b69f3e2714c1cbe8fc948bc4d79352edefe1f9a2f8159646",
+      "bytes": 3809
+    },
+    {
+      "path": "nextjs/app/story/story.css",
+      "sha256": "caf8888ec80c63b9101bffc67cc6006bbb053c2b55e329d221adada36ba268d2",
+      "bytes": 15296
+    },
+    {
+      "path": "nextjs/app/story/story.mjs",
+      "sha256": "df1b2e3c73d07238abc8b4487626a44842f6dc0c828bea67ca5ac051a24368a5",
+      "bytes": 6371
+    },
+    {
+      "path": "nextjs/app/tics/TicsLab.jsx",
+      "sha256": "61f46b4365d9e95ef7bfe51c849162e1bd0bbe934bd4305d1ed1a0690aff3fa5",
+      "bytes": 4884
+    },
+    {
+      "path": "nextjs/app/tics/detector.mjs",
+      "sha256": "d82b39fc20fc8f83882370a78c4b288a2186654dab9c5e62b20e92e85b639eae",
+      "bytes": 1943
+    },
+    {
+      "path": "nextjs/app/tics/detector.test.mjs",
+      "sha256": "a0b4b750f742dc329f1ba57edea8ac8120fd019c922f81a1bbe7fc928c4a6e40",
+      "bytes": 1515
+    },
+    {
+      "path": "nextjs/app/tics/page.jsx",
+      "sha256": "10b7952867adaf5bcc1b1e87cac7e26841c36cb6b837c9fb65c74b4d6c0db47e",
+      "bytes": 944
+    },
+    {
+      "path": "nextjs/app/tics/tics.css",
+      "sha256": "da1722681af01d5077e100e8aba35f2b04c92006943af0a6876ffa52a2f30eff",
+      "bytes": 1698
+    },
+    {
+      "path": "nextjs/bots/README.md",
+      "sha256": "aec632efab6730ddfd6a74334a91c21f96d13272d47a15f7234995349ad855af",
+      "bytes": 2244
+    },
+    {
+      "path": "nextjs/bots/_examples/knowledge/the-creature.md",
+      "sha256": "0bcb3d84eed6a846d45ea69bd76ce65e1565e587d75b2cc701ea70c14ac3528a",
+      "bytes": 8553
+    },
+    {
+      "path": "nextjs/bots/_examples/socrates-on-writing.md",
+      "sha256": "7494cd03ca3df1da3a685137eefb1aa4bae2f800001e96a3f771aea4ffe63a3f",
+      "bytes": 948
+    },
+    {
+      "path": "nextjs/bots/_examples/the-creature.md",
+      "sha256": "93e9ffeb869257c0fd7f53ea79ca3631964b28000d68b1f4609a00fc77668c24",
+      "bytes": 913
+    },
+    {
+      "path": "nextjs/content/README.md",
+      "sha256": "f81a9678439e09a61d6530ae4e7833d5260900ceee5dc5fb8c009001e7bd7305",
+      "bytes": 974
+    },
+    {
+      "path": "nextjs/content/experiments/README.md",
+      "sha256": "11e2c3b47b5f2f8477d79004d65d87c4cc353933f2224e9f1ad5e593adf50850",
+      "bytes": 789
+    },
+    {
+      "path": "nextjs/content/experiments/bot-lab.md",
+      "sha256": "4b485ba317c2a00b9ca9e49a0e53bf0d70e56df54c173c068990915af1a0d320",
+      "bytes": 3785
+    },
+    {
+      "path": "nextjs/content/experiments/bot-room.md",
+      "sha256": "cb031e1b1e38e22cb6ff3afc3f4288df9ec7cfc21ed09842a993509bda47eeb7",
+      "bytes": 5535
+    },
+    {
+      "path": "nextjs/content/experiments/by-hand.md",
+      "sha256": "7e702ced5e06ec05dcebcb19abb14a6724fd8745fbd0166b4d0959446262679c",
+      "bytes": 6465
+    },
+    {
+      "path": "nextjs/content/experiments/chat-demo.md",
+      "sha256": "fe1e4a65b965168110ebfeea4da93ef0ffdb0a9660734309ee42be5a254ef5c7",
+      "bytes": 964
+    },
+    {
+      "path": "nextjs/content/experiments/chat-ui.md",
+      "sha256": "f7b67a8c02a92af69480289e8615c625edc897eea69bcf121b8ad4f17a1b2d4f",
+      "bytes": 3662
+    },
+    {
+      "path": "nextjs/content/experiments/eliza.md",
+      "sha256": "3090a76cd2883c6c291805716f0c824c32698b3b4db127f738e4b8969822c3fa",
+      "bytes": 9304
+    },
+    {
+      "path": "nextjs/content/experiments/engine.md",
+      "sha256": "2e16c210b897ac2da88a42d8944f796ab0931378f6e1076d7b73638e949bdfe7",
+      "bytes": 1129
+    },
+    {
+      "path": "nextjs/content/experiments/ensemble.md",
+      "sha256": "afb0920311b71e77e1c28555e34ae8e41d918c5c134d2a1c761367fae76bb381",
+      "bytes": 4246
+    },
+    {
+      "path": "nextjs/content/experiments/fine-tune.md",
+      "sha256": "465c946c7562da538b2cfc11b30eb6845afbc83a52c1156a964702b05ba53465",
+      "bytes": 4732
+    },
+    {
+      "path": "nextjs/content/experiments/get-ready.md",
+      "sha256": "63bbd53f863f088570f0f24aa7a26e6498c4eaae1abc7abe776aa1ba928dcf75",
+      "bytes": 3771
+    },
+    {
+      "path": "nextjs/content/experiments/gpt-2.md",
+      "sha256": "489305de1557d7df883e0e1a3569b0dacdb269bce7b3048fbc1d75201b96baeb",
+      "bytes": 4244
+    },
+    {
+      "path": "nextjs/content/experiments/keys.md",
+      "sha256": "95eb7ca06fd246adbf1b89acb80df5e3a3acf3cabed2f2593cc6e7cd8a115ccb",
+      "bytes": 2144
+    },
+    {
+      "path": "nextjs/content/experiments/knowledge-voice.md",
+      "sha256": "719a7e5453fe7abbc910fb6bc77e27ee43656a5bab6c455aaad4fba9f2ba42a2",
+      "bytes": 3961
+    },
+    {
+      "path": "nextjs/content/experiments/layers.md",
+      "sha256": "35156a03d14b6a6c20bf42ba673e66af5cc595daa8ab8d823a9f6376b9d0f007",
+      "bytes": 8757
+    },
+    {
+      "path": "nextjs/content/experiments/markov.md",
+      "sha256": "7ac024e64b25626d19f97c2c8f9ca72f27c113dbdf0debd8c872726a8ae0fcc8",
+      "bytes": 5260
+    },
+    {
+      "path": "nextjs/content/experiments/mini-claw.md",
+      "sha256": "316d6693073b6c3015a636b09b291b052127cc2dff552111401068f73d005795",
+      "bytes": 12426
+    },
+    {
+      "path": "nextjs/content/experiments/persona-dial.md",
+      "sha256": "71d5e0a4328f06ee4f0122c795c192f31205b819a2561822128e005d49fa6d82",
+      "bytes": 1140
+    },
+    {
+      "path": "nextjs/content/experiments/rag.md",
+      "sha256": "1fdc8a6c783efac1e4c76613d8cd257c015d143fecbc977997985cc32157fa59",
+      "bytes": 5293
+    },
+    {
+      "path": "nextjs/content/experiments/reading-rooms.md",
+      "sha256": "20c56addd8661ff9d180a894c735bd73ff5ec15e9efb896f2ab092da799d0ac5",
+      "bytes": 6745
+    },
+    {
+      "path": "nextjs/content/experiments/retrieval.md",
+      "sha256": "a334c0d0508a57bb73f0a2d30b2b0b30fdb778db7ac2f5bcff1a9ec0ed367522",
+      "bytes": 2802
+    },
+    {
+      "path": "nextjs/content/experiments/rosie-roomba.md",
+      "sha256": "7144e2f62dfd8a4b6863b1aa3eca261e39436825fa7df85b4e606dd40c5cb04a",
+      "bytes": 6114
+    },
+    {
+      "path": "nextjs/content/experiments/tics.md",
+      "sha256": "d1fcc40029e7cacd6968776c45f89f83a0924a56d625d36492aaa42a3697e81a",
+      "bytes": 2660
+    },
+    {
+      "path": "nextjs/content/glossary/README.md",
+      "sha256": "a24fc5427a37aa4384f658f1e94478aab9ab271c1b74090ca12353d9d6ac2db3",
+      "bytes": 7046
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/README.md",
+      "sha256": "5678bec40b5b2d920764e208ea69ca089c38af304ab0ed2d339e72e0985c9bbb",
+      "bytes": 6852
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/alexa.md",
+      "sha256": "fd636953c590a694e32cd61a612905cc9d4731d1190a0847bed1daaa463c12bc",
+      "bytes": 2582
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/alice.md",
+      "sha256": "d1e7bf376f78482d82717f064d6405b694ef98693a0b38abf67df96b3f54c2e1",
+      "bytes": 3930
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/bard-and-gemini.md",
+      "sha256": "bfaa9ddfe7250c22889cf9a525ab7f2093fb296229c51491c726d1796bac3867",
+      "bytes": 3970
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/bing-chat.md",
+      "sha256": "08ebd4a5a6840360ed7f0c99024f1bd553e7a74f0f29055193ea69fdf9ab52bf",
+      "bytes": 6333
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/blenderbot.md",
+      "sha256": "28a4163cb7f1a79d848600b8aee8733e8cb714cd80e3c2daad705e80e0eb40bf",
+      "bytes": 3818
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/character-ai.md",
+      "sha256": "d3ceeed48e2e9f5187896ff885aedf515a3398f995d1e853395b152744ae20ef",
+      "bytes": 6451
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/chatgpt-projects.md",
+      "sha256": "86348d8b0748f61cae1379dcd0bb9ca7477c415c11d7152b761539a868efd327",
+      "bytes": 3191
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/chatgpt.md",
+      "sha256": "0ebbe290428911899d1d37ed694869146505ce1cc000534c87245b4d26dd895d",
+      "bytes": 4933
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/claude-ai.md",
+      "sha256": "89bcb3675d8d701ff6aa3ed8a960eae1b92d8bd4a9c2199303642b232aa3ea9c",
+      "bytes": 5183
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/claude-projects.md",
+      "sha256": "3d3c76a9261ffa23edf89bdca1b28b278a4e3d86105352e52189053fd74d6245",
+      "bytes": 3383
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/cleverbot.md",
+      "sha256": "95b21291471993af23e733d36de6f975257aa9fc83c95ec502b5b74ad216f3f8",
+      "bytes": 3494
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/copilot.md",
+      "sha256": "060ad68bb28193e44917bd3664190833c5b95adad914ddad878e735f7d923683",
+      "bytes": 3747
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/custom-gpts.md",
+      "sha256": "4d55b2efa2ee0e370a87831eaa6046a25007aba62133c4c470db98199578204c",
+      "bytes": 5297
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/dot.md",
+      "sha256": "31479920816988013141033f4b4e363598235e3ebeb49f1112d283b5c86b0f5e",
+      "bytes": 3706
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/dr-sbaitso.md",
+      "sha256": "6a260b901fcbe3ebab98455f23d6ec804357a36b8c4e46cbd6c2a1c316e910d3",
+      "bytes": 3397
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/eliza.md",
+      "sha256": "4a1df8ad20b0c5bed2c54fd01fc0a6222b67147265b502963bd3d5909b3a7b8b",
+      "bytes": 5006
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/eugene-goostman.md",
+      "sha256": "34060cbcf735fbd000131dc6c6fad09bd7106cda61ddeff525afae897e643934",
+      "bytes": 5492
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/gems.md",
+      "sha256": "2cbf224ae8f877ac59333ad336ef944a6c8fee0a3d68087f16cce1b1235d80ae",
+      "bytes": 4471
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/grok-bot.md",
+      "sha256": "40cb1ed948e1dc90f0eb8e3e481aaec6608b5df44ff93a526c9cf6c3a4bc0671",
+      "bytes": 3926
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/grok.md",
+      "sha256": "a946d67e372253e24da6f5d5083057332cd18168a9c920aecf9839bf8e102134",
+      "bytes": 4293
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/hermes-agent.md",
+      "sha256": "5e3ae0e15750d06c72a73ed60b41cbe1b92433bb25ebb9623180bf44ad5c959c",
+      "bytes": 3659
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/jabberwacky.md",
+      "sha256": "3e84d4b27cdb600f26e751c3c980b1d1373aeca54ef3ff4160ca0f33285784fb",
+      "bytes": 3974
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/lamda.md",
+      "sha256": "778812e04a5ed090c15e8eb47e84aca9a95e5db823b1ab4773311d04ea74eae2",
+      "bytes": 6436
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/meena.md",
+      "sha256": "17cc939dbe6a5debb20ff79ce4aadf6ef315c14e6636830d8a63b8aaec2353d4",
+      "bytes": 3381
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/meta-ai.md",
+      "sha256": "240565914761318dc9c8575f6e323c2e5d756757069939fb13650874a39ef810",
+      "bytes": 4732
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/muse.md",
+      "sha256": "fc02271d3517da7e69a3cc4610587b7d163a91702d5b6db17f670bed0684a374",
+      "bytes": 4103
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/notebooklm.md",
+      "sha256": "5362b6922c06612d524d812a4639b0435c5767c7c8a790a3ef668fe35302b4aa",
+      "bytes": 4249
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/openai-dots.md",
+      "sha256": "f9515c4286319846a40828dda8d04100d8510ce6e48b9b82c61e91313802cc91",
+      "bytes": 3904
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/openclaw.md",
+      "sha256": "dd12ed98c5151af4506139d305260df8e74290de1c8e82492254ff38e71cd24a",
+      "bytes": 4441
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/parry.md",
+      "sha256": "bee6157d1911a68c405bc67d26a3b9a22f437de8f0e8721e955c104842a06745",
+      "bytes": 4923
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/pi.md",
+      "sha256": "3d3b860e8e4eaef6da3e55f0d2d8423fdc9b4e3e01a0918f38b4465d0b41f9b2",
+      "bytes": 3813
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/poe.md",
+      "sha256": "933a616c09525effd37cfbac715ae29d7ec1d428b33a09d44b662d9676cca883",
+      "bytes": 3910
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/racter.md",
+      "sha256": "930b79d2792f85b90d09350b699fa1e9ea3d98aa5084da72ebcfc746f25ee9e9",
+      "bytes": 4950
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/replika.md",
+      "sha256": "84bfcb88dabbef08d9ff8497516ecf1b61ad02fce75ed9ab063e92216bd7f0be",
+      "bytes": 5134
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/siri.md",
+      "sha256": "ddf88c71e47b4d0c96b65b3bf34e0ce9ba658e232794353160bc5469200568f8",
+      "bytes": 4339
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/smarterchild.md",
+      "sha256": "8565d7719ed3e9403d14f0c22c07c0008339667ee30338262b53aa9d50b79e42",
+      "bytes": 4085
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/sparrow.md",
+      "sha256": "75fd51641b9de935436e821ecb4ecd5e0e89d5eaa24ccb8056356e0090c1c7e9",
+      "bytes": 4277
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/tay.md",
+      "sha256": "b74a640a2b1ada78f0a760b657aff01d69d163bfc5acd8b1874d3f0a8f1173d1",
+      "bytes": 3236
+    },
+    {
+      "path": "nextjs/content/glossary/chatbots/xiaoice.md",
+      "sha256": "ba474466738645d054aacbaed1f62251870b9d5629009b73cc867eba3f8146b5",
+      "bytes": 3766
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/README.md",
+      "sha256": "79c9a38181b1a5b3a5cf8ddbcc9ac487f0d9c66bfb5500eed54918de8981cc25",
+      "bytes": 5744
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/agent-computer.md",
+      "sha256": "18559754d46aa6eb7303cd2e8d7d29e6863caa24ee1cc45ebd7f0dffc74a8f8d",
+      "bytes": 1203
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/agent-loop.md",
+      "sha256": "780a2823dbb5440c5bff668dcb08d0e1c861d490abfa7247df798be1c8c0a258",
+      "bytes": 1299
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/agent.md",
+      "sha256": "c9799a52da5aa5044a9b3c3653c4eba35ceba81f066f71b44f75b5ec962a0825",
+      "bytes": 1288
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/always-on-agent.md",
+      "sha256": "0970f7aec62078143a1b35c14d39184c66c02000035b452d52a715d951fd752b",
+      "bytes": 1566
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/chat-interface.md",
+      "sha256": "99ea1f2e635986b8b1e1358310a1839b32411d134dfb11e821273254898de3b2",
+      "bytes": 1708
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/claude-code.md",
+      "sha256": "f6608898574d14bd418b7d91df11bde8a197929e415cca322ac8fdb627ae0f00",
+      "bytes": 1469
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/compaction.md",
+      "sha256": "2cd49bdfdbe8adb37d11caf9aa0cd4e4a0253aec35db91e9ea8a3288da1f9949",
+      "bytes": 1053
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/computer-use.md",
+      "sha256": "cc162f7b8410c26bcfa7e46117c7878be6d36b3ab6e231e8049cd321a056b8f6",
+      "bytes": 1092
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/context-assembly.md",
+      "sha256": "73fe90b8fc81fcd22303ccd922d23a7f27edbc9bab2404f6de53434af09ad177",
+      "bytes": 1552
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/conversation-history.md",
+      "sha256": "46c37b3012d56a4169c2953cef48d188e7e2ca5b025c2d4b939354df4e152087",
+      "bytes": 1282
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/custom-instructions.md",
+      "sha256": "7e3c78ea83f57ce36c9cecd5c725acd17aece37ecc315a80bdcdfd24f7e4dfd5",
+      "bytes": 1729
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/function-calling.md",
+      "sha256": "9c319b5d25138ae9e61abaed626d632fdd5a6cf55073ecca3442720ba43e96c1",
+      "bytes": 1330
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/harness.md",
+      "sha256": "9d13861ca4aeafd7e004547b2ac1de95e408f586af0a02ed372a15e71548c1be",
+      "bytes": 1331
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/hooks.md",
+      "sha256": "bc7b268598bfec0c4dbb4046cef3cd1b397b98d4330074d3d5a1fe92c590f98b",
+      "bytes": 959
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/human-in-the-loop.md",
+      "sha256": "c727c6cf187309c8cf7abcb45e89c72c1d7fb150d9f7ecec98f473f2106a931a",
+      "bytes": 1141
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/instruction-files.md",
+      "sha256": "e96001bb067eeaa8bae34444f52f5aa8016ea587eaff341ca621a3821759ed1c",
+      "bytes": 1902
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/knowledge-files.md",
+      "sha256": "77957499b422cd760c620137d881df12dc47401df41b5f172fc2d48ebf5e2d5f",
+      "bytes": 2079
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/least-privilege.md",
+      "sha256": "31cfec777e2de58b7d0e1c7c400ee5b7d95f847a28640657c51960b708698bc8",
+      "bytes": 1315
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/lethal-trifecta.md",
+      "sha256": "92e5e1607fc4eb51f9b8c3a84618981a5c10742ab67bac4036780cc70a9a42a6",
+      "bytes": 1515
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/mcp.md",
+      "sha256": "9ed4fb10d5df41047eda5fd58a385f5206ad50123ceccdfde5e50243a65d5f55",
+      "bytes": 1016
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/memory.md",
+      "sha256": "5efa3daa064d51d3ae654fba94f6773f4debbccd00a478be3bc37012b045e4da",
+      "bytes": 1869
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/permissions.md",
+      "sha256": "e378c90ee4fdc34aa4d9c9168f7bcb8dc22b92fd7c716b2ecbeff9af71029138",
+      "bytes": 1328
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/plugins.md",
+      "sha256": "b0273bdfd20e2815867a602d685e21e6ecb4a9d0a20a809a94b2513eb1d2adbc",
+      "bytes": 970
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/progressive-disclosure.md",
+      "sha256": "ae36dda8f6aa696f5e9c53b87e267a1a078fe62b07469f78289824b4e9f44409",
+      "bytes": 1037
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/projects.md",
+      "sha256": "5bd983c3a296aa86055874608a1c33126494ca25f2149a284d4242ae8caa3b62",
+      "bytes": 1604
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/prompt-injection.md",
+      "sha256": "0a9042b5a926786f477a66e6d61531b818b96cddb624b4de45b0f5ae531cf8ec",
+      "bytes": 1201
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/retrieval-rag.md",
+      "sha256": "c4222fa2659889585db98144a8b81de59b475696f52a12fe1e7e0f4ca1a9dd87",
+      "bytes": 1149
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/sandbox.md",
+      "sha256": "8768eeb3a166033f600b849027c06e6c15a60784d42b9bd1a4802c644356c0bc",
+      "bytes": 1394
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/skills.md",
+      "sha256": "0876cfae3ac8997cbbe4305cd0f90109c100ad6b2deab179421291ba0960a00c",
+      "bytes": 1374
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/stopping-condition.md",
+      "sha256": "e1fc87423e2b9948db91c3ba36d82df08f6a94bd3aa7f732f7b0b16ce89d8569",
+      "bytes": 1334
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/streaming.md",
+      "sha256": "d49ba4c506272d290b63b7601fe1d2e3a1e9a138d1272b85be7370413e8ba6b6",
+      "bytes": 981
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/subagent.md",
+      "sha256": "d1c48a7b4e6a2c3d7861f15caab972936442189e7c9b1897cc034daa3d794b5e",
+      "bytes": 997
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/tool-call.md",
+      "sha256": "6bf92dfb0019344ec6d025191852f76fe57311c9d75b16b15e62ffe48c5f4c0a",
+      "bytes": 1185
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/tool-result.md",
+      "sha256": "85be685fe3083b7d276620d40cafdebc18e6b2522122b0f18a567739a925a28a",
+      "bytes": 1248
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/tool-use.md",
+      "sha256": "c0ec435c38c947be63cc39493728d17b5d9007121e6f72dda868e2b68f5425b9",
+      "bytes": 1409
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/trace.md",
+      "sha256": "213db15f7a9c3b2a623355038a78d4478c5f86f8ead0bf397bfb590b51123efe",
+      "bytes": 1164
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/typing-indicator.md",
+      "sha256": "2a8b8f90a2a16ffe8ac5a4d9fc9c8fada8ad5981d9d84a1a393fe93c1cfe7744",
+      "bytes": 1476
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/voice-assistant.md",
+      "sha256": "fcdcbd1a65ae68d560e0ec746c62fc594a854c8b44a005d5167fa20de964b762",
+      "bytes": 1682
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/workflow.md",
+      "sha256": "cc2e04fb8605076599f2d010a116d84b4c8f29f2fe6860603b18b0dd8226dfc7",
+      "bytes": 951
+    },
+    {
+      "path": "nextjs/content/glossary/interfaces-and-agents/workspace.md",
+      "sha256": "173cd2444105ae2c7d93d23da139e9c5cbdcde307fc3fd04755e48da0bbd1334",
+      "bytes": 1240
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/README.md",
+      "sha256": "690f15a46acab725138b9d73d7b10cef591de25b4ed0248e641a3ab943dacd3c",
+      "bytes": 10756
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/attention.md",
+      "sha256": "f879c1e9d9177419a612b97517def2341303d50ca655aa47d5053023f83eeb70",
+      "bytes": 1761
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/base-model.md",
+      "sha256": "8f0ecfac9f216b051412f24eed28e7b1ed8a0ce7a805c2871eed8f8e53bb95a9",
+      "bytes": 3024
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/chat-template.md",
+      "sha256": "a21dc498c24e46108d6dd5f04e29985fd5d4f5cdd38bd6e0be55726283bea205",
+      "bytes": 1763
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/constitutional-ai.md",
+      "sha256": "2cd498f2f77a58fbb28d1499a1d7bac811192145a279d594b692422401dca2fb",
+      "bytes": 2190
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/context-distillation.md",
+      "sha256": "c9bf7f4e328e43f0607b8f1779ba16109a45cc2a454e2a594dd2fa741fcba818",
+      "bytes": 2085
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/context-window.md",
+      "sha256": "fdbdd2d3925df5a80e75ce01ec7ea2a3b26e68392a48289512bb07306e9d03e0",
+      "bytes": 2353
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/embedding.md",
+      "sha256": "0c29345dd298ee0eea047d572fb36f21a4dcaeaa1d722c119285dcf64f4d4563",
+      "bytes": 1828
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/end-of-sequence-token.md",
+      "sha256": "afe362f09479c7161d327a9c8f19c0261cdfe6f8c85d6e61bf9c0e0ab9a9ae3c",
+      "bytes": 2382
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/fine-tuning.md",
+      "sha256": "4516a368d43e8bc9b3e56d7b4b741ad4846f9594e189eb843c3cc721154e4093",
+      "bytes": 2434
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/gpt-2.md",
+      "sha256": "afa67b8e2b6844c7b9861a700d3fefef9c05039469f1bf9063678f7b055a9b96",
+      "bytes": 1947
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/greedy-decoding.md",
+      "sha256": "f4b01e070bf5619e628eb76526ce2069ee5249c8fe15748703ec24379483ee9f",
+      "bytes": 1738
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/in-context-learning.md",
+      "sha256": "d7a019dfc3208af3f30efb792e1667897dd1f4b28404433de16824bdbbf3dd16",
+      "bytes": 2558
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/inference.md",
+      "sha256": "ea3be662fc169d552815f7612182126b3d18c71e305d4bbf4839387ffcc4ae70",
+      "bytes": 1173
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/instruct-model.md",
+      "sha256": "7925e066fd82f9b32657ca03d3c857a081bf6026dc48f5cfe53d6fce4a29fefd",
+      "bytes": 1654
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/instruction-tuning.md",
+      "sha256": "42c66b6c4a4cd49823ea6f32f23198560a0b881d37568495d1ac9f252baf15f0",
+      "bytes": 2344
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/language-model.md",
+      "sha256": "4423f65687ecb0b0927d85664d4c118ae2c3109d98e1fdb917a4686c55050beb",
+      "bytes": 2736
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/logits.md",
+      "sha256": "daa5507a0ffd84093034172fb712ca48d2394efdb5454a8bec6ba0fc11d09943",
+      "bytes": 1396
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/lora.md",
+      "sha256": "42760ee573fe5839d52f06859bca3ab5598dd8fbb98979a76afc39822d2a4075",
+      "bytes": 1555
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/loss.md",
+      "sha256": "a3b778998f00d869e1b67bdf61f9899ad3f2e70f1be1a768530da2af24520c12",
+      "bytes": 1463
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/model-card.md",
+      "sha256": "0986ddbbe9f6608ab23f28d26a04d816a7a762f295d347d7a264f23862fb046d",
+      "bytes": 1391
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/neural-network.md",
+      "sha256": "f56e4916cd193c2a7fb5ed26387a942cf23ffdf5e97601bcb4691f5be04fe639",
+      "bytes": 1353
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/next-token-prediction.md",
+      "sha256": "8b71a0b4b4427c437d1e1774f15c6e28b79433ef0529de6665777ac96fc9fdcb",
+      "bytes": 2885
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/onnx.md",
+      "sha256": "fd104186e328e6850e5e45adbe2dbc8fc3cc4228a88e5de04540ea0e9defcc28",
+      "bytes": 1310
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/open-weights.md",
+      "sha256": "c670dd2237108144feba402d6a4799cfe21026e39526bb54675d3ecf89ee7de2",
+      "bytes": 1720
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/parameters.md",
+      "sha256": "df027eaef9ba24bcb208d5f00171ff1b0204b72d2c2e3789719a173ac23add15",
+      "bytes": 2106
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/post-training.md",
+      "sha256": "a690f6f0f49ab2eda609a6b70af7928c6b90100c6d8ca9923e773b4445e2c217",
+      "bytes": 3179
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/preference-data.md",
+      "sha256": "9ed511f3ca78923c2a593fb5a479e5fa418cdadad61b98937cb8247a0f20c9e2",
+      "bytes": 2295
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/pretraining.md",
+      "sha256": "148cccb9315d013290ed9a921996a947ee3329e58f8f41b88923be20238566a7",
+      "bytes": 2342
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/probability-distribution.md",
+      "sha256": "1049dff496c60513195b3c43bceef7bdc46634ffd6f419a9c862991a36378fbc",
+      "bytes": 1303
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/quantization.md",
+      "sha256": "61201fbb5d3bfbbabad35805cf72c5627beddd5bc2f055a66de877ed818bdadc",
+      "bytes": 1168
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/repetition.md",
+      "sha256": "0851ce8d166cf59eeb930a321461fb5419538eca52b081996235c1513a453bcc",
+      "bytes": 1957
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/reward-model.md",
+      "sha256": "2a584497e8be22f6dcaf03a13f5e86d9bc5c9bb2942b28ecf4d8a724fcc65ec2",
+      "bytes": 2452
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/rlhf.md",
+      "sha256": "bd52acb5d68234cac987a0cfdeb66eeacf8ac5f90b450cdcc3df9ee789a86201",
+      "bytes": 3191
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/sampling.md",
+      "sha256": "c7373aa8180a5d1ce9d55627d5f2dec85d4a712eb5d58b4b8c5fe5b0158f09ad",
+      "bytes": 1653
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/scaling-laws.md",
+      "sha256": "d4870d6fa7c362b199af6298149f05ebc77037205bc8f56c7b3cf548d2b41cc2",
+      "bytes": 1470
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/seed.md",
+      "sha256": "c93840bd93209830b8e11c08b7a419003b55f687662ad43af77272c3541b18d4",
+      "bytes": 921
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/smollm2.md",
+      "sha256": "3886a8befca5afbcc11b2744451cd3f1c9c9efe22479da92726e6b06ddaaeb48",
+      "bytes": 1906
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/special-tokens.md",
+      "sha256": "5f0e41148a5ba5200ccd15f58d69adcff2dc7d2ca3a4c9990aa7f3e147200161",
+      "bytes": 2235
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/stop-sequence.md",
+      "sha256": "28e7396426dcebed2a398a5d954d7628abaf5c96bb82e5261b176f24da7d688c",
+      "bytes": 2083
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/supervised-fine-tuning.md",
+      "sha256": "c18bc56a2fe9fde3a808aedc251121b9dde1311288b7186455ad35ab485b132b",
+      "bytes": 2284
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/temperature.md",
+      "sha256": "f4f671a01b7e004bd77863968a6da16cdfa3248f132251798b4df6b791176251",
+      "bytes": 1964
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/token.md",
+      "sha256": "c5058588c3e35e9a14ded94faea7f4d927af37ce5e9a329a51155846302a9b85",
+      "bytes": 1984
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/tokenizer.md",
+      "sha256": "983663cbc24fb7767c6b0f0ef084f4f69b9a42bea06edade93f294755eb4528e",
+      "bytes": 1695
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/tokens-per-second.md",
+      "sha256": "029379407d84ae4fad79b2c4b482cc0b82d9c236274d6c7bfb633cc04a0aaea2",
+      "bytes": 1094
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/top-k.md",
+      "sha256": "223204f522f79cb268ffb37f262eeb9849225c77f906e48acdc20314ea8a1bf4",
+      "bytes": 1444
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/top-p.md",
+      "sha256": "0c94b794870e7d29128302acf54ed319361f28db19dde0aaae7069afc9f76c3f",
+      "bytes": 1401
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/training-data.md",
+      "sha256": "22fc51ee58706914cbab75a085851f8b5687ec270959f416968062874f1de515",
+      "bytes": 2346
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/training.md",
+      "sha256": "6f74b8cbe5513f263827fd28c29616220acf9a07451e9f3fb9f56e8debc75d5b",
+      "bytes": 1247
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/transformer.md",
+      "sha256": "524db66b5d5a14a95003816bec7d8cae4c0b772687b3420d272cdc0ea247f9bc",
+      "bytes": 1769
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/transformers-js.md",
+      "sha256": "02a3f41b2b7bd5380d12c2afa2bb44acc013224432053b0c3720406ee55f5603",
+      "bytes": 1379
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/vocabulary.md",
+      "sha256": "2ba6c980985630a10f20e8992c713763d34bf9577d19bb0b9b1313259fac4b2b",
+      "bytes": 1596
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/webgpu.md",
+      "sha256": "53da133a3dd953dddade64dae574d914eea841d44208baa8d3889d1fab170bca",
+      "bytes": 1343
+    },
+    {
+      "path": "nextjs/content/glossary/models-and-training/weights.md",
+      "sha256": "3f76728a5308f02e06828155acce4a152f6d97e30622bd71965b2bcc0eb83288",
+      "bytes": 1560
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/README.md",
+      "sha256": "7e8fa1b6fa1ab95354b0e712d156ef58a42cb4c7596a26408803ce9a2b376a32",
+      "bytes": 14877
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/alan-turing.md",
+      "sha256": "64c9665e17225afac2d9dbad33dac22d6e4ec8e2a356243770c5b3259016feef",
+      "bytes": 2059
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/andrej-karpathy.md",
+      "sha256": "89161461f34fc534b643548b7fbb634b82be2b5d386e06f9c02c095a161ae064",
+      "bytes": 1975
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/artificial-humanities.md",
+      "sha256": "4fac96381eb80d47b4b01992a68ef97d656be798ed9c617b3085596cd38e4f11",
+      "bytes": 2615
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/askell-2021.md",
+      "sha256": "963faa815153bcf443734432101663cc7ae4e8e1c106888d365038a1a1970122",
+      "bytes": 3584
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/attention-is-all-you-need.md",
+      "sha256": "47b6f39963805af0a574d55ceecf380b96f6f89096aa65f17fc7ebb9467078c7",
+      "bytes": 2318
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/blake-lemoine.md",
+      "sha256": "502933e0d84863d56031cdafb47d215bf7a572777f26062f4132b43ad3ee124f",
+      "bytes": 2772
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/chinese-room.md",
+      "sha256": "f8ce254c68b3c15d1e616dd5c2d6a69b9664a91cb439d3a57867810dac916d46",
+      "bytes": 2279
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/christiano-2017.md",
+      "sha256": "bf4c45147f13cf61eb2b08a910ae35b0e77d87b6f0676aa06a3dc787ac8e98f9",
+      "bytes": 2411
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/claudes-constitution.md",
+      "sha256": "8c3971a8f24220b6abbf965fae9cc8dd952894448d5550437c10d236495bd990",
+      "bytes": 2383
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/computer-power-and-human-reason.md",
+      "sha256": "aa2af9ae0b538a19b9b3fca96967716b98988ed8772c5f327b1127034395d66b",
+      "bytes": 2724
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/constitutional-ai-paper.md",
+      "sha256": "7a2c79092784ef9914b28700db4b13f8a7697f1741f42ce3674a949e829447dd",
+      "bytes": 2509
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/doctor-script.md",
+      "sha256": "23d6b2ccc2252d39d72ad3894ccf4cc2c5643a0050cc153f46946977fa535fba",
+      "bytes": 2809
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/eliza-paper.md",
+      "sha256": "4251825af55e9299e928ff6ba4e186bde9e83f2ba8f2673ad88eec6ccc0e1017",
+      "bytes": 2832
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/frankenstein-1931-film.md",
+      "sha256": "d633165cbb7c35e78c1d58eb47efcc3c078a7e4d0a9634bf88d2c957d2456b68",
+      "bytes": 2122
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/frankenstein.md",
+      "sha256": "96ae2a6a360659ac0f41109f9967543e59b2057bb8c78a57245729bf9355f8e6",
+      "bytes": 5166
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/generative-agents.md",
+      "sha256": "41a93d284078db95a644881d185f9e3ebaed39fcccdd00d55ca6327e9efb7ece",
+      "bytes": 2648
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/gpt-2-paper.md",
+      "sha256": "2c0bd3771816a07e45f37343a28cdcf76fe2ec8602cdc2ba406fed870f450d7f",
+      "bytes": 3090
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/gpt-3-paper.md",
+      "sha256": "42004bf17411ac1b062db69fef09666975f8fadf243d841cfe1e708702cb792c",
+      "bytes": 2722
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/h-p-grice.md",
+      "sha256": "686dcb3d8889548d97d5ef45af12c1afbf05e6b29a7a12095e1f992cec2514dc",
+      "bytes": 2509
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/harvey-sacks.md",
+      "sha256": "0dea8b0acfb558377bd47948ae5263ce01df5b6be81252b339d9505bebee19ec",
+      "bytes": 2955
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/imitation-game.md",
+      "sha256": "ff39744ec069253bf35c470ea4f93998627ee0512d80a2186aea00d529915986",
+      "bytes": 2973
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/instructgpt.md",
+      "sha256": "6992cd8ff9e4152cf9c2e00fed6c2dcea916a017b6941463a96cb5b3ecaf9008",
+      "bytes": 3095
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/joseph-weizenbaum.md",
+      "sha256": "0c381cde92d0bc7381662e3a6b0ffcbc01e0103d87f25eb49dd5c311418f7494",
+      "bytes": 2502
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/karel-capek.md",
+      "sha256": "cad0022e8dd8ea1d147d4d1f909dfb6f7a1abebee7cd7c707e427d40a6a11b74",
+      "bytes": 2393
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/kenneth-colby.md",
+      "sha256": "95144accad14de359b4e718c2cb0a6abd5f1d80e7abdbef7ef8f1e016b7da06b",
+      "bytes": 2987
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/kevin-roose-and-sydney.md",
+      "sha256": "4bffd4586290154dc7c8d1724316d12cb4bea04c274e24e6bb2ad14786cbc86a",
+      "bytes": 2734
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/lamda-paper.md",
+      "sha256": "0b3becb91250071627d750b1d966ce5a132c02f1330f6539f9e967b46a1211dd",
+      "bytes": 2570
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/laughter.md",
+      "sha256": "ab8b27805208afa81dc744f4f856b2df75d2b8a20e3d8f19149425373219d64f",
+      "bytes": 4421
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/logic-and-conversation.md",
+      "sha256": "23b3b6f4a7c8aedf3116469d69c0e1e96e3f416c59bee75340be1724047e25bd",
+      "bytes": 5815
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/markov-1913.md",
+      "sha256": "29daa143177d8223e72519ec15250c9776e779928baceb7c164ec5c2db40bc0f",
+      "bytes": 2437
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/martin-puchner.md",
+      "sha256": "2add15969115cc7feaf7b709658b72acb73d131dea6a576ef1caf8c1e49e0e22",
+      "bytes": 1772
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/mary-shelley.md",
+      "sha256": "630a7a82d3c75fdf0b0c898b85cb91df2147e3c571e992a93d4b6eb9b37cfa72",
+      "bytes": 2689
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/murray-shanahan.md",
+      "sha256": "8b5faca8b1c83dbe258484b3e2d1ae7cac82e1120272592ccafb61df08b0cb59",
+      "bytes": 2514
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/oscar-wilde.md",
+      "sha256": "6091489cd736b7713ec5b3189601366e262dc29813a3b727491de93d2b40632c",
+      "bytes": 2789
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/phaedrus.md",
+      "sha256": "85bd17118ecf76007c3e85edbbf8007dd4b87192b5849e950cdf75290e82b1ac",
+      "bytes": 4390
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/react-paper.md",
+      "sha256": "6ab31b48ef86b0b87efeeeeff441aa40791d6a504f5f8ef5a3fc42daacdf7841",
+      "bytes": 2487
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/robot-the-word.md",
+      "sha256": "bc4f4d5c051e48db13b7aa18bd6ab23ca8b1659491ca649299b3ecd89baefb21",
+      "bytes": 2148
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/role-play-with-large-language-models.md",
+      "sha256": "70fb6267c753bc37fde183e73454a09f4ece8cb934fc3d0bd0ecc2a64f8bf914",
+      "bytes": 4364
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/rur.md",
+      "sha256": "85db15310581da6e6a7a974a430f13483a0c50ef6e9ea2a50fb9e6a24e1c5d39",
+      "bytes": 4746
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/shannon-1948.md",
+      "sha256": "80d1010fa43096f63a0bb12e1a28285426fe196cd795337a08cfdcd918ba9228",
+      "bytes": 2703
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/simon-willison.md",
+      "sha256": "28242b77a36e6c6e04e3f5c7baf9e0324eb3521556465b988f7fe2319dc08d30",
+      "bytes": 2392
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/simplest-systematics.md",
+      "sha256": "9ef9caf6d000ad9c73529982f27073b6c24b77da53a5e150d16803500c514c87",
+      "bytes": 6057
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/simulators.md",
+      "sha256": "47cd298b25867eda6f2d3f8f98b652cd917a68981fd5af8bf942c726ca9b42e4",
+      "bytes": 2745
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/stochastic-parrots.md",
+      "sha256": "4cbaef884e26511ff1e1f0d9e6b689da6265debae22640237dc8298fa5e94607",
+      "bytes": 3014
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/talking-about-large-language-models.md",
+      "sha256": "0b62ea7bceeb530377e56edb90fe44212b191742240a110139a30eb0dc89ac90",
+      "bytes": 2435
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/the-analects.md",
+      "sha256": "9845939e70c1e069f81c6cfa64bfe439a7aec9abc7a70ff412a8774436136701",
+      "bytes": 4668
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/the-critic-as-artist.md",
+      "sha256": "67226814a96ec79385e1191283f75f77f144eefb8791984c5e081f47c3816bba",
+      "bytes": 4125
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/the-media-equation.md",
+      "sha256": "41a85003629c7928ecaf4fcbc5b4a75350ffae959a381325961089d87ea80065",
+      "bytes": 2459
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/the-picture-of-dorian-gray.md",
+      "sha256": "6d73da8ad9a537eaf888c82b06dd501a3e55c49b620196ac1634c4a48e0f84b7",
+      "bytes": 4701
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/the-policemans-beard.md",
+      "sha256": "5d7a639b74236e474f99764975a6d4a54efce3d4e9274bcd027d48c65f3c1bad",
+      "bytes": 2238
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/the-void.md",
+      "sha256": "60a35c1bdf88d2330cfb28d7c671e16b940524010f10403aeb8c61e666b2fca2",
+      "bytes": 2619
+    },
+    {
+      "path": "nextjs/content/glossary/people-and-texts/theuth-and-thamus.md",
+      "sha256": "13a489bbdf233dda647c219ade6cdab9671d63d78403ec81d1486c4aff730961",
+      "bytes": 2722
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/README.md",
+      "sha256": "0e3fbe54d68c03b9ab97b05768f412b39742f24338e15c80101d51bbb2849044",
+      "bytes": 6979
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/adjacency-pair.md",
+      "sha256": "bfed3940eac04899a9ae188298eb88d140fd3bea57d94b2cb8fb3be7ea1191c7",
+      "bytes": 1635
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/anthropomorphism.md",
+      "sha256": "253d741b73c37756fb17f945216c1881997c9ce816d951fd75c76d952a7df778",
+      "bytes": 1782
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/assistant.md",
+      "sha256": "596a35c683924daead901a023bb03e6a7541d014efda448c13833c17cb8b3e58",
+      "bytes": 1575
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/character.md",
+      "sha256": "b2982d01a1a3853786e42fcf95950e64891985dcb571025e37b5e9f13b964852",
+      "bytes": 1541
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/companion.md",
+      "sha256": "21d35e9f3f3b0b50b4979579b7703820ef7012e6cc2b6d7b4b8e8464b7a1f351",
+      "bytes": 1759
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/cooperative-principle.md",
+      "sha256": "b2c1dff44026d3d8cad7f3a7d753c46def3f5681999b07eb8ccc0ca7ff649cec",
+      "bytes": 1697
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/dramatic-dialogue.md",
+      "sha256": "a3acd281dd58c0e24cc879dc2624e7a1931e9ae8f4437fda5b8c164f362ddc64",
+      "bytes": 1872
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/eliza-effect.md",
+      "sha256": "49f88965ccc776530959ace49d4ace588e16fa0587be21d4af4457ae77873650",
+      "bytes": 1802
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/few-shot-prompting.md",
+      "sha256": "613069cc4d9e50a61b0c6624b41f6af56dbd3e267f7f94849a0b005e7d2d5de9",
+      "bytes": 1711
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/flouting.md",
+      "sha256": "c0553eb5eab90d54897150dab6184e9d83f60e2a31bcd338840b3ce8c6ac3414",
+      "bytes": 1522
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/grices-maxims.md",
+      "sha256": "043029bf17cb6cb621418e0f6b74312b6625ff219d126c37190e09b4bfd7ad46",
+      "bytes": 1655
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/hallucination.md",
+      "sha256": "fcd900383901418fb1f6e59df531b3a29efe0aa13c19539466a6843024cfda89",
+      "bytes": 1677
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/hhh.md",
+      "sha256": "7814f273dcc00c87d53e305db195b311b48f69308c131373ff5106156f4da5fe",
+      "bytes": 1579
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/implicature.md",
+      "sha256": "0055ea77590ddaee7a0438f45ecaa6774bb81da377b4c82ee0c98adb9bd7a8ac",
+      "bytes": 1592
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/interiority.md",
+      "sha256": "2a3e6163158098351f2eaaad7f3121480db57c22228bf3d0345a5849d5fb9e9c",
+      "bytes": 1752
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/irony.md",
+      "sha256": "b033955edfa8e04b505becec53add4ea0923b8bf9425020068ac37e138b3ac5b",
+      "bytes": 1664
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/jailbreak.md",
+      "sha256": "bb71fd2179efcb4311194285cee98fce5e4e9a15054cf2f3e9824243e3f5db9e",
+      "bytes": 1659
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/maxim-of-manner.md",
+      "sha256": "8d3bcd8c53e2491bc4ea4f3f527fe56b0159d4ffe213a8d385bb32352e3d8bbd",
+      "bytes": 1446
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/maxim-of-quality.md",
+      "sha256": "e591b67fe2b799c8fb1c7211e0b2b4d763fe918635e5d2f76f14e94439185b3e",
+      "bytes": 1509
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/maxim-of-quantity.md",
+      "sha256": "492fd5b1ca96c0dedfc8ecf0d0c1dbf7a1592a6b6c3e1fe7191d5b1808dfa92d",
+      "bytes": 1498
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/maxim-of-relation.md",
+      "sha256": "1114921868bee009cb1df2dd2f005556ed141a009fd74d2fdc539549d8311b84",
+      "bytes": 1386
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/mechanical-rigidity.md",
+      "sha256": "5df091ff46f5992dcb5c65e3162ef9cc824b38d904596749de490420db8414b7",
+      "bytes": 1634
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/parasocial-relationship.md",
+      "sha256": "ff63e48d2bc8648128ee7973f4cae59b871b2185d447414f33e78f02f186890a",
+      "bytes": 1731
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/persona-drift.md",
+      "sha256": "bb65430c9c5b4687d274d7525001216273351085923203cac5c0519e885924f6",
+      "bytes": 1897
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/persona.md",
+      "sha256": "e386eda65b6f6b00739f96698465d225335161af8d24697421791094535c13f2",
+      "bytes": 1803
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/preamble.md",
+      "sha256": "1f44c498cf0c0a451fbb5bb7b6ce4708e3aef508cde7c5a48951b0134d4d7e47",
+      "bytes": 1592
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/recipient-design.md",
+      "sha256": "0b6d6a7c7969c256d0fc16019fbcaa1bf35f94e95ac46b60f995136647e3d869",
+      "bytes": 1739
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/recognition.md",
+      "sha256": "14491d440ac4a8845b692d2bda84292a156cd4569a46d02d1130898b3d45867d",
+      "bytes": 1715
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/refusal.md",
+      "sha256": "d03f93ed6cbaa45511a229c1d0a9d24cdbd929537c1f69444c37b99e958895f2",
+      "bytes": 1775
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/repair.md",
+      "sha256": "52fa21c389f2afddde77dc12213103d12c196a7fb8ce40ebcea5ab9a5065a417",
+      "bytes": 1611
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/rhetoric.md",
+      "sha256": "6f55cade19046c6d38126f92f5cec9ccd64620b9c0a2ffe5a5ecba83ad32c40c",
+      "bytes": 1557
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/role-play.md",
+      "sha256": "c2f22272ed050f46f97b17cbcbd14506a7e7038f1a24e4b364e84b20251bd52e",
+      "bytes": 1611
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/role.md",
+      "sha256": "fc0ff12458a371084c3735508d57939e0d582b672479486bf380e4469ee0b3fb",
+      "bytes": 1909
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/shoggoth.md",
+      "sha256": "94ee311dddada5bdc455649e3395ee2f29da9624208c2bd63bee42d5a5a3c0fb",
+      "bytes": 1864
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/simulator.md",
+      "sha256": "a6e991fb3cc193d3b7b5cdeb35eed4cee4705e6d4999ffe93bd8333bf4b642dd",
+      "bytes": 1736
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/socratic-dialogue.md",
+      "sha256": "5702d222ef4086050792250c209e68748e585608142ab0a2526a19893346b999",
+      "bytes": 1678
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/sycophancy.md",
+      "sha256": "f1b32d1c07a3e80730d47770f03f03dda389ecda78db5adb86eba8cc757a9ee1",
+      "bytes": 1835
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/system-prompt.md",
+      "sha256": "37dcfb2d7ac4aae16006b34500516970374af08b198402d9de60dfc6b2108953",
+      "bytes": 2007
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/transition-relevance-place.md",
+      "sha256": "62a4605f2c2d40a963398fd6ce897f47242a72ea4706fec347697ac7ed97f301",
+      "bytes": 1438
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/turn-constructional-unit.md",
+      "sha256": "91c659c489e26fc339eab795ee9446716bb2725943c28cad4755153248aa675c",
+      "bytes": 1485
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/turn-taking.md",
+      "sha256": "7ebf0d2279a9bb85806888fc3a6a694745f48914a1851152c0dc64873e10f5ac",
+      "bytes": 1579
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/turn.md",
+      "sha256": "e6c8f948832718c4e9ad1c7a734d0d6bc1c2f2ceca8b5ff7135c46e1eb9b9b83",
+      "bytes": 1644
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/voice.md",
+      "sha256": "58c907ba05889671c182144b963d9f6bbd23cd75c8fb7fc929333919c8f8368e",
+      "bytes": 1751
+    },
+    {
+      "path": "nextjs/content/glossary/persona-and-dialogue/void.md",
+      "sha256": "3c677ebcf162f5aefd859deb3d0fa1c4d6fe320a08f81a7545b9a90c768977bd",
+      "bytes": 1833
+    },
+    {
+      "path": "nextjs/content/history/00-prologue.md",
+      "sha256": "2dbf62e18238e3527f20049c6a38811845102fc5fcbc6919be9030d55c3c66c1",
+      "bytes": 6194
+    },
+    {
+      "path": "nextjs/content/history/01-gpts.md",
+      "sha256": "b068e130afdcfe11ae7587f57fb593cafdd2ce5ac94707b32e1237521514271d",
+      "bytes": 3627
+    },
+    {
+      "path": "nextjs/content/history/02-claude-projects.md",
+      "sha256": "bcaf78bb40ee54469d6d68cafc82e17ed8f21723253f3c44fa4efcc8b3a06b1d",
+      "bytes": 2509
+    },
+    {
+      "path": "nextjs/content/history/03-gems.md",
+      "sha256": "ad9b2ed426c276320b52d9cf85c1c73dc0e57ebe625c046c5e123634832fd777",
+      "bytes": 2676
+    },
+    {
+      "path": "nextjs/content/history/04-chatgpt-projects.md",
+      "sha256": "3797e6149976929b9390e48f78ff7194cb87968c1ac69470ab0048cf4c888fa9",
+      "bytes": 1335
+    },
+    {
+      "path": "nextjs/content/history/05-agentic-turn.md",
+      "sha256": "7edd810a1e2dc9742fdd0fd189a00f69a69e47e216efd808887c3d4c59963e61",
+      "bytes": 3634
+    },
+    {
+      "path": "nextjs/content/history/06-chat-homes.md",
+      "sha256": "2044ad78babd223ff07c6da5548b1c96c28e034826c59794fd881a1dc8276e36",
+      "bytes": 2407
+    },
+    {
+      "path": "nextjs/content/history/07-comparisons.md",
+      "sha256": "13df9c3676fcaac57d3fc49d961ab4d83afed75a487a265ae13b21c45efc09b3",
+      "bytes": 1976
+    },
+    {
+      "path": "nextjs/content/history/README.md",
+      "sha256": "c00db6bd9df1d11f17abba003a2e57d5f10995c51a9846eb4baff391b87f4c88",
+      "bytes": 2484
+    },
+    {
+      "path": "nextjs/content/history/_images/00-eliza-1966.png",
+      "sha256": "d7a8898ca5e8db50600ada966c4fedbcb19b12c33d6603d7ce9cbb2a7179952b",
+      "bytes": 485463
+    },
+    {
+      "path": "nextjs/content/history/_images/00a-eliza-conversation-wikipedia.png",
+      "sha256": "f510bfcc6174c18f3fc7cf644caddf087ad1211c31dfd08c41bdde457b06853f",
+      "bytes": 14987
+    },
+    {
+      "path": "nextjs/content/history/_images/00b-eliza-chatbot-commons-publicdomain.png",
+      "sha256": "1b5c80b96690602a0355662d61d0ecab9cdc8983c86dadda7e73adc5210e374d",
+      "bytes": 74227
+    },
+    {
+      "path": "nextjs/content/history/_images/00c-eliza-original-mad-slip-source-1966-cc0.png",
+      "sha256": "9b476980259f5d636062b58893eb4710c04e98358dea508a90e3402e2ef9a4de",
+      "bytes": 121470
+    },
+    {
+      "path": "nextjs/content/history/_images/01-chatgpt-plugins-mar2023.png",
+      "sha256": "e79e0975346a5a3e8229c6ccb7c5fc0ccd19c0be1a33f45970f9d40775b256d1",
+      "bytes": 397392
+    },
+    {
+      "path": "nextjs/content/history/_images/01a-chatgpt-login-screen-dec2022-wayback.png",
+      "sha256": "5113128f607b4e412c2d4e06325c66b0e8a7b6e3d5ac1a666686fb3ae30ada1a",
+      "bytes": 460134
+    },
+    {
+      "path": "nextjs/content/history/_images/01b-chatgpt-chat-ui-dec2022-commons-publicdomain.png",
+      "sha256": "08471d5a8af5c8a675297a38c61977ec0c7df74cb2ddd6c0a0b0d8c2839ba174",
+      "bytes": 87245
+    },
+    {
+      "path": "nextjs/content/history/_images/01c-openai-chatgpt-launch-post-nov30-2022-wayback.png",
+      "sha256": "861d1bedd4ea3615da895efe91e230cd5ad6ad7d538fdf85acddc9c5af90ed66",
+      "bytes": 1473599
+    },
+    {
+      "path": "nextjs/content/history/_images/01d-openai-chatgpt-launch-post-samples-nov2022-wayback.png",
+      "sha256": "06ce053201ded9f0ad0ce02ad40703f7a53bf20013497b73b0cfb7da9a215146",
+      "bytes": 1473078
+    },
+    {
+      "path": "nextjs/content/history/_images/02-chatgpt-custom-instructions-jul2023.png",
+      "sha256": "996af2677b4e8629c5d469828885b67cc2f1c3c97faf91c910edf118811ffdf3",
+      "bytes": 360853
+    },
+    {
+      "path": "nextjs/content/history/_images/03-gpt-store-gallery-with-retirement-banner.png",
+      "sha256": "6fe2f67178f0ab6c18287e5d31258489faf28618c7aec377428bffa0de32dd49",
+      "bytes": 437355
+    },
+    {
+      "path": "nextjs/content/history/_images/04-gpt-store-trending.png",
+      "sha256": "43994411c7cb7e06b914ab0afc4d62ba0a6aa9e726b29053e161152c2574ec6e",
+      "bytes": 490996
+    },
+    {
+      "path": "nextjs/content/history/_images/05-gpt-builder-create-tab.png",
+      "sha256": "6ba11f948c58fe3f4e3d07cb1463b5b756388c797251770828109ba8a0eb78e7",
+      "bytes": 331910
+    },
+    {
+      "path": "nextjs/content/history/_images/06-gpt-builder-configure-tab.png",
+      "sha256": "50e511249662d66d37028abe14d1aecd1f238ce0a9b4d9e65f5fa9425400f762",
+      "bytes": 434665
+    },
+    {
+      "path": "nextjs/content/history/_images/07-gpt-builder-knowledge-capabilities.png",
+      "sha256": "fd7d476ddcacdc27ff844b5e1e54ad954326391c7d0645c73d69348343d730f1",
+      "bytes": 418525
+    },
+    {
+      "path": "nextjs/content/history/_images/08-gpt-in-use-scholar-gpt.png",
+      "sha256": "2dbdd57591d6c0d068860b8419a54dab8d62b7c28ef5dde008d145dfa34cc7ec",
+      "bytes": 381740
+    },
+    {
+      "path": "nextjs/content/history/_images/09-chatgpt-plugins-directory-2026.png",
+      "sha256": "5b61d34dfcd722e7f9a34bdffdaafc4ea16b38827a62f16f3ea1dcc64b40823a",
+      "bytes": 407459
+    },
+    {
+      "path": "nextjs/content/history/_images/10-chatgpt-project-settings-instructions.png",
+      "sha256": "1b9db02e6efcb9533c8308a7e8f3db5644ed0739198641cc76a7b1808d2a7c6f",
+      "bytes": 381046
+    },
+    {
+      "path": "nextjs/content/history/_images/11-chatgpt-project-page-sources.png",
+      "sha256": "4a95319a5cf85ccb3f3fd8e3b6752bffc0b1475a403046e2539191e1f35910eb",
+      "bytes": 316932
+    },
+    {
+      "path": "nextjs/content/history/_images/12-claude-projects-list.png",
+      "sha256": "4a87cf0499a29b1a62052b53fdf85b5a0f5e9d18d94cef904b04ea6e5cd551b2",
+      "bytes": 436706
+    },
+    {
+      "path": "nextjs/content/history/_images/13-claude-create-project-dialog.png",
+      "sha256": "fea45329fe020ca3b22b37d5abb41c8c89ae25bc72239e70a058e8a31de4a715",
+      "bytes": 473023
+    },
+    {
+      "path": "nextjs/content/history/_images/14-claude-project-instructions-dialog.png",
+      "sha256": "ab0ca60c59776328056b6e189d882f9bb4f676ca82201f46112144821899cb38",
+      "bytes": 474356
+    },
+    {
+      "path": "nextjs/content/history/_images/15-claude-project-knowledge-add-context-menu.png",
+      "sha256": "0bf4862171ac7be3405970028f39f3154dfcb96bf91b538d82742dd7707399f7",
+      "bytes": 439669
+    },
+    {
+      "path": "nextjs/content/history/_images/16-claude-chat-inside-project.png",
+      "sha256": "e0bd2af5c237094c8a216914e572d8a09d361d61dbbe41456b107e5c9cdbd93d",
+      "bytes": 528361
+    },
+    {
+      "path": "nextjs/content/history/_images/17-gemini-gems-gallery-with-skills-banner.png",
+      "sha256": "449dae46f896d15267f9e3e5e636b57e21bc2730af4b58c43cde3d70eaeb091a",
+      "bytes": 1304800
+    },
+    {
+      "path": "nextjs/content/history/_images/18-gemini-gem-manager.png",
+      "sha256": "e7f3f4763ef8ba281f6aedda8faadc09d251002d32e206c2f2cff0b5cf4c0a3d",
+      "bytes": 393336
+    },
+    {
+      "path": "nextjs/content/history/_images/19-gemini-gem-editor.png",
+      "sha256": "5177807cda4df8d95e33472ee5b97579f1f6f3aea4b1336d7965693f2da9bc31",
+      "bytes": 531282
+    },
+    {
+      "path": "nextjs/content/history/_images/20-gemini-gem-editor-knowledge.png",
+      "sha256": "cf329766e674c82158936bf4d008c5ab081dcb55261e0e75a105b68633d8f61a",
+      "bytes": 537028
+    },
+    {
+      "path": "nextjs/content/history/_images/21-openclaw-homepage.png",
+      "sha256": "61a45d8dbf866ce1b8b8ae09ccb97db2a06739a51ef535b9e859b419b5f0f2bb",
+      "bytes": 694857
+    },
+    {
+      "path": "nextjs/content/history/_images/22-hermes-agent-homepage.png",
+      "sha256": "0bdbfb90aef0efb18dfe15dc35f4693c19ccbae7c468a74346b6f1aae8b16109",
+      "bytes": 3041251
+    },
+    {
+      "path": "nextjs/content/history/_images/23-openai-introducing-dots-sep2026.png",
+      "sha256": "4dc111796a49529146cbb489050194ef321c0d186f18d61da646bbe0ee9873c6",
+      "bytes": 385273
+    },
+    {
+      "path": "nextjs/content/history/_images/24-meta-introducing-muse-sep2026.png",
+      "sha256": "3cbb154c5bbb7950c37b797c958ef05251891fff2a4a2166dad69aeb239b27b5",
+      "bytes": 404594
+    },
+    {
+      "path": "nextjs/content/history/_images/25-xai-introducing-grok-bot-aug2026.png",
+      "sha256": "65bec7f66fb00a377653354b6a865ebc0f880432b90261a46cbe888c71f1f052",
+      "bytes": 769656
+    },
+    {
+      "path": "nextjs/content/history/_images/26-grok-your-bots-are-in-grok-popup.png",
+      "sha256": "b22d536bc5b0f42964fc66e4ad7411abff4465e7ebbc7925d3671fbcc4938ddb",
+      "bytes": 351971
+    },
+    {
+      "path": "nextjs/content/history/_images/30-chatgpt-home-2026.png",
+      "sha256": "840fd4ca56da37fe7ceb556a7ae73cf06c3db61fd1789209d46a640b3656b297",
+      "bytes": 216942
+    },
+    {
+      "path": "nextjs/content/history/_images/31-claude-home-2026.png",
+      "sha256": "6794f8e5431e0de73d56d2f404127ee6363e1faabdf0796b1bef7ecd4675bd04",
+      "bytes": 315578
+    },
+    {
+      "path": "nextjs/content/history/_images/32-gemini-home-2026.png",
+      "sha256": "83dc53c13f306d3ca2ebe08089087b21207c296af8db2846e70e26ac890b9908",
+      "bytes": 1253447
+    },
+    {
+      "path": "nextjs/content/history/_images/33-grok-home-2026.png",
+      "sha256": "339480c4b88ccf35931e36c44c1cbe0a24df82f1ca5ece54cc771754d691414a",
+      "bytes": 226449
+    },
+    {
+      "path": "nextjs/content/history/_images/34-microsoft-copilot-signin-landing-2026.png",
+      "sha256": "e7171bdf698e09507a2a51e1fc7d960dd85e06ef9dfeed849320cdafa82410bc",
+      "bytes": 778356
+    },
+    {
+      "path": "nextjs/content/history/_images/35-meta-ai-home-2026.png",
+      "sha256": "71f6cc8a6c3906ce61766aee58b8fe3cd5b485bb8430b2a1aa49f1c9a0c4bc84",
+      "bytes": 315047
+    },
+    {
+      "path": "nextjs/content/history/_images/40-gemini-notebook-formerly-notebooklm-2026.png",
+      "sha256": "49e565ad35a370ef123f02ac1ce2f1d55745c58e8f10ba510c3f8bf60d6f991d",
+      "bytes": 1911249
+    },
+    {
+      "path": "nextjs/content/history/_images/41-poe-explore-bots-2026.png",
+      "sha256": "d9752f9e90b59a9fb73ff37ffe8b4d387868b06ac8f87893981b32222e08413f",
+      "bytes": 630565
+    },
+    {
+      "path": "nextjs/content/history/_images/42-character-ai-landing-2026.png",
+      "sha256": "5c56b45eb85fa89863bd485fdf2fb33e44c644aaeb128b3da211e57175585792",
+      "bytes": 1717321
+    },
+    {
+      "path": "nextjs/content/history/fact-check.md",
+      "sha256": "b96d26379b44b3ee9853b15ff75a142bbaa25ce0cf0d34b95c0e6bb197e8279d",
+      "bytes": 25380
+    },
+    {
+      "path": "nextjs/content/history/shot-list.md",
+      "sha256": "57c3b8aec58401be0ba30ea0963e7336a655581ed03b8197d11d64458cac82be",
+      "bytes": 21131
+    },
+    {
+      "path": "nextjs/content/readings/README.md",
+      "sha256": "6933db208dafd83aa0a7bd27e5c11bdfc406693f9d8b70d335a801604f70a0f0",
+      "bytes": 4429
+    },
+    {
+      "path": "nextjs/content/story/00-prologue.md",
+      "sha256": "ca5d0b4c49dfc8a02970fae7d1e528e299a19813e5714948a9c753cd8d29605b",
+      "bytes": 5726
+    },
+    {
+      "path": "nextjs/content/story/01-writing-cannot-answer.md",
+      "sha256": "d66755eb91882e8b9bb0f42b15501648a2e90e092da85fa7ac6df5415da17482",
+      "bytes": 9036
+    },
+    {
+      "path": "nextjs/content/story/02-made-beings.md",
+      "sha256": "52a7da616800b566fd5b0b3aaf0a573ea5998f8420a9a9253f4b1db414d7a344",
+      "bytes": 12375
+    },
+    {
+      "path": "nextjs/content/story/03-eliza.md",
+      "sha256": "9089e9fbc5355a7fe6cd5ea82b053667ef0ada4b738e218f4ed2ea23b52cda0e",
+      "bytes": 11355
+    },
+    {
+      "path": "nextjs/content/story/04-the-spiral.md",
+      "sha256": "1fa8a05699156050eff3c4f79ebc60e78130acad4e1ccf273f4ca4b79e63951f",
+      "bytes": 12267
+    },
+    {
+      "path": "nextjs/content/story/05-written-into-a-document.md",
+      "sha256": "1618cc02bb76d2d5c0510b5c955edb1b918d624ce07074a7d6f11266dffeefe9",
+      "bytes": 11239
+    },
+    {
+      "path": "nextjs/content/story/06-post-training.md",
+      "sha256": "9067199467a5e61213028332101a800e8ad2cb5bdaadb483e44c6554a344629d",
+      "bytes": 13612
+    },
+    {
+      "path": "nextjs/content/story/07-chatgpt.md",
+      "sha256": "fa0470a7d6820ae300ccdd96e121d4cd28e03b4cc74e83d1b5f6378316000517",
+      "bytes": 8484
+    },
+    {
+      "path": "nextjs/content/story/08-sydney.md",
+      "sha256": "f15be94a7d6bef0db5bb6ab09a3ea3d4d76c4e302b4e7f54af8ce78123067eea",
+      "bytes": 9175
+    },
+    {
+      "path": "nextjs/content/story/09-configuration.md",
+      "sha256": "630b9814591ff8605aff9e266741992ad5f0a25080beffdb3254801f298d0443",
+      "bytes": 9338
+    },
+    {
+      "path": "nextjs/content/story/10-staged-interiority.md",
+      "sha256": "8ce4d4ee546a223726706e1f23031c5fc9058ea2fcf45e1eefe6744fb009ebe9",
+      "bytes": 7476
+    },
+    {
+      "path": "nextjs/content/story/11-agents.md",
+      "sha256": "d0ed489829a93ed64098c085c405afdb2993c936c54580fc17799f6b6ac15b73",
+      "bytes": 13563
+    },
+    {
+      "path": "nextjs/content/story/12-epilogue.md",
+      "sha256": "b15c4bd38467bd97be8a2e8a29a666ae06653545682266794b34393fd7376a1c",
+      "bytes": 5929
+    },
+    {
+      "path": "nextjs/content/story/README.md",
+      "sha256": "05bf780c7096a5e1db769de40deb74fbcc2e2bc9adf18b84867bc3f2967484cc",
+      "bytes": 11845
+    },
+    {
+      "path": "nextjs/content/story/samples/gpt2-20261019.md",
+      "sha256": "59f43e1efe6640f143e11a646b6d02cacce409c28c615b25661c1a5767f2628e",
+      "bytes": 4961
+    },
+    {
+      "path": "nextjs/content/workshop/README.md",
+      "sha256": "c2411368c3310f843b3cef4606577fd65d3f7f1196c2270da65b3ee380a59422",
+      "bytes": 7434
+    },
+    {
+      "path": "nextjs/content/workshop/claude-desktop/README.md",
+      "sha256": "2f1ebc6e7732165a06bcce3ea1e71ab86f19d87014435309fc40dce8a5ac967a",
+      "bytes": 10696
+    },
+    {
+      "path": "nextjs/content/workshop/claude-desktop/claude-code-proposal.md",
+      "sha256": "d4ca3b5434040cf75366db048806164745ac1ab66988cde9e738ed9484765b8a",
+      "bytes": 2842
+    },
+    {
+      "path": "nextjs/content/workshop/claude-desktop/persona-card.md",
+      "sha256": "ec0dad383fb8d5dd9c0fd008e9aacda13bad59a61067606c975f9a408e7b3acf",
+      "bytes": 2303
+    },
+    {
+      "path": "nextjs/content/workshop/claude-desktop/test-sheet.md",
+      "sha256": "e7483f125c2e432423e0a58db133f6771ef5361ea3ee5776697e1b4964167f2f",
+      "bytes": 4099
+    },
+    {
+      "path": "nextjs/content/workshop/claude-desktop/texts.md",
+      "sha256": "ef28564b5ceacb8e56ca4e4a8f0120e432fdee4c96fa2052620ba62246b9d1f5",
+      "bytes": 4351
+    },
+    {
+      "path": "nextjs/content/workshop/run-locally.md",
+      "sha256": "57e0c6bd74a893816061c4977061c91891270d78d9b34944547356e03255bbf8",
+      "bytes": 6237
+    },
+    {
+      "path": "nextjs/content/workshop/setup.md",
+      "sha256": "76b49af292ef12e6405b9d1e938bb3c2c95f729d47af04fc64fda816d82f991d",
+      "bytes": 5242
+    },
+    {
+      "path": "nextjs/lib/bots-format.mjs",
+      "sha256": "69a37fbe351f96d0bb75e39ff642d275760176ed6ca5ae3b8857b26c456f4c03",
+      "bytes": 8879
+    },
+    {
+      "path": "nextjs/lib/bots.mjs",
+      "sha256": "fc726690d2d58fb063152234c44ad8e5f5d5be38182bd5db093a5c38557d0e6e",
+      "bytes": 7329
+    },
+    {
+      "path": "nextjs/lib/browser-lm/README.md",
+      "sha256": "7095f79552ab39ef703720d1ca77d5b442001d9062382685827473d9d8092cdd",
+      "bytes": 10084
+    },
+    {
+      "path": "nextjs/lib/browser-lm/client.js",
+      "sha256": "218ac02fef0c8547bd0758fe6e51c91b2ff3f65a1db7571aa68e5ae7443d1980",
+      "bytes": 1982
+    },
+    {
+      "path": "nextjs/lib/browser-lm/device-preference.mjs",
+      "sha256": "18c245defa236b329519b6e85dd39ca377d9f3337a1e7d0e4a060300ab3838bc",
+      "bytes": 608
+    },
+    {
+      "path": "nextjs/lib/browser-lm/index.js",
+      "sha256": "c05d70be1108242cad4abef0fd479e521d2ddfca2e165960005cd6d3b0ef0186",
+      "bytes": 91
+    },
+    {
+      "path": "nextjs/lib/browser-lm/sampling.js",
+      "sha256": "7e5475a4f73b885b2794dcb2cf2556ee9e01dc82ed87c6a6551b3ee8d793e5a2",
+      "bytes": 2168
+    },
+    {
+      "path": "nextjs/lib/browser-lm/sampling.test.mjs",
+      "sha256": "79246f6582789ec5cf4147640fcf6a4d69558a0bf5d5c994a1839646ea3b45a6",
+      "bytes": 1738
+    },
+    {
+      "path": "nextjs/lib/browser-lm/useBrowserLM.js",
+      "sha256": "ef611d8f98a1046dcdfed1e1aa13fea5fa9833a22c330b32c228fa43cb237ff7",
+      "bytes": 3022
+    },
+    {
+      "path": "nextjs/lib/browser-lm/worker.js",
+      "sha256": "be4a4f3e68ca1961aac9f736fbdb424cb1cb429da170573b64b3bb2a77695453",
+      "bytes": 9296
+    },
+    {
+      "path": "nextjs/lib/content.mjs",
+      "sha256": "a480d2c29525b80f6a6c239f9b3837192fe0a8fc23341b7b53363f71ce7a87bd",
+      "bytes": 11426
+    },
+    {
+      "path": "nextjs/lib/eliza/adapter.mjs",
+      "sha256": "f3a4ebdfdb6a663b4c96d11691c8c5f2a892a0650cc2c12ba9c64f604f06a446",
+      "bytes": 1021
+    },
+    {
+      "path": "nextjs/lib/eliza/doctor.mjs",
+      "sha256": "465ce24e7475a0203b842fcd9e709b9970c80b9ab3b537363c919e04dd1aa137",
+      "bytes": 12813
+    },
+    {
+      "path": "nextjs/lib/eliza/engine.mjs",
+      "sha256": "68eac1202aa6c5f5fb6375924d404ef3a2508a097931eb659527420ad75ca837",
+      "bytes": 10239
+    },
+    {
+      "path": "nextjs/lib/eliza/examples.mjs",
+      "sha256": "f7704663f5221071067da14853eb0176bab268d4f06a1b13b163c4842669c466",
+      "bytes": 1504
+    },
+    {
+      "path": "nextjs/lib/eliza/hash.mjs",
+      "sha256": "70088b1617ca918f2e3fa30b74eae40d64d05a4f6549c8f79efa5bc2144b0b6c",
+      "bytes": 1812
+    },
+    {
+      "path": "nextjs/lib/eliza/index.mjs",
+      "sha256": "82b7255ad686ef8e7b6489d176ca2517f78aa527db1b094c781087fddc5dd07e",
+      "bytes": 851
+    },
+    {
+      "path": "nextjs/lib/eliza/script.mjs",
+      "sha256": "557a0f9ae86f5db99f5746cab8815c93ed53343a939c57f31b61a702b8a56c9c",
+      "bytes": 5045
+    },
+    {
+      "path": "nextjs/lib/retrieval/core.mjs",
+      "sha256": "3eb2425ff4d01c41d8d0b5a178ea63ca9e38bae8b98a77e49c49c109425b3f19",
+      "bytes": 3769
+    },
+    {
+      "path": "nextjs/lib/retrieval/embed-worker.js",
+      "sha256": "21b10cc175d1a801417acccc38f0c9555c8f9812ee85d149cc2003aafbb1342b",
+      "bytes": 1212
+    },
+    {
+      "path": "nextjs/lib/workshop-keys/README.md",
+      "sha256": "875fb4abde696ec4b704a6e635b86cb68f8df557ea7b652bd1af604b175d0e95",
+      "bytes": 254
+    },
+    {
+      "path": "nextjs/lib/workshop-keys/claim.mjs",
+      "sha256": "711067f6ea08b64412b8193514380324e0540f8a3f26720634da3301c97ca609",
+      "bytes": 3422
+    },
+    {
+      "path": "nextjs/lib/workshop-keys/openrouter.mjs",
+      "sha256": "4cddf4a764df9afbb6b10f4bf0ee006b4fa1317ff35eb54b20d51ca787381d52",
+      "bytes": 4047
+    },
+    {
+      "path": "nextjs/next.config.mjs",
+      "sha256": "d64afae1a980e51ccad10b66dcb48fd7c51fe0d062449f8a86c69b7a4ef825d9",
+      "bytes": 688
+    },
+    {
+      "path": "nextjs/package.json",
+      "sha256": "999dcb174d9aa686d1d50f9dff3d322563f584619a3134b9c2165ce87de9b72b",
+      "bytes": 853
+    },
+    {
+      "path": "nextjs/pnpm-lock.yaml",
+      "sha256": "d6973cf286211ec1328e7679a124cbf7f32af9eed9c575855760f87933431ffa",
+      "bytes": 157396
+    },
+    {
+      "path": "nextjs/proxy.js",
+      "sha256": "83d3bbe62f008e8bbda1a5d0216c9c7a675593572da59956bbf8f9144f43afc6",
+      "bytes": 2765
+    },
+    {
+      "path": "nextjs/public/retrieval/dorian-gray.json",
+      "sha256": "403d9188c1c8ef7210d1ddca1e883c4574ee6d701d0f2156e45196cf826f25df",
+      "bytes": 829390
+    },
+    {
+      "path": "nextjs/public/retrieval/frankenstein.json",
+      "sha256": "801834ee0b301b527e299687c755e237d0cc82304d6b8ce76fb1603b3369183d",
+      "bytes": 764049
+    },
+    {
+      "path": "nextjs/public/retrieval/intentions.json",
+      "sha256": "ec5426fb6ec4ade84b0048181505244935cd1149c46025533f5ecc80d0df6506",
+      "bytes": 637982
+    },
+    {
+      "path": "nextjs/public/retrieval/laughter.json",
+      "sha256": "9b12386aa33f0aa88084cd385621cbf938bf101973ecc34b2de819b6597f8fb4",
+      "bytes": 423291
+    },
+    {
+      "path": "nextjs/public/retrieval/manifest.json",
+      "sha256": "84a2b3e80fc5157a65e195c25e3221049a31992003e2146c7fd63fcf4a633628",
+      "bytes": 1399
+    },
+    {
+      "path": "nextjs/public/retrieval/phaedrus.json",
+      "sha256": "13373738539772ea451054a3c515894af2bdf9f591039c4b8afa615dae08071c",
+      "bytes": 405715
+    },
+    {
+      "path": "nextjs/public/retrieval/rur.json",
+      "sha256": "93a80cfc4a6e4cfa69fe61d6c47dbe02e6611b16d2b4417aebaea1bee6935e4e",
+      "bytes": 248843
+    },
+    {
+      "path": "nextjs/public/workshop/texts/bergson-laughter.md",
+      "sha256": "abd006a7bda13947df502a982fb11f7e066ba427817004a9eb1b2efd49fc6dcd",
+      "bytes": 228750
+    },
+    {
+      "path": "nextjs/public/workshop/texts/bergson-laughter.txt",
+      "sha256": "abd006a7bda13947df502a982fb11f7e066ba427817004a9eb1b2efd49fc6dcd",
+      "bytes": 228750
+    },
+    {
+      "path": "nextjs/public/workshop/texts/capek-rur.md",
+      "sha256": "f07c99afd3a24fe4d45d08dc945999ca2e6f7cf44fd40bb4c418f8943e386606",
+      "bytes": 129363
+    },
+    {
+      "path": "nextjs/public/workshop/texts/capek-rur.txt",
+      "sha256": "f07c99afd3a24fe4d45d08dc945999ca2e6f7cf44fd40bb4c418f8943e386606",
+      "bytes": 129363
+    },
+    {
+      "path": "nextjs/public/workshop/texts/plato-phaedrus.md",
+      "sha256": "389bf53ebeacfa72df0b94d14d5c7f1a23fd7fa2088cc5e761e70db9e9137e09",
+      "bytes": 212023
+    },
+    {
+      "path": "nextjs/public/workshop/texts/plato-phaedrus.txt",
+      "sha256": "389bf53ebeacfa72df0b94d14d5c7f1a23fd7fa2088cc5e761e70db9e9137e09",
+      "bytes": 212023
+    },
+    {
+      "path": "nextjs/public/workshop/texts/shelley-frankenstein-1818.md",
+      "sha256": "43956b15f4c8d3cbcc1329aacf306c70702cb099900b9bd7e9ebba27b52109fb",
+      "bytes": 409332
+    },
+    {
+      "path": "nextjs/public/workshop/texts/shelley-frankenstein-1818.txt",
+      "sha256": "43956b15f4c8d3cbcc1329aacf306c70702cb099900b9bd7e9ebba27b52109fb",
+      "bytes": 409332
+    },
+    {
+      "path": "nextjs/public/workshop/texts/wilde-intentions.md",
+      "sha256": "37b0cadcfc875d4f93974db7443e689eeda9bee4dd85919c5b756a9e0789b58c",
+      "bytes": 332029
+    },
+    {
+      "path": "nextjs/public/workshop/texts/wilde-intentions.txt",
+      "sha256": "37b0cadcfc875d4f93974db7443e689eeda9bee4dd85919c5b756a9e0789b58c",
+      "bytes": 332029
+    },
+    {
+      "path": "nextjs/public/workshop/texts/wilde-picture-of-dorian-gray-1891.md",
+      "sha256": "7762b9c1bccdb78b623058863a190d536b081d66042556c14febfd8cbb4b8916",
+      "bytes": 437274
+    },
+    {
+      "path": "nextjs/public/workshop/texts/wilde-picture-of-dorian-gray-1891.txt",
+      "sha256": "7762b9c1bccdb78b623058863a190d536b081d66042556c14febfd8cbb4b8916",
+      "bytes": 437274
+    },
+    {
+      "path": "nextjs/scripts/build-retrieval-index.mjs",
+      "sha256": "f93bfd36abc964b4d32290420246e42ed29cf5251ec2825e56c1887798c12b17",
+      "bytes": 2235
+    },
+    {
+      "path": "nextjs/tests/bot-room.test.mjs",
+      "sha256": "9787dae8d12d7c9f4f2ca232775bb140968f2f0bbf36a4ff80e9c871408ac338",
+      "bytes": 6306
+    },
+    {
+      "path": "nextjs/tests/bots.test.mjs",
+      "sha256": "baabd925b4ed297f40016760333ce44317e518ff31824209bae1aa17a6e9d207",
+      "bytes": 7688
+    },
+    {
+      "path": "nextjs/tests/by-hand.test.mjs",
+      "sha256": "34138e63597e48bfc9a6aa7ac7a94e36f008015d1d36f817884e993704ff5724",
+      "bytes": 5864
+    },
+    {
+      "path": "nextjs/tests/content.test.mjs",
+      "sha256": "adbb203f00aa4eab231ae32e0984eeba4bd67afb4aa27f0fad4a32d5d50818eb",
+      "bytes": 1214
+    },
+    {
+      "path": "nextjs/tests/eliza.test.mjs",
+      "sha256": "b15ec8c2a8125e2bc8b94140f756fb934f4b8b4dbebcd9e8a204970a2539fdea",
+      "bytes": 5017
+    },
+    {
+      "path": "nextjs/tests/glossary-links.test.mjs",
+      "sha256": "aa0d0bd6142115856ca160f18e80547dd1bf82c2a82fdf820df0a84a2d4414ca",
+      "bytes": 2582
+    },
+    {
+      "path": "nextjs/tests/retrieval.test.mjs",
+      "sha256": "d179f7dce40996d4f500f8f7c0cda2f2d0ba52bc890e3194914d60716f49340e",
+      "bytes": 1600
+    },
+    {
+      "path": "slack-ensemble/.env.example",
+      "sha256": "68fdc39e3d5a84109f34547de9dbd2b07bc877676fa0c145d9f493d40c4f502d",
+      "bytes": 1604
+    },
+    {
+      "path": "slack-ensemble/.gitignore",
+      "sha256": "c9e2cce0cf3d141099531ff1962344a3f7bdc84ef642343a002a339fee4caa7d",
+      "bytes": 25
+    },
+    {
+      "path": "slack-ensemble/README.md",
+      "sha256": "191b6149d74e732cda69d2a4890a33ba19253e60fbf13a66d8025b8c6353902d",
+      "bytes": 7007
+    },
+    {
+      "path": "slack-ensemble/index.mjs",
+      "sha256": "a02a4248276c91ceec854cb9f3e05708696447def2f4bfe78b41c79f59e3b2d5",
+      "bytes": 3814
+    },
+    {
+      "path": "slack-ensemble/lib/bot-file.mjs",
+      "sha256": "973a624a04328d09fe38b6ad340f9797dff54c476e8d89924d70eaab8cdfb160",
+      "bytes": 6948
+    },
+    {
+      "path": "slack-ensemble/lib/bots.mjs",
+      "sha256": "b7126d3ac70ef73a6c399041269e96f4aab8e22224a74d50c250ef2e30a408a3",
+      "bytes": 3166
+    },
+    {
+      "path": "slack-ensemble/lib/config.mjs",
+      "sha256": "660c2d00acb37480721c5cfb259ae3f76120646b23604b5932a6726ab9c495fc",
+      "bytes": 3185
+    },
+    {
+      "path": "slack-ensemble/lib/dry-run.mjs",
+      "sha256": "ae3d89f1cde333baebbdb60096c89798b4acfcd3f025b7903a29861ad55366ea",
+      "bytes": 3084
+    },
+    {
+      "path": "slack-ensemble/lib/llm.mjs",
+      "sha256": "5114399170d52dee6fffa68cecc12749795b1369fef2a60fd76e6e3ca876644f",
+      "bytes": 3523
+    },
+    {
+      "path": "slack-ensemble/lib/log.mjs",
+      "sha256": "2770a8a3a7141a55413e3c66c52d6eea4ddb23f6cf5cf5d2c6d17375c3f73774",
+      "bytes": 913
+    },
+    {
+      "path": "slack-ensemble/lib/room.mjs",
+      "sha256": "0f84b0e26802f0641a4b230973bb8b46407486fe27a00b5d70bef9b87ec1d64d",
+      "bytes": 8613
+    },
+    {
+      "path": "slack-ensemble/lib/slack.mjs",
+      "sha256": "5ada2c1b7954a9c287b2cd8fe45aa45548bf2de12cd9cb8a392ba124e59c2085",
+      "bytes": 5305
+    },
+    {
+      "path": "slack-ensemble/lib/submit.mjs",
+      "sha256": "c919fe5123f6b0a01b63e1efb865f88248752e683b58372147186a1107b1e42d",
+      "bytes": 2478
+    },
+    {
+      "path": "slack-ensemble/package.json",
+      "sha256": "0f1a1de1c7eb3bb792f76310f257afcd30015931a04b53890bb58779f74014d8",
+      "bytes": 544
+    },
+    {
+      "path": "slack-ensemble/pnpm-lock.yaml",
+      "sha256": "40b44bcc236e2cd8d6f92d46291ca302bfee501daccf8a30332eaa084513f482",
+      "bytes": 32190
+    },
+    {
+      "path": "slack-ensemble/slack-manifest.json",
+      "sha256": "9b436eee5d2c78e35b489c75e7d19112d257dd1e9328979f8ccd16e64ef54a9e",
+      "bytes": 1665
+    },
+    {
+      "path": "slack-ensemble/tests/agreement.test.mjs",
+      "sha256": "e300de83dec1db8a98a1e11396c4a74684e691005b559a96c44130f8ddc4f1f5",
+      "bytes": 2488
+    },
+    {
+      "path": "slack-ensemble/tests/bot-file.test.mjs",
+      "sha256": "08a8071e8e804f2c82c3b5da538e147950fb79bd91cf8f5f6ab61290de15ab13",
+      "bytes": 5489
+    },
+    {
+      "path": "slack-ensemble/tests/room.test.mjs",
+      "sha256": "f4681aee29f8063bbefd26b3112ea4194f56aadb88baf118c449b86b375b2b2c",
+      "bytes": 6543
+    },
+    {
+      "path": "slack-ensemble/tests/submit.test.mjs",
+      "sha256": "72e78ded753b957a91da1569e03c18580d643e14fa1412e3388794161f55876d",
+      "bytes": 1774
+    }
+  ]
+}

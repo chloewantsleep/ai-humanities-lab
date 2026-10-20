@@ -1,0 +1,40 @@
+.stage { display: grid; grid-template-columns: 280px 1fr; gap: 28px; align-items: start; margin: 18px 0 30px; }
+@media (max-width: 760px) { .stage { grid-template-columns: 1fr; } }
+.controls { display: flex; flex-direction: column; gap: 10px; position: sticky; top: 70px; }
+.control { display: grid; grid-template-columns: 60px 32px 1fr 32px; align-items: center; gap: 6px; font-size: 14px; }
+.control span { text-transform: uppercase; letter-spacing: .08em; font-size: 12px; color: var(--muted); }
+.control code { text-align: center; font-size: 15px; background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 3px; }
+.control button, .buttons button, .wallHead button {
+  border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 5px 10px; cursor: pointer; font-size: 14px;
+}
+.control button { font-size: 20px; line-height: 1; padding: 2px 0; }
+.control button:hover, .buttons button:hover { border-color: var(--accent); color: var(--accent); }
+.buttons { display: flex; flex-direction: column; gap: 6px; margin-top: 6px; }
+.buttons .primary { background: var(--accent); color: white; border-color: var(--accent); }
+.buttons .primary:hover { color: white; opacity: .9; }
+.note { color: var(--muted); font-size: 12.5px; }
+
+.plate {
+  background: var(--paper); padding: 18px 18px 10px; max-width: 560px; justify-self: center; width: 100%;
+  box-shadow: 0 1px 0 var(--line), 0 12px 32px rgba(60, 40, 20, .1);
+}
+.figure { width: 100%; }
+.fold {
+  position: absolute; left: 0; right: 0; background:
+    repeating-linear-gradient(0deg, rgba(0,0,0,.025) 0 2px, transparent 2px 6px), var(--paper);
+  border-top: 1px dashed rgba(35, 31, 29, .3); border-bottom: 1px dashed rgba(35, 31, 29, .3);
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+.caption {
+  display: flex; justify-content: space-between; margin-top: 8px; padding-top: 5px; border-top: 2px solid var(--accent);
+  font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted);
+}
+.caption span:first-child { font-family: var(--font-display), serif; font-size: 15px; text-transform: none; letter-spacing: .03em; color: var(--ink); }
+.wallHead { display: flex; align-items: baseline; gap: 16px; }
+.wall { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin-bottom: 26px; }
+.tile {
+  border: 1px solid var(--line); background: var(--paper); padding: 6px; cursor: pointer; border-radius: 3px;
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+}
+.tile:hover { border-color: var(--accent); }
+.tile small { color: var(--muted); font-size: 11px; }

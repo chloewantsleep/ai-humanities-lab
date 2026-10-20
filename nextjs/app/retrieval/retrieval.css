@@ -1,0 +1,49 @@
+.rag-lab { font-size: 14px; line-height: 1.6; }
+.rag-lab h3 { margin: 0 0 6px; font-size: 18px; letter-spacing: -.025em; }
+.rag-lab h4 { margin: 0 0 10px; font-size: 15px; }
+.rag-lab h4 .rag-muted { font-weight: 400; font-size: 12px; margin-left: 6px; }
+.rag-intro { max-width: 820px; margin-bottom: 24px; }
+.rag-muted { color: var(--muted); font-size: 13px; }
+.rag-error { color: var(--error); }
+.rag-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; margin-bottom: 24px; }
+.rag-panel { padding: clamp(16px, 2.5vw, 28px); border: 1px solid var(--line); border-radius: 12px; background: var(--wash); min-width: 0; }
+.rag-files { list-style: none; padding: 0; margin: 12px 0; }
+.rag-files li { padding: 8px 0; border-bottom: 1px solid var(--line); }
+.rag-files label { display: flex; gap: 10px; align-items: baseline; cursor: pointer; }
+.rag-lab input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--accent); flex: none; }
+.rag-field { display: flex; flex-direction: column; gap: 6px; margin: 12px 0; font-size: 13px; font-weight: 600; }
+.rag-field input, .rag-field textarea, .rag-controls select { width: 100%; min-width: 0; padding: 10px 12px; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 6px; font: inherit; font-weight: 400; }
+.rag-controls select { width: auto; padding: 6px 8px; }
+.rag-lab button { padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; color: var(--ink); background: var(--paper); font: inherit; font-size: 13px; cursor: pointer; }
+.rag-lab button:hover:enabled { border-color: var(--accent); }
+.rag-lab button:disabled { opacity: .5; cursor: default; }
+.rag-lab button.rag-primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+.rag-lab :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.rag-examples { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.rag-examples button { font-size: 12px; padding: 5px 10px; border-radius: 999px; }
+.rag-controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; margin: 10px 0; }
+.rag-controls label { display: inline-flex; gap: 8px; align-items: center; font-size: 13px; }
+.rag-controls input[type="range"] { accent-color: var(--accent); }
+.rag-own summary { cursor: pointer; font-weight: 600; }
+.rag-results { margin-bottom: 24px; }
+.rag-dist { margin: 12px 0 24px; max-width: 760px; }
+.rag-dist svg { width: 100%; height: 70px; display: block; }
+.rag-dist rect { fill: var(--line); }
+.rag-dist rect.kept { fill: var(--accent); }
+.rag-dist figcaption { color: var(--muted); font-size: 12px; margin-top: 6px; }
+.rag-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
+.rag-list ol { list-style: none; padding: 0; margin: 0; }
+.rag-list li { padding: 12px 0; border-top: 1px solid var(--line); }
+.rag-score { display: flex; gap: 10px; align-items: center; }
+.rag-rank { font-weight: 700; width: 2.2em; }
+.rag-bar { flex: 1; height: 8px; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; max-width: 260px; }
+.rag-bar span { display: block; height: 100%; background: var(--accent); }
+.rag-both { font-size: 11px; padding: 1px 6px; border: 1px solid var(--ok); color: var(--ok); border-radius: 999px; }
+.rag-source { margin: 4px 0; font-size: 12px; color: var(--muted); }
+.rag-list summary { cursor: pointer; }
+.rag-text { white-space: pre-wrap; margin: 8px 0 0; }
+.rag-text mark { background: var(--accent); color: var(--accent-ink); padding: 0 2px; border-radius: 2px; }
+.rag-system { padding: 14px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; font-size: 12px; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 420px; overflow: auto; }
+.rag-reply { padding: 14px; border-left: 3px solid var(--accent); background: var(--paper); border-radius: 0 6px 6px 0; }
+.rag-reply p, .rag-reply li { margin: 0 0 10px; }
+@media (max-width: 880px) { .rag-grid, .rag-columns { grid-template-columns: 1fr; } }

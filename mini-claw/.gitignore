@@ -1,0 +1,4 @@
+# Notes and working memory from demos stay on this laptop.
+.working-memory.md
+notes/*
+!notes/.gitkeep

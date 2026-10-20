@@ -1,0 +1,58 @@
+/* /mini-claw: a task box and the workspace side by side, then the trace of one run. */
+.claw { --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; max-width: 1180px; }
+.claw code, .claw pre { font-family: var(--mono); }
+.claw pre { margin: 6px 0 0; padding: 10px 12px; overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--code); font-size: 12.5px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
+.claw h2 { margin: 0 0 12px; font-size: 18px; }
+.claw h3 { margin: 16px 0 4px; color: var(--muted); font-size: 13px; font-weight: 600; }
+.claw-muted { color: var(--muted); }
+.claw-error { margin: 0; color: var(--error); }
+
+.claw-top { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+@media (max-width: 860px) { .claw-top { grid-template-columns: minmax(0, 1fr); } }
+
+.claw-label, .claw-engine legend { display: block; margin-bottom: 6px; color: var(--muted); font-size: 13px; }
+.claw textarea { box-sizing: border-box; width: 100%; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); font: inherit; font-size: 15px; line-height: 1.5; resize: vertical; }
+.claw button { padding: 7px 13px; border: 1px solid var(--line); border-radius: 8px; background: var(--wash); color: var(--ink); font: inherit; font-size: 14px; cursor: pointer; }
+.claw button:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.claw button:disabled { opacity: .55; cursor: default; }
+.claw button:focus-visible, .claw textarea:focus-visible, .claw input:focus-visible, .claw summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.claw-starters { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0; }
+.claw-starters button { font-size: 13px; }
+.claw-engine { margin: 18px 0 0; padding: 0; border: 0; font-size: 14px; }
+.claw-engine label { display: block; margin: 6px 0; cursor: pointer; }
+.claw-engine input { margin-right: 8px; accent-color: var(--accent); }
+.claw-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 16px; }
+.claw .claw-go { padding: 9px 22px; border-color: var(--accent); background: var(--accent); color: var(--accent-ink); font-weight: 650; }
+.claw .claw-go:hover:not(:disabled) { color: var(--accent-ink); filter: brightness(1.08); }
+
+.claw-workspace { padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--wash); font-size: 13px; }
+.claw-workspace h3:first-of-type { margin-top: 0; }
+.claw-workspace ul { margin: 4px 0 0; padding-left: 18px; line-height: 1.5; }
+.claw-workspace li + li { margin-top: 4px; }
+.claw-file { max-height: 220px; overflow-y: auto; }
+
+.claw-trace { margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--line); }
+.claw-trace > ol { margin: 0; padding: 0; list-style: none; }
+.claw-event { position: relative; padding: 12px 0 12px 22px; border-left: 2px solid var(--line); font-size: 14px; line-height: 1.55; }
+.claw-event::before { content: ""; position: absolute; top: 19px; left: -6px; width: 10px; height: 10px; border-radius: 50%; background: var(--line); }
+.claw-model-output::before, .claw-done::before { background: var(--accent); }
+.claw-tool-result::before { background: var(--ok); }
+.claw-event > p { margin: 0 0 6px; }
+.claw-kicker { font-weight: 650; }
+.claw-event details { margin-top: 6px; }
+.claw-event summary { cursor: pointer; color: var(--accent); font-size: 13px; }
+.claw-said { padding: 8px 12px; border-left: 3px solid var(--accent); background: var(--wash); white-space: pre-wrap; }
+.claw-final { font-size: 15px; }
+.claw-call { margin-top: 6px; padding: 8px 12px; border: 1px dashed var(--accent); border-radius: 8px; font-size: 13px; }
+.claw-call b { color: var(--accent); font-family: var(--mono); }
+.claw-verdict { margin-left: 6px; padding: 1px 8px; border: 1px solid currentColor; border-radius: 999px; font-family: var(--mono); font-size: 11px; font-weight: 500; }
+.claw-verdict.claw-allowed { color: var(--ok); }
+.claw-verdict.claw-refused, .claw-verdict.claw-error { color: var(--error); }
+.claw-messages { margin: 6px 0 0; padding: 0; list-style: none; }
+.claw-messages li { margin-top: 8px; }
+.claw-role { display: inline-block; padding: 0 6px; border-radius: 4px; background: var(--hover); color: var(--muted); font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: .05em; }
+.claw-diff { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin-top: 8px; }
+@media (max-width: 700px) { .claw-diff { grid-template-columns: minmax(0, 1fr); } }
+.claw-diff h3 { margin-top: 4px; }
+.claw-diff mark { background: color-mix(in srgb, var(--ok) 25%, transparent); color: var(--ink); }
+.claw-waiting { margin-top: 12px; font-size: 13px; }

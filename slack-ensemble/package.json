@@ -1,0 +1,21 @@
+{
+  "name": "ai-humanities-lab-ensemble",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The AI Humanities Lab Ensemble: one Slack app that speaks as every student's bot (ENG 298AI, 2026-10-20).",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "dry-run": "node index.mjs --dry-run",
+    "fake": "node index.mjs --dry-run --fake",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@slack/bolt": "4",
+    "dotenv": "16"
+  }
+}

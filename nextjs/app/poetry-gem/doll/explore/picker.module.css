@@ -1,0 +1,21 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+.card { margin: 0; background: var(--panel); border: 1px solid var(--line); padding: 6px; border-radius: 4px; }
+.card.on { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.card img { width: 100%; height: auto; display: block; cursor: zoom-in; background: var(--paper); }
+.card figcaption { display: flex; justify-content: space-between; align-items: center; gap: 6px; font-size: 12px; padding-top: 5px; }
+.card small { color: var(--muted); }
+.card button { border: none; background: none; font-size: 20px; cursor: pointer; color: var(--accent); line-height: 1; }
+.picks {
+  position: sticky; top: 52px; z-index: 2; background: var(--panel); border: 1px solid var(--accent);
+  padding: 8px 12px; border-radius: 6px; font-size: 13px; margin: 10px 0;
+}
+.picks span { color: var(--muted); }
+.lightbox {
+  position: fixed; inset: 0; z-index: 10; background: rgba(35, 31, 29, .88);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; cursor: zoom-out;
+}
+.lightbox img { max-width: 100%; max-height: 88vh; box-shadow: 0 10px 40px rgba(0,0,0,.4); }
+.lightbox p { color: #f3ecdd; font-size: 13px; }
+.lightbox a { color: #f6dcd2; }
+
+.note { display: block; font-style: italic; }

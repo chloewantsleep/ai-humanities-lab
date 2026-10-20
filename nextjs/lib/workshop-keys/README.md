@@ -1,0 +1,1 @@
+Copied from `apps/workshop-keys/nextjs/lib/` (The Notebook) at its commit after `8d2a6e0`, 2026-10-20, for `/keys` and `/api/keys/*`. Copied rather than imported so this app deploys on its own. workshop-keys is the source: fix bugs there and copy again.

@@ -1,0 +1,18 @@
+{
+  "nextjs/app/poetry-gem/Studio.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/doll/corpse/Corpse.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/doll/corpse/page.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/doll/explore/page.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/doll/page.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/library/Nav.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/library/page.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/packs/[pack]/PackSearch.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/page.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/prompts/[id]/page.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/studio.module.css": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/vectors/VectorExplorer.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/app/poetry-gem/vectors/page.tsx": "Namespace integration, embedded studio support, or user-requested plain-language UI copy.",
+  "nextjs/lib/poetry-gem/options.ts": "Shorter plain-language settings descriptions; option values unchanged.",
+  "nextjs/app/poetry-gem/StudioLoader.tsx": "Load short voice notes for the consolidated studio submission form.",
+  "nextjs/app/api/poetry-gem/chat/route.ts": "Accept bounded editable instructions from the unified builder."
+}

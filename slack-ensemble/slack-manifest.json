@@ -1,0 +1,51 @@
+{
+  "_metadata": {
+    "major_version": 1,
+    "minor_version": 1
+  },
+  "display_information": {
+    "name": "AI Humanities Lab Ensemble",
+    "description": "The students' bots from ENG 298AI, in one channel. Address a bot with @ and its name.",
+    "long_description": "The AI Humanities Lab Ensemble is one Slack app that speaks as every bot the students of ENG 298AI (Fall 2026) wrote: each bot is a short Markdown file with a name, a voice, a model, and at most one short text. The app posts each bot's replies under that bot's own name and icon. A bot answers when someone writes @ and its name, or replies in a thread it is already in; bots may answer each other only in a thread a person started, and only a few times in a row. Send the app your bot file in a direct message to add it.",
+    "background_color": "#121412"
+  },
+  "features": {
+    "app_home": {
+      "home_tab_enabled": false,
+      "messages_tab_enabled": true,
+      "messages_tab_read_only_enabled": false
+    },
+    "bot_user": {
+      "display_name": "AI Humanities Lab Ensemble",
+      "always_online": true
+    }
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "channels:history",
+        "groups:history",
+        "im:history",
+        "chat:write",
+        "chat:write.customize",
+        "users:read",
+        "files:read"
+      ]
+    }
+  },
+  "settings": {
+    "event_subscriptions": {
+      "bot_events": [
+        "message.channels",
+        "message.groups",
+        "message.im"
+      ]
+    },
+    "interactivity": {
+      "is_enabled": false
+    },
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": true,
+    "token_rotation_enabled": false
+  }
+}

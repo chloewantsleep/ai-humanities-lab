@@ -1,0 +1,14 @@
+.engine-page { max-width: 960px; margin: 2rem auto; padding: 1rem; }
+.engine-page fieldset { border: 1px solid #555; padding: 1rem; margin: 1rem 0; }
+.engine-page label { display: block; margin: .6rem 0; }
+.engine-page input:not([type="checkbox"]), .engine-page select, .engine-page textarea { background: #202420; color: #eee; border: 1px solid #666; padding: .5rem; max-width: 100%; }
+.engine-page input[list], .engine-page textarea { width: 100%; }
+.engine-page button { background: #952c33; color: white; border: 1px solid #bf5960; border-radius: 4px; padding: .5rem 1rem; cursor: pointer; }
+.engine-page button:disabled { opacity: .45; cursor: default; }
+.engine-page pre { white-space: pre-wrap; overflow-wrap: anywhere; padding: 1rem; background: #202420; max-height: 25rem; overflow: auto; }
+.engine-page [role="alert"] { color: #ffb1b1; }
+.engine-controls { display: flex; gap: 1rem; flex-wrap: wrap; }
+.engine-controls input { width: 7rem; display: block; }
+.engine-distribution > div { display: grid; grid-template-columns: minmax(7rem, 1fr) 2fr 5rem; gap: .6rem; align-items: center; }
+.engine-distribution code { overflow-wrap: anywhere; }
+.engine-distribution meter { width: 100%; }

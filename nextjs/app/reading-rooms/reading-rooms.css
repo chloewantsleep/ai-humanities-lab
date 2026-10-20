@@ -1,0 +1,97 @@
+.reading-rooms { --rr-blue: #a4c5df; --rr-gold: #ebc98c; line-height: 1.6; }
+.reading-rooms h2 { font-size: clamp(30px, 4vw, 52px); letter-spacing: -.045em; line-height: 1.08; margin: 14px 0 22px; }
+.reading-rooms h3 { font-size: 21px; letter-spacing: -.025em; line-height: 1.3; margin: 12px 0; }
+.reading-rooms p { margin: 12px 0; }
+.reading-rooms .rr-kicker { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; }
+.reading-rooms .rr-intro { max-width: 750px; font-size: 18px; color: var(--muted); margin-bottom: 30px; }
+.reading-rooms .rr-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.reading-rooms .rr-grid > * { min-width: 0; }
+.reading-rooms .rr-card { display: flex; flex-direction: column; padding: clamp(20px, 3vw, 36px); border: 1px solid var(--line); border-top: 2px solid var(--accent); border-radius: 6px; background: var(--wash); }
+.reading-rooms a.rr-card:hover { background: var(--hover); border-color: var(--accent); }
+.reading-rooms .rr-card h3 { font-size: 28px; }
+.reading-rooms .rr-card h3 span { float: right; color: var(--accent); }
+.reading-rooms .rr-card p { color: var(--muted); flex: 1; }
+.reading-rooms .rr-tag { display: block; margin-top: 20px; font-size: 12px; color: var(--rr-gold); }
+.reading-rooms .rr-note { color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.reading-rooms .rr-back { display: inline-block; font-size: 13px; color: var(--muted); margin-bottom: 26px; }
+.reading-rooms .rr-back:hover, .reading-rooms .rr-source a:hover { color: var(--accent); }
+.reading-rooms .rr-workspace { align-items: stretch; }
+.reading-rooms .rr-tablet { padding: clamp(22px, 3vw, 36px); border-radius: 4px; background: #e7dfcf; color: #292820; border: 1px solid #b7ad98; }
+.reading-rooms .rr-tablet .rr-kicker, .reading-rooms .rr-tablet .rr-note { color: #5c594f; }
+.reading-rooms .rr-inscription { font-family: Georgia, serif; font-size: clamp(26px, 3vw, 36px); line-height: 1.35; margin: 30px 0; }
+.reading-rooms .rr-panel { padding: 24px; border: 1px solid var(--line); background: var(--wash); border-radius: 4px; }
+.reading-rooms label, .reading-rooms legend { display: block; font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+.reading-rooms textarea, .reading-rooms select { display: block; width: 100%; border: 1px solid #52574f; border-radius: 4px; background: var(--paper); color: var(--ink); padding: 12px; font: inherit; font-size: 15px; }
+.reading-rooms textarea { resize: vertical; min-height: 95px; }
+.reading-rooms textarea::placeholder { color: var(--muted); }
+.reading-rooms button { border: 1px solid #52574f; border-radius: 4px; background: var(--wash); color: var(--ink); font: inherit; font-size: 13px; padding: 10px 14px; cursor: pointer; text-align: left; }
+.reading-rooms button:hover:not(:disabled) { border-color: var(--accent); }
+.reading-rooms button:disabled { opacity: .45; cursor: not-allowed; }
+.reading-rooms .rr-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 700; }
+.reading-rooms :is(button, textarea, select, input, summary):focus-visible { outline: 2px solid var(--rr-gold); outline-offset: 4px; }
+.reading-rooms .rr-suggestions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.reading-rooms .rr-suggestions button { font-size: 12px; padding: 7px 10px; }
+.reading-rooms .rr-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.reading-rooms .rr-empty { padding: 24px; border: 1px dashed var(--line); color: var(--muted); font-size: 14px; }
+.reading-rooms .rr-turn { padding: 26px 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.reading-rooms .rr-turn h3 { margin-bottom: 22px; }
+.reading-rooms .rr-repeated { border-left: 2px solid var(--rr-gold); padding-left: 18px; }
+.reading-rooms .rr-repeated > p:last-child { font-family: Georgia, serif; font-size: 21px; }
+.reading-rooms .rr-discuss { padding: 22px 26px; margin: 30px 0; border-left: 2px solid var(--accent); background: var(--wash); }
+.reading-rooms .rr-discuss p:last-child { color: var(--muted); }
+.reading-rooms .rr-source { border-top: 1px solid var(--line); padding-top: 22px; max-width: 800px; font-size: 14px; }
+.reading-rooms .rr-source blockquote { margin: 18px 0; font: 24px/1.5 Georgia, serif; }
+.reading-rooms .rr-source a { text-decoration: underline; text-underline-offset: 4px; color: var(--rr-blue); }
+@media (max-width: 720px) {
+  .reading-rooms .rr-grid { grid-template-columns: 1fr; }
+  .reading-rooms .rr-panel { padding: 18px; }
+}
+.reading-rooms .rr-turn-controls select + label { margin-top: 20px; }
+.reading-rooms .rr-checkbox { display: flex; gap: 10px; align-items: start; margin-top: 20px; font-weight: 400; }
+.reading-rooms .rr-checkbox input { margin: 5px 0 0; accent-color: var(--accent); }
+.reading-rooms input[type="range"] { width: 100%; accent-color: var(--accent); min-height: 32px; }
+.reading-rooms :is(select, input):disabled { opacity: .45; }
+.reading-rooms .rr-range-labels { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); }
+.reading-rooms .rr-timing { font-size: 28px; font-variant-numeric: tabular-nums; color: var(--rr-gold); letter-spacing: -.04em; }
+.reading-rooms .rr-floor { margin-top: 30px; padding: clamp(16px, 3vw, 28px); background: var(--wash); border: 1px solid var(--line); border-radius: 4px; }
+.reading-rooms .rr-floor-heading { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
+.reading-rooms .rr-figure { margin: 0; }
+.reading-rooms .rr-axis { display: flex; justify-content: space-between; margin-left: 45px; color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.reading-rooms .rr-lanes { position: relative; margin-left: 45px; padding: 12px 0; }
+.reading-rooms .rr-boundary { position: absolute; top: 0; bottom: 0; border-left: 2px dashed var(--rr-gold); z-index: 2; pointer-events: none; }
+.reading-rooms .rr-interval { position: absolute; top: 0; bottom: 0; pointer-events: none; }
+.reading-rooms .rr-overlap { background: #ff546833; }
+.reading-rooms .rr-silence { background: repeating-linear-gradient(135deg, #ebc98c18 0, #ebc98c18 4px, transparent 4px, transparent 8px); }
+.reading-rooms .rr-lane { position: relative; height: 58px; border-bottom: 1px solid #343a32; }
+.reading-rooms .rr-lane-name { position: absolute; left: -45px; top: 18px; font-size: 12px; }
+.reading-rooms .rr-speech { position: absolute; top: 12px; height: 34px; display: flex; align-items: center; justify-content: center; border-radius: 3px; color: #152019; font-size: 12px; font-weight: 700; overflow: hidden; }
+.reading-rooms .rr-speaker-a { background: var(--rr-gold); }
+.reading-rooms .rr-speaker-next { background: var(--rr-blue); }
+.reading-rooms figcaption { margin-top: 14px; color: var(--muted); font-size: 12px; }
+.reading-rooms .rr-transcript { margin-top: 22px; font-size: 14px; }
+.reading-rooms .rr-rule { padding: 16px 24px; border: 1px solid var(--line); border-left: 3px solid var(--rr-blue); margin-top: 20px; }
+.reading-rooms .rr-bubbles { display: flex; flex-direction: column; gap: 14px; }
+.reading-rooms .rr-bubbles > div { padding: 14px 20px; max-width: 80%; border-radius: 16px 16px 16px 0; border: 1px solid var(--line); background: var(--paper); }
+.reading-rooms .rr-bubbles > div:nth-child(2) { align-self: flex-end; border-color: #6c8091; border-radius: 16px 16px 0 16px; }
+.reading-rooms .rr-bubbles p { margin: 6px 0; }
+.reading-rooms .rr-script { margin: 24px 0; padding: clamp(20px, 3vw, 32px); border: 1px solid var(--line); border-top: 2px solid var(--rr-blue); background: var(--wash); }
+.reading-rooms .rr-script > p:not(.rr-kicker):not(.rr-note) { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.reading-rooms .rr-script strong { font-size: 13px; color: var(--muted); }
+.reading-rooms .rr-script span { font: 25px/1.5 Georgia, serif; }
+.reading-rooms .rr-prompt { padding: 16px; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; font: 13px/1.65 ui-monospace, monospace; white-space: pre-wrap; overflow-wrap: anywhere; }
+.reading-rooms .rr-lenses { align-items: start; }
+.reading-rooms .rr-comparison { margin: 20px 0; }
+.reading-rooms .rr-comparison h4 { margin: 0; font-size: 14px; }
+.reading-rooms .rr-comparison p { white-space: pre-wrap; overflow-wrap: anywhere; }
+.reading-rooms .rr-example-toggle { margin-top: 18px; }
+@media (max-width: 720px) {
+  .reading-rooms .rr-script > p:not(.rr-kicker):not(.rr-note) { grid-template-columns: 1fr; gap: 6px; }
+}
+
+.reading-rooms .rr-branch-room { margin: 40px 0; padding-top: 24px; border-top: 1px solid var(--line); }
+.reading-rooms .rr-branch-fields { padding: 20px; border: 1px solid var(--line); margin: 20px 0; min-width: 0; }
+.reading-rooms .rr-branch-fields > label { margin-top: 20px; }
+.reading-rooms .rr-branch-fields:disabled { opacity: .65; }
+.reading-rooms .rr-output { white-space: pre-wrap; overflow-wrap: anywhere; min-height: 90px; }
+.reading-rooms .rr-branch-result summary { cursor: pointer; font-size: 13px; color: var(--rr-blue); }
+.reading-rooms .rr-error { color: var(--error); }

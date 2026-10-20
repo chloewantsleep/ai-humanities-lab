@@ -1,0 +1,888 @@
+{
+  "source": "/Users/madeleinewoods/Development/eng-298ai-mw",
+  "commit": "082a6d56d0db4274c7399753236d3ac0c6a36466",
+  "files": [
+    {
+      "source": "poetry-gem/app/Studio.tsx",
+      "destination": "nextjs/app/poetry-gem/Studio.tsx",
+      "source_sha256": "1a90e46963430c2d7bf06775a1f044594ccda65bf238a87c1891f54c9987ba4e",
+      "import_sha256": "43efe7688abee6ca843fac5c0872d44a3af818abc01f3d4fabbf5e62f77343e1"
+    },
+    {
+      "source": "poetry-gem/app/api/chat/route.ts",
+      "destination": "nextjs/app/api/poetry-gem/chat/route.ts",
+      "source_sha256": "4d98d1fc1b196852fe392621713bc0f5535945e921127db63b86e4f7e97133a6",
+      "import_sha256": "fafe6ac07780b749156a118c0076751137ddbfdb300d2973aab217ae54e3c47b"
+    },
+    {
+      "source": "poetry-gem/app/api/search/route.ts",
+      "destination": "nextjs/app/api/poetry-gem/search/route.ts",
+      "source_sha256": "c97e7cc932489ce62f360f2cc526b28756b364e57d0c84bc7b9cce3ba41512a5",
+      "import_sha256": "9d3d46ce75db13cb4ddb53f4a539fdd90720d35b2ea9a0b6c9e66f693ded580d"
+    },
+    {
+      "source": "poetry-gem/app/api/vectors/route.ts",
+      "destination": "nextjs/app/api/poetry-gem/vectors/route.ts",
+      "source_sha256": "6b60987627eb370403712cb005e5008f63fe8b721c836a80f60c8fc638eb579c",
+      "import_sha256": "051db9395b92a62e581afbe65a7a79dac4f45e7a8f98e8c424de1cfa5615387a"
+    },
+    {
+      "source": "poetry-gem/app/doll/Atelier.tsx",
+      "destination": "nextjs/app/poetry-gem/doll/Atelier.tsx",
+      "source_sha256": "e4e22dc5a5f881626aa9811b25a10ac89ce678a49ba22cd6fd21b32e94809294",
+      "import_sha256": "e4e22dc5a5f881626aa9811b25a10ac89ce678a49ba22cd6fd21b32e94809294"
+    },
+    {
+      "source": "poetry-gem/app/doll/Doll.tsx",
+      "destination": "nextjs/app/poetry-gem/doll/Doll.tsx",
+      "source_sha256": "3eaf984caf05be2b6a100a19c80508984028a9f6b88caba3f5bb39f041ea1109",
+      "import_sha256": "02a4b65ba2441e25153a155bbfc67461ce1f21ac0d2bc77dc4b9275426aa7057"
+    },
+    {
+      "source": "poetry-gem/app/doll/Dresser.tsx",
+      "destination": "nextjs/app/poetry-gem/doll/Dresser.tsx",
+      "source_sha256": "58b37cbaf3ff746ee828dbf5ae167527b9230a89aa9618b8165a4f3717b5ffe1",
+      "import_sha256": "58b37cbaf3ff746ee828dbf5ae167527b9230a89aa9618b8165a4f3717b5ffe1"
+    },
+    {
+      "source": "poetry-gem/app/doll/atelier.module.css",
+      "destination": "nextjs/app/poetry-gem/doll/atelier.module.css",
+      "source_sha256": "14954d55b63b65824e1136f76adb1321776a3a0f01beabe237ebc622aa2c54b8",
+      "import_sha256": "14954d55b63b65824e1136f76adb1321776a3a0f01beabe237ebc622aa2c54b8"
+    },
+    {
+      "source": "poetry-gem/app/doll/corpse/Corpse.tsx",
+      "destination": "nextjs/app/poetry-gem/doll/corpse/Corpse.tsx",
+      "source_sha256": "a451ddce40d7bd10841c5af894664b3f65ac9d914f1167af4b39f0da0870df4a",
+      "import_sha256": "a451ddce40d7bd10841c5af894664b3f65ac9d914f1167af4b39f0da0870df4a"
+    },
+    {
+      "source": "poetry-gem/app/doll/corpse/corpse.module.css",
+      "destination": "nextjs/app/poetry-gem/doll/corpse/corpse.module.css",
+      "source_sha256": "4b78b8861a4235695830c9e7f62151b49660d33ffd8fd96c39beaf7112220ebc",
+      "import_sha256": "4b78b8861a4235695830c9e7f62151b49660d33ffd8fd96c39beaf7112220ebc"
+    },
+    {
+      "source": "poetry-gem/app/doll/corpse/page.tsx",
+      "destination": "nextjs/app/poetry-gem/doll/corpse/page.tsx",
+      "source_sha256": "ab7436422dd9952227dbbcc09c26ef6ae9d1404a0a2a0bfb6e4c50cece4135f6",
+      "import_sha256": "a91f3c2e59bc23c2e1b6428848f69d218a83f52d587c6c36adbcfe4a9ddfc4d7"
+    },
+    {
+      "source": "poetry-gem/app/doll/explore/Picker.tsx",
+      "destination": "nextjs/app/poetry-gem/doll/explore/Picker.tsx",
+      "source_sha256": "1c1b456cbea1687aceed1381c0a5006f0051bb9ec45e5b82085c3c40c61f39bd",
+      "import_sha256": "42f6c320d2c3b33ed6917419de6def2eaa98076095f5842d012c0b4be2a9f639"
+    },
+    {
+      "source": "poetry-gem/app/doll/explore/page.tsx",
+      "destination": "nextjs/app/poetry-gem/doll/explore/page.tsx",
+      "source_sha256": "12878b691c1461fa42300461e6f0776c89fc672f7254c4f7118e7ebccc0e92d7",
+      "import_sha256": "1c77f1ba1e5227bff9315935fe1a400f1335e4a831ab68b4c25d423f16b4f424"
+    },
+    {
+      "source": "poetry-gem/app/doll/explore/picker.module.css",
+      "destination": "nextjs/app/poetry-gem/doll/explore/picker.module.css",
+      "source_sha256": "26a690bafb0940e008cad80771ba4f7b6cfdd6f315c68b811126ed1fe4882f74",
+      "import_sha256": "26a690bafb0940e008cad80771ba4f7b6cfdd6f315c68b811126ed1fe4882f74"
+    },
+    {
+      "source": "poetry-gem/app/doll/page.tsx",
+      "destination": "nextjs/app/poetry-gem/doll/page.tsx",
+      "source_sha256": "0fcd22efce6cfe86c5eeee40862143f45a6519cfd345f43d221b6d950dbc0edb",
+      "import_sha256": "194473e7254fc267dda247a00ea314effce4af2991080a664ed12ca7f39498dc"
+    },
+    {
+      "source": "poetry-gem/app/library/Nav.tsx",
+      "destination": "nextjs/app/poetry-gem/library/Nav.tsx",
+      "source_sha256": "eca89d508122c16313178630c5d5adc61fca0480fd2ca58b1b153c0def6eca31",
+      "import_sha256": "91bde50c13326acf3a7788cf86ef901cfaece2476c4774f1608a42ef62f3047d"
+    },
+    {
+      "source": "poetry-gem/app/library/library.module.css",
+      "destination": "nextjs/app/poetry-gem/library/library.module.css",
+      "source_sha256": "effa7149247ae611651b1a0d6f8d0e6947dd443e64b6826ebe6e655fe7ac06b8",
+      "import_sha256": "effa7149247ae611651b1a0d6f8d0e6947dd443e64b6826ebe6e655fe7ac06b8"
+    },
+    {
+      "source": "poetry-gem/app/library/page.tsx",
+      "destination": "nextjs/app/poetry-gem/library/page.tsx",
+      "source_sha256": "b2263983f03155008cfbceb169f41daa562ee967571c1148d3ad1983dca81840",
+      "import_sha256": "6268010ed5097776b534b3ab171d306dd42b4101db683bfc0529948ae50ff30d"
+    },
+    {
+      "source": "poetry-gem/app/packs/[pack]/PackSearch.tsx",
+      "destination": "nextjs/app/poetry-gem/packs/[pack]/PackSearch.tsx",
+      "source_sha256": "83f96592b5e12aad4c24d4658735695a4b145ad6e355584f730369120cb46522",
+      "import_sha256": "88ff9a74a3d3a9a0a4e774d4e5b1ca04a62fb7f88339340c88fb090d8a862989"
+    },
+    {
+      "source": "poetry-gem/app/packs/[pack]/page.tsx",
+      "destination": "nextjs/app/poetry-gem/packs/[pack]/page.tsx",
+      "source_sha256": "cc582a5a5b72c140714bc7dc67ce72f68c819b65a0c762bdc67bd8bba822c561",
+      "import_sha256": "f4ca1b9a8175fba9ea6c4956b9e076a1a06a65fe6e2520bf6718c07b9d25acf7"
+    },
+    {
+      "source": "poetry-gem/app/page.tsx",
+      "destination": "nextjs/app/poetry-gem/page.tsx",
+      "source_sha256": "9e2d3319e4cbb2070f3a6371d8c6280900305bc5be997944275c5dffe7972c7a",
+      "import_sha256": "300b45ae665cdc28d5aa1a6820a068f0d68eef36cee7d566bc93b94200d9cbc8"
+    },
+    {
+      "source": "poetry-gem/app/prompts/[id]/page.tsx",
+      "destination": "nextjs/app/poetry-gem/prompts/[id]/page.tsx",
+      "source_sha256": "7337be0a373aaf98e63b7b430d9629ecbe1ec31805b02e22dbf08a9c5bbdbacf",
+      "import_sha256": "b1667043da85f476b186797669814296d78609fafad4cb3a36d92efeeb52368a"
+    },
+    {
+      "source": "poetry-gem/app/studio.module.css",
+      "destination": "nextjs/app/poetry-gem/studio.module.css",
+      "source_sha256": "c318c00d3f0e9557434b21c3b3c6c141987521b1457b7c18197ad99812cbb0ad",
+      "import_sha256": "c318c00d3f0e9557434b21c3b3c6c141987521b1457b7c18197ad99812cbb0ad"
+    },
+    {
+      "source": "poetry-gem/app/vectors/VectorExplorer.tsx",
+      "destination": "nextjs/app/poetry-gem/vectors/VectorExplorer.tsx",
+      "source_sha256": "bf1b8d0c1c84be36b4abbaa92f7ad251ea019effe8657055c7ccbd497224ef9f",
+      "import_sha256": "82b63158dbffd8504d7fbfb110dc7126d8eb396a7094c43809b742ca6adb551b"
+    },
+    {
+      "source": "poetry-gem/app/vectors/page.tsx",
+      "destination": "nextjs/app/poetry-gem/vectors/page.tsx",
+      "source_sha256": "ddf0a8e8c9515901962d569465b2f320b04621449888d9c9995a6c096a59228c",
+      "import_sha256": "f42da90406b653676be2d81b17ce1498d8cc19c11ef5c2050e6117d3470efdd9"
+    },
+    {
+      "source": "poetry-gem/app/vectors/vectors.module.css",
+      "destination": "nextjs/app/poetry-gem/vectors/vectors.module.css",
+      "source_sha256": "8092d2a1a305f7c1feb9976acc1e0e542bf3c59011bbb673b8c6eea53c0ac451",
+      "import_sha256": "8092d2a1a305f7c1feb9976acc1e0e542bf3c59011bbb673b8c6eea53c0ac451"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/pack.json",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/pack.json",
+      "source_sha256": "a83dd9710b0c4cdaab11567f6829f58dbfb839244b75d72e201ac7877f6874cc",
+      "import_sha256": "a83dd9710b0c4cdaab11567f6829f58dbfb839244b75d72e201ac7877f6874cc"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/01-chin-s-preface-and-introduction.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/01-chin-s-preface-and-introduction.md",
+      "source_sha256": "608bd9432b609eeb51fb18dfb8cedfb7f3b89737c02c7da13632d6a035de1bfb",
+      "import_sha256": "608bd9432b609eeb51fb18dfb8cedfb7f3b89737c02c7da13632d6a035de1bfb"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/02-book-one-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/02-book-one-the-sayings.md",
+      "source_sha256": "2f6ac62c34e5c181b868ac4a264f1244246153f4996d7b2709c32447688fa783",
+      "import_sha256": "2f6ac62c34e5c181b868ac4a264f1244246153f4996d7b2709c32447688fa783"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/03-book-one-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/03-book-one-with-chin-s-commentary.md",
+      "source_sha256": "1c8586e16e36bf36a333cadb71a26fe2a98a612d3d5133e71ee6aa718b3b834a",
+      "import_sha256": "1c8586e16e36bf36a333cadb71a26fe2a98a612d3d5133e71ee6aa718b3b834a"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/04-book-two-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/04-book-two-the-sayings.md",
+      "source_sha256": "2e659ed8c78bcb8695e969b0ee0c7e7b2614d7f5ee322619a8143554f20e77b1",
+      "import_sha256": "2e659ed8c78bcb8695e969b0ee0c7e7b2614d7f5ee322619a8143554f20e77b1"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/05-book-two-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/05-book-two-with-chin-s-commentary.md",
+      "source_sha256": "7aa6292a5ed7eefaf25ec48bc3f9a7114ff43eb939de81698c24190c5eb7a79f",
+      "import_sha256": "7aa6292a5ed7eefaf25ec48bc3f9a7114ff43eb939de81698c24190c5eb7a79f"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/06-book-three-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/06-book-three-the-sayings.md",
+      "source_sha256": "5ef960c45ae3f92a732dd40a69a8209bfe2ae6300207620763bad41acc9e24ea",
+      "import_sha256": "5ef960c45ae3f92a732dd40a69a8209bfe2ae6300207620763bad41acc9e24ea"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/07-book-three-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/07-book-three-with-chin-s-commentary.md",
+      "source_sha256": "b903f4d0ffd4c8125bb1a08f6156b5a7798f1c00fc2757a7750c989a153fd713",
+      "import_sha256": "b903f4d0ffd4c8125bb1a08f6156b5a7798f1c00fc2757a7750c989a153fd713"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/08-book-four-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/08-book-four-the-sayings.md",
+      "source_sha256": "ec3fddcf4f02cbbd077d57bcaf93fc69330a07ece17a85cd826eb38ba4088101",
+      "import_sha256": "ec3fddcf4f02cbbd077d57bcaf93fc69330a07ece17a85cd826eb38ba4088101"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/09-book-four-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/09-book-four-with-chin-s-commentary.md",
+      "source_sha256": "218539ab0077cd60a2d99cf90542183fd959b758a8f0d9a33967e69b9d97fda4",
+      "import_sha256": "218539ab0077cd60a2d99cf90542183fd959b758a8f0d9a33967e69b9d97fda4"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/10-book-five-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/10-book-five-the-sayings.md",
+      "source_sha256": "b2b1f3df95d309825396adc16a4b34ad6c95d85ba188c6488b992e31134db09d",
+      "import_sha256": "b2b1f3df95d309825396adc16a4b34ad6c95d85ba188c6488b992e31134db09d"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/11-book-five-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/11-book-five-with-chin-s-commentary.md",
+      "source_sha256": "d0efb7d44e47d0eb785e8ec047698aa2841470e3ebf66c88590d4e01e00a688a",
+      "import_sha256": "d0efb7d44e47d0eb785e8ec047698aa2841470e3ebf66c88590d4e01e00a688a"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/12-book-six-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/12-book-six-the-sayings.md",
+      "source_sha256": "3bcdbb6c7bddd337b28d05d04fe4bb7b3c64941ecadf3c818946cd79510d507d",
+      "import_sha256": "3bcdbb6c7bddd337b28d05d04fe4bb7b3c64941ecadf3c818946cd79510d507d"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/13-book-six-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/13-book-six-with-chin-s-commentary.md",
+      "source_sha256": "4c67742a38f82a53e3a2a2525fcbee9ac42d6ddd980545bdd27ed9a154a9e6d0",
+      "import_sha256": "4c67742a38f82a53e3a2a2525fcbee9ac42d6ddd980545bdd27ed9a154a9e6d0"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/14-book-seven-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/14-book-seven-the-sayings.md",
+      "source_sha256": "598223b1e832c511cb1d28a8b5f6ce64dc9e767fa0f5dc37a3a883e4b4c98114",
+      "import_sha256": "598223b1e832c511cb1d28a8b5f6ce64dc9e767fa0f5dc37a3a883e4b4c98114"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/15-book-seven-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/15-book-seven-with-chin-s-commentary.md",
+      "source_sha256": "07217509d303d99e5d70836ad6d2c82e2ea54173bbfd155026754ad79c267db4",
+      "import_sha256": "07217509d303d99e5d70836ad6d2c82e2ea54173bbfd155026754ad79c267db4"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/16-book-eight-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/16-book-eight-the-sayings.md",
+      "source_sha256": "f9ca78225b339e8aa373c114e3cf28ea88d8bc927babb482bd98997e88fc2e50",
+      "import_sha256": "f9ca78225b339e8aa373c114e3cf28ea88d8bc927babb482bd98997e88fc2e50"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/17-book-eight-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/17-book-eight-with-chin-s-commentary.md",
+      "source_sha256": "6ec25cb98991db26a9e6dece9bf29137fd3462da647940b0424ad290325e3719",
+      "import_sha256": "6ec25cb98991db26a9e6dece9bf29137fd3462da647940b0424ad290325e3719"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/18-book-nine-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/18-book-nine-the-sayings.md",
+      "source_sha256": "1321d6161ea0764aaa235a04bedc6925ffaa3d905d5070d7d7eec68d5510a55e",
+      "import_sha256": "1321d6161ea0764aaa235a04bedc6925ffaa3d905d5070d7d7eec68d5510a55e"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/19-book-nine-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/19-book-nine-with-chin-s-commentary.md",
+      "source_sha256": "97521717c11b192ad3b61eea5defb460cb40a7836af5b04413951bed2fb531d7",
+      "import_sha256": "97521717c11b192ad3b61eea5defb460cb40a7836af5b04413951bed2fb531d7"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/20-book-ten-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/20-book-ten-the-sayings.md",
+      "source_sha256": "ef3b437d4f6054a5fa29b50da400fa2d2d12cea2f3b5f68e4afefbedfd77503a",
+      "import_sha256": "ef3b437d4f6054a5fa29b50da400fa2d2d12cea2f3b5f68e4afefbedfd77503a"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/21-book-ten-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/21-book-ten-with-chin-s-commentary.md",
+      "source_sha256": "8b048124885a743019ac763f4cb7aa6274f79fbcc4f4b59fb8d4e46e069a3eb9",
+      "import_sha256": "8b048124885a743019ac763f4cb7aa6274f79fbcc4f4b59fb8d4e46e069a3eb9"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/22-book-eleven-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/22-book-eleven-the-sayings.md",
+      "source_sha256": "20fa3e9a5246aac1ee218ffb0a9f1aa5436cf7637c70a2ab6db9a2a7098938b3",
+      "import_sha256": "20fa3e9a5246aac1ee218ffb0a9f1aa5436cf7637c70a2ab6db9a2a7098938b3"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/23-book-eleven-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/23-book-eleven-with-chin-s-commentary.md",
+      "source_sha256": "5acb115634034274b81fe5b57673a758c420be361aeb2a28c49f78edfd018dc9",
+      "import_sha256": "5acb115634034274b81fe5b57673a758c420be361aeb2a28c49f78edfd018dc9"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/24-book-twelve-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/24-book-twelve-the-sayings.md",
+      "source_sha256": "aa01430c61f0f8bb0a1ef68b49b4035a0bb55ee9b9f223b0419b375277233230",
+      "import_sha256": "aa01430c61f0f8bb0a1ef68b49b4035a0bb55ee9b9f223b0419b375277233230"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/25-book-twelve-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/25-book-twelve-with-chin-s-commentary.md",
+      "source_sha256": "e67f65294251f4e046bd7d614abf2dc9ccfed36d865979d64dff63e0f9ff1eae",
+      "import_sha256": "e67f65294251f4e046bd7d614abf2dc9ccfed36d865979d64dff63e0f9ff1eae"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/26-book-thirteen-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/26-book-thirteen-the-sayings.md",
+      "source_sha256": "4519e5801e9ed882a7e976b7e183ea57fe34efb49f0492cc312cb8a0e6ddd5c8",
+      "import_sha256": "4519e5801e9ed882a7e976b7e183ea57fe34efb49f0492cc312cb8a0e6ddd5c8"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/27-book-thirteen-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/27-book-thirteen-with-chin-s-commentary.md",
+      "source_sha256": "968557565bd7c05d83dacbb253f5ced6cfd13aac9009a4b56805c20fb0025ff8",
+      "import_sha256": "968557565bd7c05d83dacbb253f5ced6cfd13aac9009a4b56805c20fb0025ff8"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/28-book-fourteen-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/28-book-fourteen-the-sayings.md",
+      "source_sha256": "7c5a2820dbeeba4b378d8f3234c7ca0a5765d4c70a042e54eb1e10d277d45b1b",
+      "import_sha256": "7c5a2820dbeeba4b378d8f3234c7ca0a5765d4c70a042e54eb1e10d277d45b1b"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/29-book-fourteen-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/29-book-fourteen-with-chin-s-commentary.md",
+      "source_sha256": "2fe2d7acacf52ccc242a6e7920ab7dc1822d9f9f78ac034a5430ab5109e18961",
+      "import_sha256": "2fe2d7acacf52ccc242a6e7920ab7dc1822d9f9f78ac034a5430ab5109e18961"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/30-book-fifteen-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/30-book-fifteen-the-sayings.md",
+      "source_sha256": "ce22bd00c91c9c1d3e400d5e5135a579d5209f821e960fb5d04ca30ad255fa72",
+      "import_sha256": "ce22bd00c91c9c1d3e400d5e5135a579d5209f821e960fb5d04ca30ad255fa72"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/31-book-fifteen-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/31-book-fifteen-with-chin-s-commentary.md",
+      "source_sha256": "48d62b31a7413bf95d1a0aac0977994bc0e37b81cce398f491988c1f4af1ccac",
+      "import_sha256": "48d62b31a7413bf95d1a0aac0977994bc0e37b81cce398f491988c1f4af1ccac"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/32-book-sixteen-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/32-book-sixteen-the-sayings.md",
+      "source_sha256": "bd1ea140bfa0864344ba074d65748deb161f81a373519ce788526e01bb3b36a0",
+      "import_sha256": "bd1ea140bfa0864344ba074d65748deb161f81a373519ce788526e01bb3b36a0"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/33-book-sixteen-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/33-book-sixteen-with-chin-s-commentary.md",
+      "source_sha256": "13355415158f1ac56e05bd5a8bceb1f85a91ad7ed5ca1549d8dedc29cedd97be",
+      "import_sha256": "13355415158f1ac56e05bd5a8bceb1f85a91ad7ed5ca1549d8dedc29cedd97be"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/34-book-seventeen-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/34-book-seventeen-the-sayings.md",
+      "source_sha256": "6760af9d1546f9736326cd78f9a182299fe4aac5c1eaac8591939c6beb24f082",
+      "import_sha256": "6760af9d1546f9736326cd78f9a182299fe4aac5c1eaac8591939c6beb24f082"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/35-book-seventeen-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/35-book-seventeen-with-chin-s-commentary.md",
+      "source_sha256": "a5d313a971a24d7d69eafd44cc4431e90de7a254f58ecae231499984e0fe2456",
+      "import_sha256": "a5d313a971a24d7d69eafd44cc4431e90de7a254f58ecae231499984e0fe2456"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/36-book-eighteen-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/36-book-eighteen-the-sayings.md",
+      "source_sha256": "8ce3b0871d201513292fda47aad92b828739d6d5daa56c9deb2670fef63f791d",
+      "import_sha256": "8ce3b0871d201513292fda47aad92b828739d6d5daa56c9deb2670fef63f791d"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/37-book-eighteen-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/37-book-eighteen-with-chin-s-commentary.md",
+      "source_sha256": "1941798880ebc5516ad3b6e55c094aa907e717a3f546344badf1df3d8fe222ae",
+      "import_sha256": "1941798880ebc5516ad3b6e55c094aa907e717a3f546344badf1df3d8fe222ae"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/38-book-nineteen-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/38-book-nineteen-the-sayings.md",
+      "source_sha256": "5af1bdf8ea321d55c29e2816300e79fffc8329ce0d38e40061c17bacc4ed9099",
+      "import_sha256": "5af1bdf8ea321d55c29e2816300e79fffc8329ce0d38e40061c17bacc4ed9099"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/39-book-nineteen-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/39-book-nineteen-with-chin-s-commentary.md",
+      "source_sha256": "324856a644653503ca3a2ac48c42825631f49d023e4e6bf98708902b7245b3ed",
+      "import_sha256": "324856a644653503ca3a2ac48c42825631f49d023e4e6bf98708902b7245b3ed"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/40-book-twenty-the-sayings.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/40-book-twenty-the-sayings.md",
+      "source_sha256": "76582d5ee28dccf255cfa6cffc70cf485e72b5c31f42624408e0bae5955b6f96",
+      "import_sha256": "76582d5ee28dccf255cfa6cffc70cf485e72b5c31f42624408e0bae5955b6f96"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/41-book-twenty-with-chin-s-commentary.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/41-book-twenty-with-chin-s-commentary.md",
+      "source_sha256": "90bccd27433bf16373973a41513888e93dfb75c7d441765d83343d09a0fcabe5",
+      "import_sha256": "90bccd27433bf16373973a41513888e93dfb75c7d441765d83343d09a0fcabe5"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/sections/42-appendix-notes-and-bibliography.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/sections/42-appendix-notes-and-bibliography.md",
+      "source_sha256": "9239dded316dde7bcc976370d61ac2b40279027782f931a289c48f113f9923a0",
+      "import_sha256": "9239dded316dde7bcc976370d61ac2b40279027782f931a289c48f113f9923a0"
+    },
+    {
+      "source": "poetry-gem/content/packs/analects/voice.md",
+      "destination": "nextjs/content/_poetry-gem/packs/analects/voice.md",
+      "source_sha256": "3149807a4f68af0c1506d7048aa291d11690a2edf3d9ac33b95a015c8e739ec4",
+      "import_sha256": "3149807a4f68af0c1506d7048aa291d11690a2edf3d9ac33b95a015c8e739ec4"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/pack.json",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/pack.json",
+      "source_sha256": "75cda767617ce6470672b5d2dff5ba5e993a991f42802bde23aaebc66827fe84",
+      "import_sha256": "75cda767617ce6470672b5d2dff5ba5e993a991f42802bde23aaebc66827fe84"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/01-preface-by-percy-bysshe-shelley.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/01-preface-by-percy-bysshe-shelley.md",
+      "source_sha256": "b6f9ceb5e58ab3459decc85d64040b1fc8fb22d5d8b8c198d3dafb194398251c",
+      "import_sha256": "b6f9ceb5e58ab3459decc85d64040b1fc8fb22d5d8b8c198d3dafb194398251c"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/02-letter-i.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/02-letter-i.md",
+      "source_sha256": "1227a70c8dc8d9be0a88f2554598441695df92bff3e3b2184298003ee6f513de",
+      "import_sha256": "1227a70c8dc8d9be0a88f2554598441695df92bff3e3b2184298003ee6f513de"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/03-letter-ii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/03-letter-ii.md",
+      "source_sha256": "44c7fdfcc87017e24ab9537f624ceb429c3f38eb0b4c5a5d96857078f8fc9098",
+      "import_sha256": "44c7fdfcc87017e24ab9537f624ceb429c3f38eb0b4c5a5d96857078f8fc9098"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/04-letter-iii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/04-letter-iii.md",
+      "source_sha256": "faa4ec802e4139bf268f19dc9b13a1ac47b817c9b31ede3c3a6d6fa98abb8ca2",
+      "import_sha256": "faa4ec802e4139bf268f19dc9b13a1ac47b817c9b31ede3c3a6d6fa98abb8ca2"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/05-letter-iv.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/05-letter-iv.md",
+      "source_sha256": "f9989672994d653066bdd26b4b1f8c6f4ebb894d53bade95d1d2cf2d6454bef3",
+      "import_sha256": "f9989672994d653066bdd26b4b1f8c6f4ebb894d53bade95d1d2cf2d6454bef3"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/06-chapter-1-vol-i-ch-i.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/06-chapter-1-vol-i-ch-i.md",
+      "source_sha256": "774f90fa72244fd073e2b2ba277ed01c480dc3f4bec5547a6f38dcc4ac2bc1f2",
+      "import_sha256": "774f90fa72244fd073e2b2ba277ed01c480dc3f4bec5547a6f38dcc4ac2bc1f2"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/07-chapter-2-vol-i-ch-ii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/07-chapter-2-vol-i-ch-ii.md",
+      "source_sha256": "b2ba2023f827c854c6411d95eb0f0794001e73de4dea9f680891037944bf4728",
+      "import_sha256": "b2ba2023f827c854c6411d95eb0f0794001e73de4dea9f680891037944bf4728"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/08-chapter-3-vol-i-ch-iii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/08-chapter-3-vol-i-ch-iii.md",
+      "source_sha256": "a75109f1a2ceef661a8107326ebab79504a1b12621dc26a38f5d47c31a00d020",
+      "import_sha256": "a75109f1a2ceef661a8107326ebab79504a1b12621dc26a38f5d47c31a00d020"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/09-chapter-4-vol-i-ch-iv.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/09-chapter-4-vol-i-ch-iv.md",
+      "source_sha256": "fd7984f0fbeb086cbc9d7f4c30342a8893492996db60ff1c4c05582981b3cdd0",
+      "import_sha256": "fd7984f0fbeb086cbc9d7f4c30342a8893492996db60ff1c4c05582981b3cdd0"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/10-chapter-5-vol-i-ch-v.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/10-chapter-5-vol-i-ch-v.md",
+      "source_sha256": "935d5728940dc3149bcabfd4e2b3a5158931d371ffea009f2dbdf8cf35f9dec0",
+      "import_sha256": "935d5728940dc3149bcabfd4e2b3a5158931d371ffea009f2dbdf8cf35f9dec0"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/11-chapter-6-vol-i-ch-vi.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/11-chapter-6-vol-i-ch-vi.md",
+      "source_sha256": "90cb3b341eb811c960bbfac48bf258c817e90a37356285d30950d854291ab2b5",
+      "import_sha256": "90cb3b341eb811c960bbfac48bf258c817e90a37356285d30950d854291ab2b5"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/12-chapter-7-vol-i-ch-vii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/12-chapter-7-vol-i-ch-vii.md",
+      "source_sha256": "f09544fbff5b15b80b8734a6db247c801432f0ca8e71ffbff85ec3665201c309",
+      "import_sha256": "f09544fbff5b15b80b8734a6db247c801432f0ca8e71ffbff85ec3665201c309"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/13-chapter-8-vol-ii-ch-i.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/13-chapter-8-vol-ii-ch-i.md",
+      "source_sha256": "b22ab0515fc2ce9c1530a03b8e6b80deaca2f976cdc0ddf9bcbef123b2179628",
+      "import_sha256": "b22ab0515fc2ce9c1530a03b8e6b80deaca2f976cdc0ddf9bcbef123b2179628"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/14-chapter-9-vol-ii-ch-ii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/14-chapter-9-vol-ii-ch-ii.md",
+      "source_sha256": "04b2bdbd449d3a808f9d01ee0a0473f96b4c8bdd12dcbacdd19828f709e52df0",
+      "import_sha256": "04b2bdbd449d3a808f9d01ee0a0473f96b4c8bdd12dcbacdd19828f709e52df0"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/15-chapter-10-vol-ii-ch-iii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/15-chapter-10-vol-ii-ch-iii.md",
+      "source_sha256": "0ab705ebd12423226dff2a22a82a2fb8bb976fb34c05d4aa22628b1c75c5967a",
+      "import_sha256": "0ab705ebd12423226dff2a22a82a2fb8bb976fb34c05d4aa22628b1c75c5967a"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/16-chapter-11-vol-ii-ch-iv.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/16-chapter-11-vol-ii-ch-iv.md",
+      "source_sha256": "e8db3f686fa5382b27972abbbd66f845b3b2b557bdd10a40ca065dc2d0a6b2aa",
+      "import_sha256": "e8db3f686fa5382b27972abbbd66f845b3b2b557bdd10a40ca065dc2d0a6b2aa"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/17-chapter-12-vol-ii-ch-v.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/17-chapter-12-vol-ii-ch-v.md",
+      "source_sha256": "fc526c936e008e9c8a819eed7cb58058abb39e188a3720d9dda4bf95d477d81c",
+      "import_sha256": "fc526c936e008e9c8a819eed7cb58058abb39e188a3720d9dda4bf95d477d81c"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/18-chapter-13-vol-ii-ch-vi.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/18-chapter-13-vol-ii-ch-vi.md",
+      "source_sha256": "84d689be269a3d7d757bd6c18269cde3670323b345251644d2b52e077bbb2aee",
+      "import_sha256": "84d689be269a3d7d757bd6c18269cde3670323b345251644d2b52e077bbb2aee"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/19-chapter-14-vol-ii-ch-vii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/19-chapter-14-vol-ii-ch-vii.md",
+      "source_sha256": "28c5d123a4b26500e4029bb99c9e3ce0cd5d6d71ad1645d56bdafc837302f397",
+      "import_sha256": "28c5d123a4b26500e4029bb99c9e3ce0cd5d6d71ad1645d56bdafc837302f397"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/20-chapter-15-vol-ii-ch-viii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/20-chapter-15-vol-ii-ch-viii.md",
+      "source_sha256": "2eb869a8ed32b58b1847104276d0e932bed4942d50731f7fd599d76dc9d11be1",
+      "import_sha256": "2eb869a8ed32b58b1847104276d0e932bed4942d50731f7fd599d76dc9d11be1"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/21-chapter-16-vol-ii-ch-ix.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/21-chapter-16-vol-ii-ch-ix.md",
+      "source_sha256": "7a25af8382819c60ace30e1722e7f735db6d3ca16d08fd50498ba7b0e5d3d99e",
+      "import_sha256": "7a25af8382819c60ace30e1722e7f735db6d3ca16d08fd50498ba7b0e5d3d99e"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/22-chapter-17-vol-iii-ch-i.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/22-chapter-17-vol-iii-ch-i.md",
+      "source_sha256": "1aab75095822ab4df9e14ec89289aeaace2c4f2c19c4c8034d5f4cffab81cb7a",
+      "import_sha256": "1aab75095822ab4df9e14ec89289aeaace2c4f2c19c4c8034d5f4cffab81cb7a"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/23-chapter-18-vol-iii-ch-ii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/23-chapter-18-vol-iii-ch-ii.md",
+      "source_sha256": "8c801494a7e1a2ef885bc596b5f2fce3daf12e0e6cc1cf3008d044d9aa4e0cb8",
+      "import_sha256": "8c801494a7e1a2ef885bc596b5f2fce3daf12e0e6cc1cf3008d044d9aa4e0cb8"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/24-chapter-19-vol-iii-ch-iii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/24-chapter-19-vol-iii-ch-iii.md",
+      "source_sha256": "7411f5335d70eaf7b2fc680a81f813a1b8a2e0a13d58681a4788f74249b5e153",
+      "import_sha256": "7411f5335d70eaf7b2fc680a81f813a1b8a2e0a13d58681a4788f74249b5e153"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/25-chapter-20-vol-iii-ch-iv.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/25-chapter-20-vol-iii-ch-iv.md",
+      "source_sha256": "08b1cc7ca0e4ec1b642fb0a6b91e2f19cf17152db741d94fb8e48168613c8494",
+      "import_sha256": "08b1cc7ca0e4ec1b642fb0a6b91e2f19cf17152db741d94fb8e48168613c8494"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/26-chapter-21-vol-iii-ch-v.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/26-chapter-21-vol-iii-ch-v.md",
+      "source_sha256": "90b3e31cdc78e7174c34b70c5204bb8f36eb38b28a29c70ed2afc0cdbc317b3c",
+      "import_sha256": "90b3e31cdc78e7174c34b70c5204bb8f36eb38b28a29c70ed2afc0cdbc317b3c"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/27-chapter-22-vol-iii-ch-vi.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/27-chapter-22-vol-iii-ch-vi.md",
+      "source_sha256": "e557fa5f7b9dff5c174612ad0b379b88a0304229d8f67255b1bb921400fe067a",
+      "import_sha256": "e557fa5f7b9dff5c174612ad0b379b88a0304229d8f67255b1bb921400fe067a"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/sections/28-chapter-23-vol-iii-ch-vii.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/sections/28-chapter-23-vol-iii-ch-vii.md",
+      "source_sha256": "f3c22bbcfe8dd98a22f2e99f3cb4e89179c21dd320264935847bddccf4a72735",
+      "import_sha256": "f3c22bbcfe8dd98a22f2e99f3cb4e89179c21dd320264935847bddccf4a72735"
+    },
+    {
+      "source": "poetry-gem/content/packs/frankenstein/voice.md",
+      "destination": "nextjs/content/_poetry-gem/packs/frankenstein/voice.md",
+      "source_sha256": "0d50e344e9b81e33373be9d0000c90c4a4072e9ad705fdce901df1512fe5eb94",
+      "import_sha256": "0d50e344e9b81e33373be9d0000c90c4a4072e9ad705fdce901df1512fe5eb94"
+    },
+    {
+      "source": "poetry-gem/content/packs/phaedrus/pack.json",
+      "destination": "nextjs/content/_poetry-gem/packs/phaedrus/pack.json",
+      "source_sha256": "575e593442edd707fcc0d3ccdb4696a0ff833f3048b151ec7249a2b722064b3d",
+      "import_sha256": "575e593442edd707fcc0d3ccdb4696a0ff833f3048b151ec7249a2b722064b3d"
+    },
+    {
+      "source": "poetry-gem/content/packs/phaedrus/sections/01-jowett-s-introduction.md",
+      "destination": "nextjs/content/_poetry-gem/packs/phaedrus/sections/01-jowett-s-introduction.md",
+      "source_sha256": "f9197de64f5152f9ce7d4effca4b87bd358d2bdb75c3e4cf90304fe7d7a820a0",
+      "import_sha256": "f9197de64f5152f9ce7d4effca4b87bd358d2bdb75c3e4cf90304fe7d7a820a0"
+    },
+    {
+      "source": "poetry-gem/content/packs/phaedrus/sections/02-the-dialogue-227a-257b-lysias-s-speech-and-socra.md",
+      "destination": "nextjs/content/_poetry-gem/packs/phaedrus/sections/02-the-dialogue-227a-257b-lysias-s-speech-and-socra.md",
+      "source_sha256": "3f47f4aba494c65d9be30a013146f6b8c0a1335ff94886d36024f4c4734711e5",
+      "import_sha256": "3f47f4aba494c65d9be30a013146f6b8c0a1335ff94886d36024f4c4734711e5"
+    },
+    {
+      "source": "poetry-gem/content/packs/phaedrus/sections/03-the-dialogue-257c-to-the-end-on-rhetoric-writing.md",
+      "destination": "nextjs/content/_poetry-gem/packs/phaedrus/sections/03-the-dialogue-257c-to-the-end-on-rhetoric-writing.md",
+      "source_sha256": "1d7af05adc2796511c363c48c38f066309c319ec83339215494dd1e84843c578",
+      "import_sha256": "1d7af05adc2796511c363c48c38f066309c319ec83339215494dd1e84843c578"
+    },
+    {
+      "source": "poetry-gem/content/packs/phaedrus/voice.md",
+      "destination": "nextjs/content/_poetry-gem/packs/phaedrus/voice.md",
+      "source_sha256": "99d772fb544d5b79d902e84813c9e17afcc1b8019c4bbb44a1a3e20c670600c4",
+      "import_sha256": "99d772fb544d5b79d902e84813c9e17afcc1b8019c4bbb44a1a3e20c670600c4"
+    },
+    {
+      "source": "poetry-gem/content/prompts/ghazal.md",
+      "destination": "nextjs/content/_poetry-gem/prompts/ghazal.md",
+      "source_sha256": "3cfddb379f1d828516679034db30b2c0cbf402ceb38ed65b573408ec6d98b68f",
+      "import_sha256": "3cfddb379f1d828516679034db30b2c0cbf402ceb38ed65b573408ec6d98b68f"
+    },
+    {
+      "source": "poetry-gem/content/prompts/haiku.md",
+      "destination": "nextjs/content/_poetry-gem/prompts/haiku.md",
+      "source_sha256": "39ffc9a198712a180e378cbf9122dbda7b608e9fc2c1ddd0c37504cc9ef2b991",
+      "import_sha256": "39ffc9a198712a180e378cbf9122dbda7b608e9fc2c1ddd0c37504cc9ef2b991"
+    },
+    {
+      "source": "poetry-gem/content/prompts/sonnet.md",
+      "destination": "nextjs/content/_poetry-gem/prompts/sonnet.md",
+      "source_sha256": "95e221a2682f3bc72571fc3d83b8787299c1e4e073cd9076724efa36c6e5be1c",
+      "import_sha256": "95e221a2682f3bc72571fc3d83b8787299c1e4e073cd9076724efa36c6e5be1c"
+    },
+    {
+      "source": "poetry-gem/content/vectors/analects.json",
+      "destination": "nextjs/content/_poetry-gem/vectors/analects.json",
+      "source_sha256": "c5bc25747d0a0fefa5d0114d7ebecef9de86783a23f4bebf47225c0799ffd242",
+      "import_sha256": "c5bc25747d0a0fefa5d0114d7ebecef9de86783a23f4bebf47225c0799ffd242"
+    },
+    {
+      "source": "poetry-gem/content/vectors/frankenstein.json",
+      "destination": "nextjs/content/_poetry-gem/vectors/frankenstein.json",
+      "source_sha256": "a9c785c6f009ec7e8aaced921f69b28e2767c6a3f8775ae9683e018e158cfa03",
+      "import_sha256": "a9c785c6f009ec7e8aaced921f69b28e2767c6a3f8775ae9683e018e158cfa03"
+    },
+    {
+      "source": "poetry-gem/content/vectors/map.json",
+      "destination": "nextjs/content/_poetry-gem/vectors/map.json",
+      "source_sha256": "7ce60137f7878c1d4b616f3e1eb2396247d2dc6944cb4dde4b38a7886ae0582a",
+      "import_sha256": "7ce60137f7878c1d4b616f3e1eb2396247d2dc6944cb4dde4b38a7886ae0582a"
+    },
+    {
+      "source": "poetry-gem/content/vectors/phaedrus.json",
+      "destination": "nextjs/content/_poetry-gem/vectors/phaedrus.json",
+      "source_sha256": "61da9b88cbbf9013626a3739eaddb739218c5f48c4889d39b5a99a9abd769c86",
+      "import_sha256": "61da9b88cbbf9013626a3739eaddb739218c5f48c4889d39b5a99a9abd769c86"
+    },
+    {
+      "source": "poetry-gem/lib/claude.ts",
+      "destination": "nextjs/lib/poetry-gem/claude.ts",
+      "source_sha256": "f4f7b69b545df2f927dd7bda710249e953e97ca5904d53483df0481f0b93d656",
+      "import_sha256": "f4f7b69b545df2f927dd7bda710249e953e97ca5904d53483df0481f0b93d656"
+    },
+    {
+      "source": "poetry-gem/lib/content.ts",
+      "destination": "nextjs/lib/poetry-gem/content.ts",
+      "source_sha256": "5416a0249ffe7ccc02f9d1f8ab18f31962eb16bee968130720d62553b2996ae5",
+      "import_sha256": "2ae8b5a20023c6ca7489063336c1530ebaca5c1a02fe0938f08048a9a9598b68"
+    },
+    {
+      "source": "poetry-gem/lib/embeddings.ts",
+      "destination": "nextjs/lib/poetry-gem/embeddings.ts",
+      "source_sha256": "aef2e00987cc2eafb39bf3a9fb5793a7d769a981bc21968f98dd825439043c49",
+      "import_sha256": "aef2e00987cc2eafb39bf3a9fb5793a7d769a981bc21968f98dd825439043c49"
+    },
+    {
+      "source": "poetry-gem/lib/options.ts",
+      "destination": "nextjs/lib/poetry-gem/options.ts",
+      "source_sha256": "78fc1461ba4c055bc238389e5d0432dce345a34956ef32f7cdde3d93a98f3b0a",
+      "import_sha256": "78fc1461ba4c055bc238389e5d0432dce345a34956ef32f7cdde3d93a98f3b0a"
+    },
+    {
+      "source": "poetry-gem/lib/search.ts",
+      "destination": "nextjs/lib/poetry-gem/search.ts",
+      "source_sha256": "0709204303c2f84cfe5593c9847f4bb491685d6d8502be4b67edc71481a32f84",
+      "import_sha256": "0709204303c2f84cfe5593c9847f4bb491685d6d8502be4b67edc71481a32f84"
+    },
+    {
+      "source": "poetry-gem/lib/vectors.ts",
+      "destination": "nextjs/lib/poetry-gem/vectors.ts",
+      "source_sha256": "d7bc38bafbee2f4139c4e7c4467eee5a73e815b54190ccd905b768665cc726e4",
+      "import_sha256": "1f14228b97f037730b8a827475ef1f2421e77af98354cb673eb296991fbee80f"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/README.md",
+      "destination": "nextjs/public/poetry-gem/doll/mj/README.md",
+      "source_sha256": "0f0c4c352e1e0ceb2f61158e9eeb3c514a018d8972d77a5fab3250c67583d6db",
+      "import_sha256": "0f0c4c352e1e0ceb2f61158e9eeb3c514a018d8972d77a5fab3250c67583d6db"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/head-mj12.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/head-mj12.webp",
+      "source_sha256": "cd55fb38a71302613ad6c866c3fe1b9de2d27588a41fce95ba283b5a9dfd59e5",
+      "import_sha256": "cd55fb38a71302613ad6c866c3fe1b9de2d27588a41fce95ba283b5a9dfd59e5"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/head-mj13.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/head-mj13.webp",
+      "source_sha256": "e32c296d4b040efc35b3ee5fbce558dc2e0967f488d4a480921be445de9cb2d4",
+      "import_sha256": "e32c296d4b040efc35b3ee5fbce558dc2e0967f488d4a480921be445de9cb2d4"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/head-mj14.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/head-mj14.webp",
+      "source_sha256": "d9d85bd58d06ebb1cf1093fc65e1af3ce1001835303b154e0088ac11fca7fbc7",
+      "import_sha256": "d9d85bd58d06ebb1cf1093fc65e1af3ce1001835303b154e0088ac11fca7fbc7"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/head-mj15.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/head-mj15.webp",
+      "source_sha256": "da728778da596d0be523106ba87e05c0ba216cc943ab0d1b75f3fc39cb6c5356",
+      "import_sha256": "da728778da596d0be523106ba87e05c0ba216cc943ab0d1b75f3fc39cb6c5356"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/head-mj16.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/head-mj16.webp",
+      "source_sha256": "7a93c3b40f407aacacc5de41921367f8c7ad2b75c7ee2c67e3a09f8e07062cd9",
+      "import_sha256": "7a93c3b40f407aacacc5de41921367f8c7ad2b75c7ee2c67e3a09f8e07062cd9"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/head-mj17.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/head-mj17.webp",
+      "source_sha256": "2cac24c6d5d300b7080c5d99cec852491bc22c61798495b3f08875e2faf538c4",
+      "import_sha256": "2cac24c6d5d300b7080c5d99cec852491bc22c61798495b3f08875e2faf538c4"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/head-mj18.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/head-mj18.webp",
+      "source_sha256": "d8f536658e934bc07ea1e9e018d73aa4971ca5394c4b82c03ddf23973108e1a4",
+      "import_sha256": "d8f536658e934bc07ea1e9e018d73aa4971ca5394c4b82c03ddf23973108e1a4"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/head-mj19.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/head-mj19.webp",
+      "source_sha256": "a2dde4c57c873d4bc23799df23b5842d11983b7425d2a088a04949262b295b6a",
+      "import_sha256": "a2dde4c57c873d4bc23799df23b5842d11983b7425d2a088a04949262b295b6a"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/head-mj20.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/head-mj20.webp",
+      "source_sha256": "a4dc1643f7304a05eecf1a34ae5d387cff8889861a55b5f63efbaf88d90d4920",
+      "import_sha256": "a4dc1643f7304a05eecf1a34ae5d387cff8889861a55b5f63efbaf88d90d4920"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/legs-mj12.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/legs-mj12.webp",
+      "source_sha256": "584987bdaa77a25e24a1bf5823f24f84c11aa73227e9c4ae1c3ee5679f1d6052",
+      "import_sha256": "584987bdaa77a25e24a1bf5823f24f84c11aa73227e9c4ae1c3ee5679f1d6052"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/legs-mj13.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/legs-mj13.webp",
+      "source_sha256": "dcdfcb99e5c46b67de8b7a282d811ca47f0d473744075dd72b917648adb63af4",
+      "import_sha256": "dcdfcb99e5c46b67de8b7a282d811ca47f0d473744075dd72b917648adb63af4"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/legs-mj14.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/legs-mj14.webp",
+      "source_sha256": "eec5aa30b0c8a4df494154b15c65c3246bef4baf3ef3ba819ea1eb4a9435c621",
+      "import_sha256": "eec5aa30b0c8a4df494154b15c65c3246bef4baf3ef3ba819ea1eb4a9435c621"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/legs-mj15.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/legs-mj15.webp",
+      "source_sha256": "19d89421e063aba5c17fffa7df21123f5f3c9be0a0ea8938372630cca5c25a44",
+      "import_sha256": "19d89421e063aba5c17fffa7df21123f5f3c9be0a0ea8938372630cca5c25a44"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/legs-mj16.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/legs-mj16.webp",
+      "source_sha256": "1cf538d544fa42a89f9941d93d2e26ff5f7f66c219216e6004f04330a33db992",
+      "import_sha256": "1cf538d544fa42a89f9941d93d2e26ff5f7f66c219216e6004f04330a33db992"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/legs-mj17.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/legs-mj17.webp",
+      "source_sha256": "076e384edc93f4c2e4fa3dfa5e60c55bf0b678f173e73b12a86bff190e501b86",
+      "import_sha256": "076e384edc93f4c2e4fa3dfa5e60c55bf0b678f173e73b12a86bff190e501b86"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/legs-mj18.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/legs-mj18.webp",
+      "source_sha256": "599cdf1b6a19ac97705e4ffb001ba131a8fac28b44444185bc51af7b5fbdd6bd",
+      "import_sha256": "599cdf1b6a19ac97705e4ffb001ba131a8fac28b44444185bc51af7b5fbdd6bd"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/legs-mj19.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/legs-mj19.webp",
+      "source_sha256": "ea0030228006e676d7e46e604d6ecc6f3c86817aebc4c2480e8f1c6a9b1b8c5f",
+      "import_sha256": "ea0030228006e676d7e46e604d6ecc6f3c86817aebc4c2480e8f1c6a9b1b8c5f"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/legs-mj20.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/legs-mj20.webp",
+      "source_sha256": "cf53d370a4d54acf8fe7383efc69bebd52dcfd27c7c0a35732454726e1f9da08",
+      "import_sha256": "cf53d370a4d54acf8fe7383efc69bebd52dcfd27c7c0a35732454726e1f9da08"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/manifest.json",
+      "destination": "nextjs/public/poetry-gem/doll/mj/manifest.json",
+      "source_sha256": "30885212aceba76f8e26802aa7e9cd6c74e1e0ff8d8e135f251dd8758a809085",
+      "import_sha256": "30885212aceba76f8e26802aa7e9cd6c74e1e0ff8d8e135f251dd8758a809085"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/torso-mj12.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/torso-mj12.webp",
+      "source_sha256": "b382ed7683e0a3dc8aabca40f5ee7607e5465dc80d622aaec3a9e9dfd2012eac",
+      "import_sha256": "b382ed7683e0a3dc8aabca40f5ee7607e5465dc80d622aaec3a9e9dfd2012eac"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/torso-mj13.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/torso-mj13.webp",
+      "source_sha256": "507227c25497354f6a52e922e7f552336889a6e0236b25cd4069ea2649504ba0",
+      "import_sha256": "507227c25497354f6a52e922e7f552336889a6e0236b25cd4069ea2649504ba0"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/torso-mj14.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/torso-mj14.webp",
+      "source_sha256": "a1d0aae5bbc98b395caec73e46f09d3c09cae7502211a8d4d5407c5b9859babe",
+      "import_sha256": "a1d0aae5bbc98b395caec73e46f09d3c09cae7502211a8d4d5407c5b9859babe"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/torso-mj15.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/torso-mj15.webp",
+      "source_sha256": "c50dfd6b26fdb01d5d9c870d912576d8ec4904a0e1bf685b1fbad8e6b9b483aa",
+      "import_sha256": "c50dfd6b26fdb01d5d9c870d912576d8ec4904a0e1bf685b1fbad8e6b9b483aa"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/torso-mj16.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/torso-mj16.webp",
+      "source_sha256": "ed7088a9536fa1a0d32de86abc8aa1a415d688d68a21bc046a8f0fafb9620e00",
+      "import_sha256": "ed7088a9536fa1a0d32de86abc8aa1a415d688d68a21bc046a8f0fafb9620e00"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/torso-mj17.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/torso-mj17.webp",
+      "source_sha256": "972d85563121a5b2652cac2dbb2495e44fbd713e3aa3ae9231738675b9dac9c7",
+      "import_sha256": "972d85563121a5b2652cac2dbb2495e44fbd713e3aa3ae9231738675b9dac9c7"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/torso-mj18.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/torso-mj18.webp",
+      "source_sha256": "197a14b4065579eb0a1a5ea6a978fa0d31bcc904ef1e797c6c960a06168947e5",
+      "import_sha256": "197a14b4065579eb0a1a5ea6a978fa0d31bcc904ef1e797c6c960a06168947e5"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/torso-mj19.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/torso-mj19.webp",
+      "source_sha256": "794932542125544c1c61760a2696c6955ea2824c59918241df04409a18305780",
+      "import_sha256": "794932542125544c1c61760a2696c6955ea2824c59918241df04409a18305780"
+    },
+    {
+      "source": "poetry-gem/public/doll/mj/torso-mj20.webp",
+      "destination": "nextjs/public/poetry-gem/doll/mj/torso-mj20.webp",
+      "source_sha256": "7c5f8f0752c3ef157ce23475ea4cb9627e6911da83d38468140fe8ac1dd93da2",
+      "import_sha256": "7c5f8f0752c3ef157ce23475ea4cb9627e6911da83d38468140fe8ac1dd93da2"
+    }
+  ]
+}

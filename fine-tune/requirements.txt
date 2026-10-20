@@ -1,0 +1,13 @@
+# Tested together on Python 3.12, Apple silicon. Colab may keep its CUDA torch build.
+torch==2.14.1
+transformers==4.57.6
+peft==0.21.2
+trl==1.16.0
+datasets==5.0.1
+accelerate==1.15.0
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
+# Optional ONNX experiment (keeps Transformers on the compatible 4.x line):
+optimum==2.1.0
+optimum-onnx[onnxruntime]==0.1.0
